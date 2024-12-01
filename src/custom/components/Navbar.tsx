@@ -12,10 +12,9 @@ import {
 } from "@/components/ui/sheet";
 import { Separator } from "@/components/ui/separator";
 
-
 const Navbar = () => {
   return (
-    <header className="fixed top-0  left-0 w-full bg-gradient-to-l from-uni-yellow/30 to-uni-beige/40 backdrop-blur-sm z-50 rounded-b-2xl md:rounded-sm shadow-md">
+    <header className="navbar-container">
       <div className="container px-4 md:mx-auto flex items-center justify-between">
         <Logo />
         <nav className="hidden md:flex items-center gap-x-4">
@@ -49,7 +48,9 @@ const Navbar = () => {
           </SheetTrigger>
           <SheetContent>
             <SheetHeader>
-                <SheetTitle className="bg-gradient-to-r from-uni-yellow to-uni-green bg-clip-text text-transparent">ICIEF 16TH EDITION</SheetTitle>
+              <SheetTitle className="bg-gradient-to-r from-uni-yellow to-uni-green bg-clip-text text-transparent">
+                ICIEF 16TH EDITION
+              </SheetTitle>
               <Separator />
             </SheetHeader>
             <SheetDescription className="mt-6">

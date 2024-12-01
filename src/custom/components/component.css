@@ -21,3 +21,35 @@
 .link-animation:hover::after {
   transform: scaleX(1);
 }
+
+/* Nav bar Style */
+/* Navbar styles */
+.navbar-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-image: url('../../assets/islamic-texture.jpg'),
+    linear-gradient(to left, rgba(255, 240, 107, 0.3), rgba(245, 222, 179, 0.4));
+  background-blend-mode: overlay;
+  background-size: auto;
+  background-position: center;
+  backdrop-filter: blur(5px);
+  z-index: 50;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+/* Additional styles for link hover animation */
+.link-animation {
+  transition: color 0.3s ease;
+}
