@@ -15,5 +15,9 @@ export const navLinks = [
   {
     title: "Submission",
     ref: "/submission",
+  },
+  {
+    title: "Contact",
+    ref: "/contact",
   }
 ];

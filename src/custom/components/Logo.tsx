@@ -7,7 +7,7 @@ const Logo = () => {
       <img
         src={Logo1}
         alt="UFAS-LOGO"
-        className="w-20 h-20 md:w-[140px] md:h-[100px]"
+        className="w-16 h-16 md:w-[140px] md:h-[100px]"
       />
     </Link>
   );

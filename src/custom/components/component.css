@@ -23,16 +23,16 @@
 }
 
 /* Nav bar Style */
+
 /* Navbar styles */
 .navbar-container {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  background-image: url('../../assets/islamic-texture.jpg'),
-    linear-gradient(to left, rgba(255, 240, 107, 0.3), rgba(245, 222, 179, 0.4));
+  background-image: url('../../assets/islamic-texture.jpg');
   background-blend-mode: overlay;
-  background-size: auto;
+  background-size: fit;
   background-position: center;
   backdrop-filter: blur(5px);
   z-index: 50;
