@@ -1,0 +1,12 @@
+export { default as Speakers } from "./Speakers";
+export { default as Agenda } from "./Agenda";
+export { default as PosterPresentation } from "./PosterPresentation";
+export { default as Papers } from "./Papers";
+export { default as CallForPapers } from "./CallForPapers";
+export { default as SubmissionGuidelines } from "./SubmissionGuidelines";
+export { default as FeesPayment } from "./FeesPayment";
+export { default as Registration } from "./Registration";
+export { default as Venue } from "./Venue";
+export { default as Contact } from "./Contact";
+export { default as AboutUs } from "./AboutUs";
+export { default as Home } from "./Home";
