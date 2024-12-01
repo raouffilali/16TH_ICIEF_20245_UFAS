@@ -1,5 +1,3 @@
-import { Button } from "@/components/ui/button";
-import "./App.css";
 import { Footer, Navbar } from "./custom";
 import { Outlet } from "react-router";
 
