@@ -5,9 +5,8 @@ function App() {
   return (
     <>
       <Navbar />
-      <main className="mt-20">
-        {" "}
-        <Outlet />{" "}
+      <main className="mt-[63px] md:mt-[100px]">
+        <Outlet />
       </main>
       <Footer />
     </>

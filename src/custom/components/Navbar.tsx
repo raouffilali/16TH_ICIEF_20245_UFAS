@@ -12,9 +12,11 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { Separator } from "@/components/ui/separator";
+import { Menu } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const Navbar = () => {
-  const [isSheetOpen, setIsSheetOpen] = useState(true);
+  const [isSheetOpen, setIsSheetOpen] = useState(false);
   const location = useLocation();
 
   const closeSheet = () => {
@@ -40,33 +42,23 @@ const Navbar = () => {
             </Link>
           ))}
         </nav>
+        <Button asChild className="hidden md:flex md:w-48 font-bold text-black text-sm  p-4 bg-gradient-to-r from-amber-200 to-yellow-500">
+          <Link to="/registration">Register</Link>
+        </Button>
         {/* Mobile Toggle */}
-        <Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen} >
+        <Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen}>
           <SheetTrigger className="md:hidden">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-6 w-6 text-uni-green"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M4 6h16M4 12h16m-7 6h7"
-              />
-            </svg>
+            <Menu size={24} className="text-uni-green" />
           </SheetTrigger>
-          <SheetContent>
+          <SheetContent side={"right"}>
             <SheetHeader>
-              <SheetTitle className="bg-gradient-to-r from-uni-yellow to-uni-green bg-clip-text text-xl text-transparent">
+              <SheetTitle className="bg-gradient-to-r from-uni-yellow to-uni-green bg-clip-text text-lg text-transparent">
                 ICIEF 16TH EDITION
               </SheetTitle>
               <Separator />
             </SheetHeader>
             <SheetDescription className="mt-6">
-              <nav className="flex flex-col gap-y-4 ">
+              <nav className="flex flex-col gap-y-4 items-center justify-center ">
                 {navLinks.map((link, index) => (
                   <Link
                     key={index}
@@ -77,6 +69,9 @@ const Navbar = () => {
                     {link.title}
                   </Link>
                 ))}
+                <Button className="text-black text-sm w-full p-4 bg-gradient-to-r from-amber-200 to-yellow-500 hover:scale-x-90 hover:text-white">
+                  Register
+                </Button>
               </nav>
             </SheetDescription>
           </SheetContent>

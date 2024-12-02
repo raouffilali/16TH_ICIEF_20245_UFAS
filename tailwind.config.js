@@ -53,6 +53,12 @@ export default {
         "uni-green": "#093304",
         "uni-yellow": "#b78910",
         "uni-beige": "#fbf7d5",
+        // new Color pallete
+        "uni-orane": "#e3a53e",
+        "uni-beige-cream": "	#f1ead7",
+        "uni-green-dark": "#5f7e78",
+        "uni-orange-light":"#d4be83",
+        "uni-light-blue":"#b8d6d0"
       },
     },
   },
