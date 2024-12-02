@@ -30,7 +30,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  /* background-image: url('../../assets/islamic-texture.jpg'); */
+  background-image: url('../../assets/islamic-texture.jpg');
   background-blend-mode: overlay;
   background-size: fit;
   background-position: center;

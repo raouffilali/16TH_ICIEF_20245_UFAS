@@ -14,7 +14,7 @@ import {
 import { Separator } from "@/components/ui/separator";
 
 const Navbar = () => {
-  const [isSheetOpen, setIsSheetOpen] = useState(true);
+  const [isSheetOpen, setIsSheetOpen] = useState(false);
   const location = useLocation();
 
   const closeSheet = () => {
