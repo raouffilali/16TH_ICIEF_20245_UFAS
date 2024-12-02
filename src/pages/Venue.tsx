@@ -1,6 +1,7 @@
 const Venue = () => {
   return (
     <>
+
       <div className="w-full bg-slate-700 h-[512px] flex items-start justify-center p-12">
         <h1 className="text-white p-6 text-center font-semibold md:font-bold md:text-3xl">
           WELCOME TO ICIEF 16TH EDITION{" "}
