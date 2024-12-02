@@ -4,9 +4,11 @@ const Contact = () => {
   return (
 <>
 <>
-      <div className="w-full h-80 md:h-[400px] bg-cyan-400"></div>
+      <div className="w-full h-80 md:h-[400px] bg-cyan-400">
+        <img src="" alt="" />
+      </div>
 
-      <div className="mx-auto w-full felx flex-col p-4  bg-green-500 mt-[-20px]">
+      <div className="mx-auto w-full felx flex-col p-4  bg-[#EBF4F6] mt-[-20px]">
         <h1 className='text-xl'>contact us</h1>
       </div>
     </>
@@ -17,7 +19,7 @@ const Contact = () => {
         Contact Us
       </div>
       <div className="flex flex-col justify-center items-center
-       m-3 bg-gray-200 text-black w-[150px] h-[500px]  md:w-[900px] h-[600] rounded-lg shadow-lg">
+       m-3 bg-gray-200 text-black w-[150px] h-[500px]  md:w-[900px]  rounded-lg shadow-lg">
       </div>
     <div>
     </div>
