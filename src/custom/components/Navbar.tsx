@@ -1,93 +1,3 @@
-// import { useState, useEffect } from "react";
-// import { Link, useLocation } from "react-router";
-// import { Logo } from "../index";
-// import { navLinks } from "@/constants/navLinks";
-// import "./component.css";
-// import {
-//   Sheet,
-//   SheetContent,
-//   SheetDescription,
-//   SheetHeader,
-//   SheetTitle,
-//   SheetTrigger,
-// } from "@/components/ui/sheet";
-// import { Separator } from "@/components/ui/separator";
-
-// const Navbar = () => {
-//   const [isSheetOpen, setIsSheetOpen] = useState(true);
-//   const location = useLocation();
-
-//   const closeSheet = () => {
-//     setIsSheetOpen(false);
-//   };
-
-//   useEffect(() => {
-//     closeSheet();
-//   }, [location]);
-
-//   return (
-//     <header className="navbar-container">
-//       <div className="container px-4 md:mx-auto flex items-center justify-between">
-//         <Logo />
-//         <nav className="hidden md:flex items-center gap-x-4">
-//           {navLinks.map((link, index) => (
-//             <Link
-//               key={index}
-//               to={link.ref}
-//               className="font-medium text-uni-green hover:text-uni-yellow link-animation"
-//             >
-//               {link.title}
-//             </Link>
-//           ))}
-//         </nav>
-//         {/* Mobile Toggle */}
-//         <Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen} >
-//           <SheetTrigger className="md:hidden">
-//             <svg
-//               xmlns="http://www.w3.org/2000/svg"
-//               className="h-6 w-6 text-uni-green"
-//               fill="none"
-//               viewBox="0 0 24 24"
-//               stroke="currentColor"
-//             >
-//               <path
-//               strokeLinecap="round"
-//               strokeLinejoin="round"
-//               strokeWidth={2}
-//               d="M4 6h16M4 12h16m-7 6h7"
-//               />
-//             </svg>
-//           </SheetTrigger>
-//           <SheetContent>
-//             <SheetHeader>
-//               <SheetTitle className="bg-gradient-to-r from-uni-yellow to-uni-green bg-clip-text text-xl text-transparent">
-//                 ICIEF 16TH EDITION
-//               </SheetTitle>
-//               <Separator />
-//             </SheetHeader>
-//             <SheetDescription className="mt-6">
-//               <nav className="flex flex-col gap-y-4 ">
-//                 {navLinks.map((link, index) => (
-//                   <Link
-//                     key={index}
-//                     to={link.ref}
-//                     className="text-lg font-medium text-uni-green hover:text-uni-yellow link-animation border border-dashed border-transparent px-2 py-2"
-//                     onClick={closeSheet}
-//                   >
-//                     {link.title}
-//                   </Link>
-//                 ))}
-//               </nav>
-//             </SheetDescription>
-//           </SheetContent>
-//         </Sheet>
-//       </div>
-//     </header>
-//   );
-// };
-
-// export default Navbar;
-
 import { useState } from "react";
 import {
   DropdownMenu,
@@ -107,96 +17,50 @@ import { Button } from "@/components/ui/button";
 import { Menu, ChevronDown } from "lucide-react";
 import Logo from "./Logo";
 import "./component.css";
-import { Link, Links } from "react-router";
+import { Link } from "react-router";
 import { Separator } from "@/components/ui/separator";
+import { navLinks } from "@/constants/navLinks";
 
 // Navigation Bar Component
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 bg-white shadow-md rounded-sm  ">
+    <nav className="fixed top-0 left-0 w-full z-50 bg-white shadow-md rounded-sm">
       <div className="container mx-auto flex justify-between items-center px-4 py-1">
         {/* Logo */}
         <div className="flex items-center">
-          {/* <img src="/logo.png" alt="Conference Logo"  /> */}
           <Logo />
         </div>
 
         {/* Desktop Navigation */}
-        <div className="hidden md:flex items-center space-x-6">
-          <Link to="/" className="hover:text-green-600 transition-colors">
-            Home
-          </Link>
-
-          {/* Conference Dropdown */}
-          <DropdownMenu>
-            <DropdownMenuTrigger className="flex items-center hover:text-green-600 transition-colors">
-              Conference <ChevronDown className="ml-1 h-4 w-4" />
-            </DropdownMenuTrigger>
-            <DropdownMenuContent>
-              <DropdownMenuItem>
-                <Link to="/high-committee">High Committee</Link>
-              </DropdownMenuItem>
-              <DropdownMenuItem>
-                <Link to="/organizers">Organizers</Link>
-              </DropdownMenuItem>
-              <DropdownMenuItem>
-                <Link to="/objectives">Objectives</Link>
-              </DropdownMenuItem>
-              <DropdownMenuItem>
-                <Link to="/themes">Themes</Link>
-              </DropdownMenuItem>
-            </DropdownMenuContent>
-          </DropdownMenu>
-
-          {/* About Dropdown */}
-          <DropdownMenu>
-            <DropdownMenuTrigger className="flex items-center hover:text-green-600 transition-colors">
-              About <ChevronDown className="ml-1 h-4 w-4" />
-            </DropdownMenuTrigger>
-            <DropdownMenuContent>
-              <DropdownMenuItem>
-                <Link to="/background">Background of ICIEF</Link>
-              </DropdownMenuItem>
-              <DropdownMenuItem>
-                <Link to="/participants">Target Participants</Link>
-              </DropdownMenuItem>
-            </DropdownMenuContent>
-          </DropdownMenu>
-
-          {/* Submission Dropdown */}
-          <DropdownMenu>
-            <DropdownMenuTrigger className="flex items-center hover:text-green-600 transition-colors">
-              Submission <ChevronDown className="ml-1 h-4 w-4" />
-            </DropdownMenuTrigger>
-            <DropdownMenuContent>
-              <DropdownMenuItem asChild>
-                <Link to="/guidelines">Author Guidelines</Link>
-              </DropdownMenuItem>
-              <DropdownMenuItem asChild>
-                <Link to="/dates">Important Dates</Link>
-              </DropdownMenuItem>
-              <DropdownMenuItem asChild>
-                <Link to="/registration">Registration</Link>
-              </DropdownMenuItem>
-            </DropdownMenuContent>
-          </DropdownMenu>
-
-          <Link
-            to="/contact"
-            className="hover:text-green-600 transition-colors"
-          >
-            Contact
-          </Link>
-          <Link to="/venue" className="hover:text-green-600 transition-colors">
-            Venue
-          </Link>
-
+        <div className="hidden md:flex items-center space-x-6 relative">
+          {navLinks.map((link, index) => (
+            <div key={index} className="relative">
+              {link.subLinks ? (
+                <DropdownMenu>
+                  <DropdownMenuTrigger className="flex items-center hover:text-green-600 transition-colors link-animation">
+                    {link.title} <ChevronDown className="ml-1 h-4 w-4" />
+                  </DropdownMenuTrigger>
+                  <DropdownMenuContent align="start" className="absolute mt-2">
+                    {link.subLinks.map((subLink, subIndex) => (
+                      <DropdownMenuItem asChild key={subIndex}>
+                        <Link to={subLink.ref} className="link-animation">{subLink.title}</Link>
+                      </DropdownMenuItem>
+                    ))}
+                  </DropdownMenuContent>
+                </DropdownMenu>
+              ) : (
+                <Link to={link.ref} className="hover:text-uni-green2 transition-colors link-animation">
+                  {link.title}
+                </Link>
+              )}
+            </div>
+          ))}
           {/* Register Button */}
           <Button
             variant={"ghost"}
-            className=" text-uni-green border-2 border-uni-green2-light hover:bg-uni-green2 hover:text-white px-12"
+            className="text-uni-green border-2 border-uni-green2-light hover:bg-uni-green2 hover:text-white px-12"
           >
             Register
           </Button>
@@ -216,82 +80,34 @@ const Navbar = () => {
                 <Separator />
               </SheetHeader>
               <div className="grid gap-4 py-4">
-                <SheetClose asChild>
-                  <Link to="/" className="block py-2 hover:bg-gray-100">
-                    Home
-                  </Link>
-                </SheetClose>
-
-                {/* Mobile Dropdown Sections */}
-                <details className="group">
-                  <summary className="flex justify-between items-center cursor-pointer py-2 hover:bg-gray-100 hover:border">
-                    Conference
-                    <ChevronDown className="h-4 w-4 group-open:rotate-180 transition-transform" />
-                  </summary>
-                  <div className="pl-4 mt-2 space-y-2">
-                    <Link to="/high-committee" className="block">
-                      High Committee
-                    </Link>
-                    <Link to="/organizers" className="block">
-                      Organizers
-                    </Link>
-                    <Link to="/objectives" className="block">
-                      Objectives
-                    </Link>
-                    <Link to="/themes" className="block">
-                      Themes
-                    </Link>
+                {navLinks.map((link, index) => (
+                  <div key={index}>
+                    {link.subLinks ? (
+                      <details className="group">
+                        <summary className="flex justify-between items-center cursor-pointer py-2 hover:bg-gray-100 hover:border link-animation">
+                          {link.title}
+                          <ChevronDown className="h-4 w-4 group-open:rotate-180 transition-transform" />
+                        </summary>
+                        <div className="pl-4 mt-2 space-y-2">
+                          {link.subLinks.map((subLink, subIndex) => (
+                            <Link key={subIndex} to={subLink.ref} className="block link-animation">
+                              {subLink.title}
+                            </Link>
+                          ))}
+                        </div>
+                      </details>
+                    ) : (
+                      <SheetClose asChild>
+                        <Link to={link.ref} className="block py-2 hover:bg-gray-100 link-animation">
+                          {link.title}
+                        </Link>
+                      </SheetClose>
+                    )}
                   </div>
-                </details>
-
-                <details className="group">
-                  <summary className="flex justify-between items-center cursor-pointer py-2 hover:bg-gray-100">
-                    About
-                    <ChevronDown className="h-4 w-4 group-open:rotate-180 transition-transform" />
-                  </summary>
-                  <div className="pl-4 mt-2 space-y-2">
-                    <Link to="/high-committee" className="block">
-                      Background of ICIEF
-                    </Link>
-                    <Link to="/organizers" className="block">
-                      Target Participants
-                    </Link>
-                  </div>
-                </details>
-
-                <details className="group">
-                  <summary className="flex justify-between items-center cursor-pointer py-2 hover:bg-gray-100">
-                    Submission
-                    <ChevronDown className="h-4 w-4 group-open:rotate-180 transition-transform" />
-                  </summary>
-                  <div className="pl-4 mt-2 space-y-2">
-                    <Link to="/guidelines" className="block">
-                      Author Guidelines
-                    </Link>
-                    <Link to="/dates" className="block">
-                      Important Dates
-                    </Link>
-                    <Link to="/registration" className="block">
-                      Registration
-                    </Link>
-                  </div>
-                </details>
-                {/* Similar structure for About and Submission dropdowns */}
-
-                <SheetClose asChild>
-                  <Link to="/contact" className="block py-2 hover:bg-gray-100">
-                    Contact
-                  </Link>
-                </SheetClose>
-                <SheetClose asChild>
-                  <Link to="/venue" className="block py-2 hover:bg-gray-100">
-                    Venue
-                  </Link>
-                </SheetClose>
-
+                ))}
                 <Button
                   variant={"ghost"}
-                  className=" text-uni-green border-2 border-uni-green2-light hover:bg-uni-green2 hover:text-white px-12"
+                  className="text-uni-green border-2 border-uni-green2-light hover:bg-uni-green2 hover:text-white px-12"
                 >
                   Register
                 </Button>

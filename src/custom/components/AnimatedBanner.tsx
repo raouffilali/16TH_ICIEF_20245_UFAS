@@ -35,8 +35,9 @@ import { IslamicTex } from "@/assets";
             Exploring Frontiers of Knowledge and Transformation
           </p>
           <Button
+          variant={"outline"}
             size="lg"
-            className="bg-gradient-to-r from-green-600 to-yellow-600 text-white hover:from-green-700 hover:to-yellow-700 shadow-lg"
+            className=" text-uni-green hover:shadow-xl shadow-md"
           >
             Learn More
           </Button>

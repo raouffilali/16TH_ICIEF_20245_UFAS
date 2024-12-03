@@ -4,7 +4,7 @@ import { IslamicTex, Logo1 } from "@/assets";
 
 const Footer = () => {
   return (
-    <footer className="relative bg-gradient-to-l from-[#0f5a08] via-[#709c1f] to-[#0f5a08] text-white">
+    <footer className=" mt-80 relative bg-gradient-to-l from-[#0f5a08] via-[#709c1f] to-[#0f5a08] text-white">
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
