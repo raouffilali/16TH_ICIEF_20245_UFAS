@@ -51,6 +51,7 @@ const Footer = () => {
         <div>
           <h3 className="font-semibold text-lg mb-4">Follow Us</h3>
           <Social />
+          
         </div>
       </div>
 
