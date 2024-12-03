@@ -1,13 +1,12 @@
 
 import { Link } from "react-router"
-import Logo from "./Logo"
 import Social from "@/components/ui/Social";
 import { Logo1 } from "@/assets";
 
 
 const Footer = () => {
   return (
-    <footer className="footer-container bg-gradient-to-r from-[#0f5a08] to-[#9de796] text-white py-8">
+    <footer className="footer-container bg-gradient-to-l from-[#709c1f] via-uni-yellow to-[#0f5a08] text-white py-8">
       <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Logo in footer */}
         <div>

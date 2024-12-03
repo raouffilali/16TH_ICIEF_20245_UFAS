@@ -53,6 +53,8 @@ export default {
         "uni-green": "#093304",
         "uni-yellow": "#b78910",
         "uni-beige": "#fbf7d5",
+        "uni-green2": "#0f5a08",
+        "uni-green2-light": "#709c1f",
       },
     },
   },

@@ -106,7 +106,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { Menu, ChevronDown } from "lucide-react";
 import Logo from "./Logo";
-import "./component.css"
+import "./component.css";
 import { Link, Links } from "react-router";
 import { Separator } from "@/components/ui/separator";
 
@@ -194,7 +194,10 @@ const Navbar = () => {
           </Link>
 
           {/* Register Button */}
-          <Button className="bg-gradient-to-r from-green-500 to-yellow-500 text-white hover:from-green-600 hover:to-yellow-600 transition-all">
+          <Button
+            variant={"ghost"}
+            className=" text-uni-green border-2 border-uni-green2-light hover:bg-uni-green2 hover:text-white px-12"
+          >
             Register
           </Button>
         </div>
@@ -286,7 +289,10 @@ const Navbar = () => {
                   </Link>
                 </SheetClose>
 
-                <Button className="w-full bg-gradient-to-r from-green-500 to-yellow-500 text-white hover:from-green-600 hover:to-yellow-600">
+                <Button
+                  variant={"ghost"}
+                  className=" text-uni-green border-2 border-uni-green2-light hover:bg-uni-green2 hover:text-white px-12"
+                >
                   Register
                 </Button>
               </div>
@@ -298,7 +304,4 @@ const Navbar = () => {
   );
 };
 
-
 export default Navbar;
-
-

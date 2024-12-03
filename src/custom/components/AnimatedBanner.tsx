@@ -5,7 +5,7 @@ import "./component.css"
   return (
     <div className="relative w-full h-[521px] overflow-hidden">
       {/* Animated Gradient Background */}
-      <div className="absolute inset-0 bg-gradient-to-r from-uni-green via-uni-yellow to-green-900 animate-gradient-x">
+      <div className="absolute inset-0 bg-gradient-to-l from-[#709c1f] via-uni-yellow to-[#0f5a08] animate-gradient-x">
         {/* Wavy Bottom Effect */}
         <svg
           className="absolute bottom-0 w-full h-auto md:h-[250px]"
