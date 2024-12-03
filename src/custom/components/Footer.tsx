@@ -7,7 +7,7 @@ import { Logo1 } from "@/assets";
 
 const Footer = () => {
   return (
-    <footer className="footer-container bg-gradient-to-r from-[#0f5a08] to-[#9de796] text-white py-8">
+    <footer className="footer-container bg-gradient-to-r from-[#0f5a08] to-[#709c1f] text-white py-8">
       <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Logo in footer */}
         <div>
