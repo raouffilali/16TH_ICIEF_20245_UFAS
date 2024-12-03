@@ -7,15 +7,15 @@ import { Logo1 } from "@/assets";
 
 const Footer = () => {
   return (
-    <footer className="footer-container bg-gradient-to-r from-[#088395] to-[#37B7C3] text-white py-8">
+    <footer className="footer-container bg-gradient-to-r from-[#0f5a08] to-[#9de796] text-white py-8">
       <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Logo in footer */}
-        <div >
-        <img
-        src={Logo1}
-        alt="UFAS-LOGO"
-        className="w-16 h-16 md:w-[150px] md:h-[100px]"
-      />
+        <div>
+          <img
+            src={Logo1}
+            alt="UFAS-LOGO"
+            className="w-16 h-16 md:w-[150px] md:h-[100px]"
+          />
           <p className="text-sm">
             Description of the team or organisators bla bla bla etc ...
           </p>
@@ -25,22 +25,24 @@ const Footer = () => {
         <div>
           <h3 className="font-semibold text-lg mb-4">Quick Links</h3>
           <ul className="space-y-2">
-            {["Home", "About", "Programme","Submission", "Contact Us"].map((title, idx) => (
-              <li key={idx}>
-                <Link
-                  to={`/${title.toLowerCase().replace(/ /g, "-")}`}
-                  className="hover:underline"
-                >
-                  {title}
-                </Link>
-              </li>
-            ))}
+            {["Home", "About", "Programme", "Submission", "Contact Us"].map(
+              (title, idx) => (
+                <li key={idx}>
+                  <Link
+                    to={`/${title.toLowerCase().replace(/ /g, "-")}`}
+                    className="hover:underline"
+                  >
+                    {title}
+                  </Link>
+                </li>
+              )
+            )}
           </ul>
         </div>
 
         {/* Social Media Links */}
         <div className="mb-8 md:mb-0">
-          <Social/>
+          <Social />
         </div>
       </div>
 
