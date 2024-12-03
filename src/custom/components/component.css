@@ -1,4 +1,3 @@
-/* NAVBAR ANIMATION */
 /* component.css */
 .link-animation {
   position: relative;
@@ -23,6 +22,8 @@
   transform: scaleX(1);
   transform-origin: bottom left;
 }
+
+
 
 /* Nav bar Style */
 
