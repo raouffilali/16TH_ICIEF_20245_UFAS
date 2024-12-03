@@ -1,8 +1,11 @@
+import AnimatedBanner from '@/custom/components/AnimatedBanner'
 import React from 'react'
 
 const Venue = () => {
   return (
-    <div>Venue</div>
+    <div>
+      <AnimatedBanner />
+    </div>
   )
 }
 
