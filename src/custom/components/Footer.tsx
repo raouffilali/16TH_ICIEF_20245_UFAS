@@ -1,26 +1,34 @@
-
-import { Link } from "react-router"
+import { Link } from "react-router";
 import Social from "@/components/ui/Social";
-import { Logo1 } from "@/assets";
-
+import { IslamicTex, Logo1 } from "@/assets";
 
 const Footer = () => {
   return (
-    <footer className="footer-container bg-gradient-to-l from-[#0f5a08] via-[#709c1f] to-[#0f5a08] text-white py-8">
-      <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
-        {/* Logo in footer */}
+    <footer className="relative bg-gradient-to-l from-[#0f5a08] via-[#709c1f] to-[#0f5a08] text-white">
+      {/* Background Image */}
+      <div className="absolute inset-0">
+        <img
+          src={IslamicTex}
+          alt="Texture"
+          className="w-full h-full object-cover opacity-25 blur-[0.5px]"
+        />
+      </div>
+
+      {/* Content */}
+      <div className="relative container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8 z-10">
+        {/* Logo Section */}
         <div>
           <img
             src={Logo1}
             alt="UFAS-LOGO"
             className="w-16 h-16 md:w-[150px] md:h-[100px]"
           />
-          <p className="text-sm">
-            Description of the team or organisators bla bla bla etc ...
+          <p className="text-sm mt-4">
+            Description of the team or organizers bla bla bla etc...
           </p>
         </div>
 
-        {/* header vertical */}
+        {/* Quick Links */}
         <div>
           <h3 className="font-semibold text-lg mb-4">Quick Links</h3>
           <ul className="space-y-2">
@@ -40,13 +48,14 @@ const Footer = () => {
         </div>
 
         {/* Social Media Links */}
-        <div className="mb-8 md:mb-0">
+        <div>
+          <h3 className="font-semibold text-lg mb-4">Follow Us</h3>
           <Social />
         </div>
       </div>
 
-      {/* Footer Licence */}
-      <div className="text-center border-t-2 border-white mt-8 pt-4 text-sm">
+      {/* Footer License */}
+      <div className="relative text-center border-t-2 border-white mt-8 pt-4 text-sm z-10">
         © 2025 Ferhat Abbas University. All Rights Reserved.
       </div>
     </footer>

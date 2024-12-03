@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import "./component.css"
+import { IslamicTex } from "@/assets";
 
  const AnimatedBanner = () => {
   return (
@@ -7,6 +8,11 @@ import "./component.css"
       {/* Animated Gradient Background */}
       <div className="absolute inset-0 bg-gradient-to-l from-[#0f5a08] via-[#709c1f] to-[#0f5a08] animate-gradient-x">
         {/* Wavy Bottom Effect */}
+        <img
+          className=" inset-0 w-full h-full object-cover opacity-25 blur-[0.5px]"
+          src={IslamicTex}
+          alt="Texture"
+        />
         <svg
           className="absolute bottom-0 w-full h-auto md:h-[250px]"
           preserveAspectRatio="none"
