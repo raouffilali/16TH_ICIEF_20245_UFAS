@@ -60,7 +60,7 @@ const Navbar = () => {
           </SheetTrigger>
           <SheetContent>
             <SheetHeader>
-              <SheetTitle className="bg-gradient-to-r from-uni-yellow to-uni-green bg-clip-text text-xl text-transparent">
+              <SheetTitle className="bg-gradient-to-r from-uni-yellow via-amber-400 to-uni-yellow bg-clip-text text-xl text-transparent">
                 ICIEF 16TH EDITION
               </SheetTitle>
               <Separator />
