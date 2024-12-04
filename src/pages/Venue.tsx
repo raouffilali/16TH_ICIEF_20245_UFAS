@@ -10,7 +10,7 @@ const Venue = () => {
     <>
       <AnimatedBanner buttonRef={venueRef} buttonName="Venue" />
 
-      {/* Venue Section */}
+      {/* Venue Section editted */}
       <div
         ref={venueRef}
         className="flex justify-center -mt-6 md:-mt-14 w-full bg-white text-black h-auto p-4 animate-fadeInLeft"
