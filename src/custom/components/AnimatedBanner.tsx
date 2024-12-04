@@ -1,8 +1,20 @@
 import { Button } from "@/components/ui/button";
-import "./component.css"
+import "./component.css";
 import { IslamicTex } from "@/assets";
+import { RefObject } from "react";
 
- const AnimatedBanner = () => {
+interface AnimatedBannerProps {
+  buttonRef?: RefObject<HTMLDivElement>;
+  buttonName: string;
+}
+
+const AnimatedBanner = ({ buttonRef, buttonName }: AnimatedBannerProps) => {
+  const handleClick = () => {
+    if (buttonRef && buttonRef.current) {
+      window.scrollBy({ top: 350, behavior: "smooth" });
+    }
+  };
+
   return (
     <div className="relative w-full h-[521px] overflow-hidden">
       {/* Animated Gradient Background */}
@@ -38,8 +50,9 @@ import { IslamicTex } from "@/assets";
             variant={"outline"}
             size="lg"
             className=" text-uni-green hover:shadow-xl shadow-md text-sm md:text-lg px-20 border-2 hover:border-dotted border-uni-green2-light "
+            onClick={handleClick}
           >
-            <a href="#venu">Venue</a>
+            {buttonName}
           </Button>
         </div>
       </div>
