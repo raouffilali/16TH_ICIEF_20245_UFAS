@@ -56,7 +56,25 @@ export default {
         "uni-green2": "#0f5a08",
         "uni-green2-light": "#709c1f",
       },
+      keyframes: {
+        slidein: {
+          from: {
+            opacity: "0",
+            transform: "translateY(-10px)",
+          },
+          to: {
+            opacity: "1",
+            transform: "translateY(0)",
+          },
+        },
+      },
+      animation: {
+        slidein300: "slidein 1s ease 100ms",
+        slidein500: "slidein 1s ease 300ms",
+        slidein700: "slidein 1s ease 500ms",
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],
 };
+

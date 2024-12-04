@@ -16,6 +16,9 @@ import {
   SubmissionGuidelines,
   Venue,
 } from "./pages/";
+import Conference from "./pages/Conference.tsx";
+import Highcommittee from "./pages/highcommittee.tsx";
+import Organizer from "./pages/Organizer.tsx";
 
 const router = createBrowserRouter([
   {
@@ -66,8 +69,28 @@ const router = createBrowserRouter([
         element: <Contact />,
       },
       {
+        path: "/conference",
+        element: <Conference />,
+      },
+      {
         path: "/about-us",
         element: <AboutUs />,
+      },
+      {
+        path: "/high-committee",
+        element: <Conference />,
+      },
+      {
+        path: "/organizers",
+        element: <Organizer />,
+      },
+      {
+        path: "/objectives",
+        element: <Conference />,
+      },
+      {
+        path: "/themes",
+        element: <Conference />,
       },
     ],
   },

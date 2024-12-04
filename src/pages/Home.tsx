@@ -1,7 +1,8 @@
+import AnimatedBanner from "@/custom/components/AnimatedBanner"
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <AnimatedBanner/>
   )
 }
 
