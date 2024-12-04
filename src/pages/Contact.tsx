@@ -1,10 +1,13 @@
+import { useRef } from "react";
 import "./contact.css";
 import AnimatedBanner from "@/custom/components/AnimatedBanner";
 
 const Contact = () => {
+  const contactRef = useRef<HTMLDivElement>(null);
+
   return (
     <>
-      <AnimatedBanner />
+      <AnimatedBanner buttonRef={contactRef} buttonName="Contact" />
 
       {/* Contact Form Section */}
       <div className="flex justify-center -mt-6 md:-mt-14 w-full bg-white text-black h-auto p-4 animate-fadeInLeft">
@@ -60,57 +63,11 @@ const Contact = () => {
               </div>
             </div>
 
-            {/* Email Input */}
-            <label
-              className="mb-2 text-lg font-medium text-gray-700"
-              htmlFor="email"
-            >
-              Email
-            </label>
-            <input
-              className="p-3 mb-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-1 focus:ring-[#0f5a08]"
-              type="email"
-              id="email"
-              placeholder="Enter your email"
-            />
-
-            {/* Phone Input */}
-            <label
-              className="mb-2 text-lg font-medium text-gray-700"
-              htmlFor="phone"
-            >
-              Phone
-            </label>
-            <input
-              className="p-3 mb-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-1 focus:ring-[#0f5a08]"
-              type="text"
-              id="phone"
-              placeholder="Enter your phone number"
-            />
-
-            {/* Message Input */}
-            <label
-              className="mb-2 text-lg font-medium text-gray-700"
-              htmlFor="message"
-            >
-              Message
-            </label>
-            <textarea
-              className="p-3 mb-4 h-[150px] border border-gray-300 rounded-lg focus:outline-none focus:ring-1 focus:ring-[#0f5a08]"
-              id="message"
-              placeholder="Type your message here"
-            ></textarea>
-
-            {/* Submit Button */}
-            <button
-              className="w-full p-3 text-white bg-[#0f5a08] rounded-lg hover:bg-[#709c1f] transition duration-200"
-              type="submit"
-            >
-              Send Message
-            </button>
-          </form>
+            
+            </form>
+          </div>
         </div>
-      </div>
+      
     </>
   );
 };
