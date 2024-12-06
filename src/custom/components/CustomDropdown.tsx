@@ -27,7 +27,7 @@ const CustomDropdown = ({ title, children }: CustomDropdownProps) => {
     <div className="relative" ref={dropdownRef}>
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center gap-1 font-semibold hover:text-uni-green2 transition-colors link-animation"
+        className="flex items-center gap-1 font-medium hover:text-uni-green2 transition-colors link-animation"
       >
         {title}
         <ChevronDown

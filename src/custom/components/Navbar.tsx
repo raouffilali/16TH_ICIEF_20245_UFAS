@@ -37,7 +37,7 @@ const Navbar = () => {
                     <div key={subIndex} className="relative group">
                       <Link
                         to={subLink.ref}
-                        className="block px-4 py-2 border-transparent border-l-2 hover:border-uni-green2 transition-colors relative group hover:text-uni-green"
+                        className="block px-4 py-2 border-transparent border-l-2 hover:border-uni-green2-light transition-colors relative group hover:text-uni-green"
                       >
                         {subLink.title}
                         <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-uni-green2-light transition-all duration-300 group-hover:w-full"></span>
@@ -51,7 +51,7 @@ const Navbar = () => {
               ) : (
                 <Link
                   to={link.ref}
-                  className="font-semibold hover:text-uni-green2 transition-colors relative group"
+                  className="font-medium hover:text-uni-green2 transition-colors relative group"
                 >
                   {link.title}
                   <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-uni-green2 transition-all duration-300 group-hover:w-full"></span>
