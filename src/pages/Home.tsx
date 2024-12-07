@@ -1,8 +1,8 @@
-import AnimatedBanner from "@/custom/components/AnimatedBanner"
+import AnimatedBanForHome from "@/custom/components/AnimatedBanForHome"
 
 const Home = () => {
   return (
-    <AnimatedBanner buttonName={"Learn More"}/>
+    <AnimatedBanForHome buttonName={"Learn More"}/>
   )
 }
 

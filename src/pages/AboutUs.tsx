@@ -1,7 +1,8 @@
+import AnimatedBanForHome from "@/custom/components/AnimatedBanForHome"
 
 const AboutUs = () => {
   return (
-    <div>AboutUs</div>
+    <AnimatedBanForHome buttonName={"Learn More"} />
   )
 }
 

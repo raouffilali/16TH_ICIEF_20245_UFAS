@@ -17,7 +17,7 @@ import {
   Venue,
 } from "./pages/";
 import Conference from "./pages/Conference.tsx";
-import Highcommittee from "./pages/highcommittee.tsx";
+import Highcommittee from "./pages/Highcommittee.tsx";
 import Organizer from "./pages/Organizer.tsx";
 
 const router = createBrowserRouter([
@@ -78,7 +78,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/high-committee",
-        element: <Conference />,
+        element: <Highcommittee />,
       },
       {
         path: "/organizers",

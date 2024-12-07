@@ -7,7 +7,8 @@ const Contact = () => {
 
   return (
     <>
-      <AnimatedBanner buttonRef={contactRef} buttonName="Contact" />
+    <AnimatedBanner buttonName={"Learn More"} />
+     
 
       {/* Contact Form Section */}
       <div

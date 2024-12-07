@@ -99,7 +99,7 @@ const Navbar = () => {
                             <div key={subIndex} className="relative group">
                               <Link
                                 to={subLink.ref}
-                                className="block py-2  hover:text-uni-green2 relative group"
+                                className="block py-2 hover:text-uni-green2 relative group"
                               >
                                 {subLink.title}
                               </Link>
