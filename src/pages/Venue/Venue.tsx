@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import "./contact.css";
+import "../Contact/contact.css";
 import AnimatedBanner from "@/custom/components/AnimatedBanner";
 import { venueInfo } from "../../constants/venue-info";
 
