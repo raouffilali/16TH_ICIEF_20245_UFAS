@@ -1,4 +1,4 @@
-import { organizers } from "./Organizors";
+import { organizers } from "../../constants/Organizors";
 import { Bodytexture } from "@/assets";
 import {
   Carousel,

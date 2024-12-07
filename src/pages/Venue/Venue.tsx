@@ -1,7 +1,7 @@
 import { useRef } from "react";
-import "./contact.css";
+import "../Contact/contact.css";
 import AnimatedBanner from "@/custom/components/AnimatedBanner";
-import { venueInfo } from "../constants/venue-info";
+import { venueInfo } from "../../constants/venue-info";
 
 const Venue = () => {
   const venueRef = useRef<HTMLDivElement>(null);
@@ -15,9 +15,7 @@ const Venue = () => {
         ref={venueRef}
         className="flex justify-center -mt-6 md:-mt-14 w-full bg-white text-black h-auto p-4 animate-fadeInLeft"
       >
-        
         <div className="flex flex-col md:flex-row rounded-lg shadow-xl bg-gray-100 p-4 md:justify-between w-full max-w-[1000px]">
-          
           {/* Left Section */}
           <div className="flex flex-col w-full md:w-1/3 h-full bg-gradient-to-bl gap-5 from-[#0f5a08] via-[#709c1f] to-[#0f5a08] text-white p-5 justify-center items-start rounded-lg shadow-lg mb-4 md:mb-0 md:mr-4">
             {venueInfo.map((info, index) => (
