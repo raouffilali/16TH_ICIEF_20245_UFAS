@@ -65,3 +65,9 @@
     @apply bg-background text-foreground;
   }
 }
+@layer base {
+  ::selection {
+    background-color: #ebb93d; /* Change this to your desired background color */
+    color: #ffffff; /* Change this to your desired text color */
+  }
+}
