@@ -7,4 +7,7 @@ import Bodytexture from "./bodytexture.png"
 import HIC from "./HIC.jpg"
 import IAFIE from "./IAFIE.jpg"
 import ConfImg from "./conferenceimage.png"
-export { Logo1, Texture, IslamicTex, ConferenceImg, Bodytexture, HIC, IAFIE, Logo2, ConfImg}
+import Recteur from "./recteur.png";
+import MalRec from "./MalaysiaRec.png"
+import Dean from"./Dean.png"
+export { Logo1, Texture, IslamicTex, ConferenceImg, Bodytexture, HIC, IAFIE, Logo2, ConfImg, Recteur, MalRec, Dean}

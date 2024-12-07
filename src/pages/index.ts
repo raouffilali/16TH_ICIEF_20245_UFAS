@@ -10,3 +10,5 @@ export { default as Venue } from "./Venue";
 export { default as Contact } from "./Contact";
 export { default as AboutUs } from "./AboutUs";
 export { default as Home } from "./Home";
+export { default as Conference } from"./Conference" ;
+export { default as Organizer } from "./Organizer";

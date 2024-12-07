@@ -67,6 +67,26 @@ export default {
             transform: "translateY(0)",
           },
         },
+        slidleft: {
+          from: {
+            opacity: "0",
+            transform: "translateX(-20px)",
+          },
+          to: {
+            opacity: "1",
+            transform: "translateX(0)",
+          },
+        },
+        slidright: {
+          from: {
+            opacity: "0",
+            transform: "translateX(20px)",
+          },
+          to: {
+            opacity: "1",
+            transform: "translateX(0)",
+          },
+        },
       },
       animation: {
         slidein100: "slidein 1s ease 100ms",
@@ -76,6 +96,8 @@ export default {
         slidein500: "slidein 1s ease 500ms",
         slidein500: "slidein 1s ease 600ms",
         slidein500: "slidein 1s ease 700ms",
+        slidleft800: "slidleft 1s ease 800ms",
+        slideright800: "slidright 1s ease 800ms",
       },
     },
   },
