@@ -3,22 +3,20 @@ import { createBrowserRouter, RouterProvider } from "react-router";
 import App from "./App.tsx";
 import "./index.css";
 import {
-  AboutUs,
-  Agenda,
-  CallForPapers,
+  AuthorGuideline,
+  BackgroundEvent,
   Contact,
-  FeesPayment,
+  Highcommittee,
   Home,
-  Papers,
-  PosterPresentation,
+  ImportantDates,
+  Objectives,
+  Organizer,
   Registration,
   Speakers,
-  SubmissionGuidelines,
+  TargetParticipants,
+  Themes,
   Venue,
-} from "./pages/";
-import Conference from "./pages/Conference.tsx";
-import Highcommittee from "./pages/Highcommittee.tsx";
-import Organizer from "./pages/Organizer.tsx";
+} from "./pages/index.ts";
 
 const router = createBrowserRouter([
   {
@@ -27,54 +25,6 @@ const router = createBrowserRouter([
       {
         element: <Home />,
         path: "/", // This is the root path
-      },
-      {
-        path: "/speakers",
-        element: <Speakers />,
-      },
-      {
-        path: "/agenda",
-        element: <Agenda />,
-      },
-      {
-        path: "/poster-presentation",
-        element: <PosterPresentation />,
-      },
-      {
-        path: "/papers",
-        element: <Papers />,
-      },
-      {
-        path: "/call-for-papers",
-        element: <CallForPapers />,
-      },
-      {
-        path: "/submission-guidelines",
-        element: <SubmissionGuidelines />,
-      },
-      {
-        path: "/fees-payment",
-        element: <FeesPayment />,
-      },
-      {
-        path: "/registration",
-        element: <Registration />,
-      },
-      {
-        path: "/venue",
-        element: <Venue />,
-      },
-      {
-        path: "/contact",
-        element: <Contact />,
-      },
-      {
-        path: "/conference",
-        element: <Conference />,
-      },
-      {
-        path: "/about-us",
-        element: <AboutUs />,
       },
       {
         path: "/high-committee",
@@ -86,11 +36,44 @@ const router = createBrowserRouter([
       },
       {
         path: "/objectives",
-        element: <Conference />,
+        element: <Objectives />,
       },
       {
         path: "/themes",
-        element: <Conference />,
+        element: <Themes />,
+      },
+      {
+        path: "/background",
+        element: <BackgroundEvent />,
+      },
+      {
+        path: "/participants",
+        element: <TargetParticipants />,
+      },
+
+      {
+        path: "/guidelines",
+        element: <AuthorGuideline />,
+      },
+      {
+        path: "/dates",
+        element: <ImportantDates />,
+      },
+      {
+        path: "/registration",
+        element: <Registration />,
+      },
+      {
+        path: "/contact",
+        element: <Contact />,
+      },
+      {
+        path: "/venue",
+        element: <Venue />,
+      },
+      {
+        path: "/speakers",
+        element: <Speakers />,
       },
     ],
   },

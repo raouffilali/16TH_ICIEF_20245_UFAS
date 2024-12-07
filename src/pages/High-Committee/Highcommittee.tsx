@@ -1,5 +1,5 @@
 import { Bodytexture } from "@/assets";
-import { highcommittees } from "./Highcommittee";
+import { highcommittees } from "../../constants/Highcommittee";
 import { motion } from "framer-motion";
 
 const pageVariants = {
