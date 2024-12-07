@@ -1,5 +1,5 @@
 import { Bodytexture } from "@/assets";
-import { highcommittees } from "../constants/Highcommittee";
+import { highcommittees } from "./Highcommittee";
 import { motion } from "framer-motion";
 
 const pageVariants = {
@@ -34,14 +34,14 @@ const Hicommittee = () => {
       </h1>
 
       {/* Container */}
-      <div className="m-10 w-full max-w-[1000px] md:flex flex-wrap gap-8 animate-fadeInLeft">
+      <div className="m-10 w-full gap-4 max-w-[1000px] md:flex md:gap-8 flex-wrap animate-fadeInLeft">
         {highcommittees.map((Highcommittee, index) => (
           <div
             key={Highcommittee.id}
-            className={`flex flex-col h-full items-center  md:flex-row md:items-start bg-gradient-to-br from-uni-green2 via-uni-green2-light to-uni-green2 
-              p-4 rounded-lg shadow-xl md:max-h-[200px] ${
-              index === 2 ? "md:w-full " : "md:w-[calc(50%-16px)]"
-            }`}
+            className={`flex flex-col h-full items-center md:flex-row md:items-start bg-gradient-to-br from-uni-green2 via-uni-green2-light to-uni-green2 
+              p-4 rounded-lg shadow-xl ${
+                index === 2 ? "md:w-full" : "md:w-[calc(50%-16px)]"
+              } mb-4 md:mb-0`}
           >
             {Highcommittee.image && (
               <img
@@ -55,7 +55,7 @@ const Hicommittee = () => {
                 {Highcommittee.name}
               </h3>
               {Highcommittee.description && (
-                <p className=" text-gray-100 text-start overflow-auto">
+                <p className="text-gray-100 text-start overflow-auto">
                   {Highcommittee.description}
                 </p>
               )}
