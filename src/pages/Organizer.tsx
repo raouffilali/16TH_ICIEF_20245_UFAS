@@ -42,35 +42,43 @@ const Organizer = () => {
         </thead>
         <tbody className="bg-white">
           <tr className="bg-white ">
-            <td className="py-3 px-4 border border-gray-200 font-extrabold">01</td>
+            <td className="py-3 px-4 border border-gray-200 font-extrabold">
+              01
+            </td>
             <td className="py-3 px-4 border border-gray-200 font-extrabold">
               Faculty of Economic, Commerce, and Management Sciences "Setif 1
               University_Ferhat Abass"
             </td>
           </tr>
           <tr className="bg-white">
-            <td className="py-3 px-4 border border-gray-200 font-extrabold">02</td>
+            <td className="py-3 px-4 border border-gray-200 font-extrabold">
+              02
+            </td>
             <td className="py-3 px-4 border border-gray-200 font-extrabold">
               International Association for Islamic Economics
             </td>
           </tr>
-          <tr className="bg-white"> 
-            <td className="py-3 px-4 border border-gray-200 font-extrabold">03</td>
+          <tr className="bg-white">
+            <td className="py-3 px-4 border border-gray-200 font-extrabold">
+              03
+            </td>
             <td className="py-3 px-4 border border-gray-200 font-extrabold">
               High Islamic Council
             </td>
           </tr>
           <tr className="bg-white">
-            <td className="py-3 px-4 border border-gray-200 font-extrabold">03</td>
+            <td className="py-3 px-4 border border-gray-200 font-extrabold">
+              03
+            </td>
             <td className="py-3 px-4 border border-gray-200 font-extrabold">
               High Islamic Council
             </td>
           </tr>
         </tbody>
       </table>
-      <div className=" p-10 m-10 w-full max-w-[900px] bg-gradient-to-r from-uni-green2 via-uni-green2-light to-uni-green2 rounded-md text-transparent animate-fadeInLeft">
+      <div className=" p-10 m-10 w-full max-w-[900px]  rounded-md text-transparent animate-fadeInLeft">
         <Carousel
-          className="flex flex-col  "
+          className="flex flex-col p-6 rounded-sm  border-2 border-opacity-30 border-dashed border-uni-green2-light "
           plugins={[plugin.current]}
           onMouseEnter={plugin.current.stop}
           onMouseLeave={plugin.current.reset}
@@ -88,11 +96,11 @@ const Organizer = () => {
                     className="w-full h-full max-w-[300px] max-h-[300px] bg-white shadow-xl object-cover rounded-md mb-4"
                   />
                 )}
-                <h3 className="text-xl font-bold text-white text-center">
+                <h3 className="text-xl font-bold bg-gradient-to-r from-uni-green2 via-uni-green2-light to-uni-green2 bg-clip-text text-center">
                   {organizer.name}
                 </h3>
                 {organizer.description && (
-                  <p className="mt-2 text-gray-100 text-center">
+                  <p className="mt-2 bg-gradient-to-r from-uni-green2 via-uni-green2-light to-uni-green2 bg-clip-text text-center">
                     {organizer.description}
                   </p>
                 )}
