@@ -76,6 +76,111 @@ const themes = [
       },
     ],
   },
+  {
+    title: "Theme 04: Islamic Financial Industry in the Era of the 4.0 Industrial Revolution",
+    points: [
+      {
+        subheading: "Financial Technology (Fintech):",
+        details: [
+          "The role of digitization in industry restructuring.",
+          "Blockchain applications and artificial intelligence in Islamic banking.",
+          "Technical and regulatory challenges.",
+        ],
+      },
+      {
+        subheading: "Digital Islamic Banks:",
+        details: [
+          "The experience of digital Islamic banks in promoting financial inclusion.",
+          "Industry prospects in light of digital transformation.",
+        ],
+      },
+      {
+        subheading: "Opportunities in Emerging Markets:",
+        details: [
+          "Strengthening partnerships with non-Islamic markets.",
+          "Strategies for attracting international investments to foster industry growth.",
+        ],
+      },
+    ],
+  },
+  {
+    title: "Theme 05: Islamic Financial Industry and Sustainable Development",
+    points: [
+      {
+        subheading: "Role of Islamic Finance in Achieving Sustainable Development:",
+        details: [
+          "Contribution to Sustainable Development Goals (SDGs).",
+          "Ethical and social financing instruments (e.g., Takaful and Waqf).",
+        ],
+      },
+      {
+        subheading: "Ethical Finance and Social Responsibility:",
+        details: [
+          "Integration of Sustainability Standards (ESG) into Islamic Financial Products.",
+          "Importance of Corporate Social Responsibility in Islamic Financial Institutions.",
+        ],
+      },
+      {
+        subheading: "Industry Future in Light of Environmental and Economic Transitions:",
+        details: [
+          "Facing environmental challenges such as climate change.",
+          "Role of the industry in supporting the green economy and sustainable practices.",
+        ],
+      },
+    ],
+  },
+  {
+    title: "Theme 06: Islamic Financial Industry and Entrepreneurship",
+    points: [
+      {
+        subheading: "Islamic Finance as a Supporter of Entrepreneurship:",
+        details: [
+          "Islamic financing Products such as Mudarabah and Musharakah support startups.",
+          "Role of Islamic investment funds and microfinance in fostering entrepreneurial growth.",
+        ],
+      },
+      {
+        subheading: "Islamic Fintech and Entrepreneurship:",
+        details: [
+          "Sharia-compliant crowdfunding platforms.",
+          "Fintech applications for enhancing entrepreneurial support and innovation.",
+        ],
+      },
+      {
+        subheading: "Ethical Finance and Social Entrepreneurship:",
+        details: [
+          "Role of Waqf and Takaful in supporting social entrepreneurship.",
+          "Case studies of sustainable entrepreneurial projects supported by Islamic financial institutions.",
+        ],
+      },
+    ],
+  },
+  {
+    title: "Theme 07: Future Challenges and Development Prospects",
+    points: [
+      {
+        subheading: "Institutional and Regulatory Challenges:",
+        details: [
+          "Harmonizing standards across institutions and countries.",
+          "Management of financial and economic crises.",
+        ],
+      },
+      {
+        subheading: "Future Opportunities:",
+        details: [
+          "Market expansion and innovative product development.",
+          "Enhanced integration between Islamic and conventional banks.",
+        ],
+      },
+      {
+        subheading: "Future Projections:",
+        details: [
+          "The position of the Islamic financial industry after fifty years of practices.",
+          "Continuity of the Islamic financial industry in innovation and sustainability.",
+        ],
+      },
+    ],
+  },
   // Add remaining themes here...
 ];
 
