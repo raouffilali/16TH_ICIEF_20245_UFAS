@@ -18,7 +18,7 @@ const AnimatedBanner = ({ buttonRef, buttonName }: AnimatedBannerProps) => {
   return (
     <div className="relative w-full h-[600px] overflow-hidden">
       {/* Animated Gradient Background */}
-      <div className="absolute inset-0 bg-gradient-to-l from-[#0f5a08] via-[#709c1f] to-[#0f5a08] animate-gradient-x">
+      <div className="absolute inset-0 bg-gradient-to-l from-[#122e10] via-[#293d04] to-[#174413] animate-gradient-x">
         {/* Wavy Bottom Effect */}
         <img
           className=" inset-0 w-full h-full object-cover opacity-25 blur-[0.5px]"
@@ -26,7 +26,7 @@ const AnimatedBanner = ({ buttonRef, buttonName }: AnimatedBannerProps) => {
           alt="Texture"
         />
         <svg
-          className="absolute bottom-0 w-full h-[150px] md:h-[250px]"
+          className="absolute bottom-0 w-full h-[220px] md:h-[370px]"
           preserveAspectRatio="none"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 1440 320"
@@ -34,8 +34,7 @@ const AnimatedBanner = ({ buttonRef, buttonName }: AnimatedBannerProps) => {
           <path
             fill="#ffffff"
             fillOpacity="1"
-            d="M0,32L80,53.3C160,75,320,117,480,160C640,203,800,245,960,240C1120,235,1280,181,1360,154.7L1440,
-            128L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
+            d="M0,96L60,112C120,128,240,160,360,176C480,192,600,192,720,176C840,160,960,128,1080,117.3C1200,107,1320,117,1380,122.7L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
           ></path>
         </svg>
 
