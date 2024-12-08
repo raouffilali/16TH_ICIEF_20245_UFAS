@@ -33,7 +33,7 @@ const Registration = () => {
         <h2 className="text-3xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-uni-green2 to bg-uni-green2-light bg-clip-text text-transparent border-b-2 border-dashed pb-2 animate-slidein400">
           Submission of Papers:
         </h2>
-        <p className="text-base md:text-xl md:italic mb-12 text-left w-full animate-slidein500">
+        <p className="text-base md:text-xl md:italic mb-12 md:mb-16 text-left w-full animate-slidein500">
           All papers must be submitted via{" "}
           <span className="font font-semibold underline bg-gradient-to-r from-uni-green to bg-uni-yellow bg-clip-text text-transparent">
             the conference’s submission portal
@@ -43,9 +43,10 @@ const Registration = () => {
         <a
           target="_blank"
           href="https://events.univ-setif.dz/register/"
-          className="block text-center px-4 py-2 bg-gradient-to-r from-uni-green2 to-uni-green2-light text-white rounded border-dashed border-2 border-gray-300 mb-6 animate-slidein600"
+          className="block text-center px-12 py-2 md:px-32 md:py-4 bg-white text-uni-green rounded border-dashed border-2 border-uni-green2 mb-6 animate-slidein600 hover:bg-gradient-to-l from-uni-green2 to-uni-green2-light hover:text-white hover:border-white hover:shadow-xl"
         >
-          https://events.univ-setif.dz/register/
+          <span className="md:hidden">Submit your Paper</span>
+          <span className="hidden md:inline">events.univ-setif.dz/register/</span>
         </a>
       </div>
     </div>
