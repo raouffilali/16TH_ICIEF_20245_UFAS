@@ -18,7 +18,11 @@ import CustomDropdown from "./CustomDropdown"; // Import the new CustomDropdown 
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  
+
+  const handleLinkClick = () => {
+    setIsMobileMenuOpen(false);
+  };
+
   return (
     <nav className="fixed top-0 left-0 w-full z-50 bg-white shadow-md rounded-b-sm">
       <div className="container mx-auto flex justify-between items-center px-4 py-2">
@@ -32,7 +36,7 @@ const Navbar = () => {
           {navLinks.map((link, index) => (
             <div key={index} className="relative">
               {link.subLinks ? (
-                <CustomDropdown title={link.title}>
+                <CustomDropdown title={link.title} onLinkClick={handleLinkClick}>
                   {link.subLinks.map((subLink, subIndex) => (
                     <div key={subIndex} className="relative group">
                       <Link
@@ -100,6 +104,7 @@ const Navbar = () => {
                               <Link
                                 to={subLink.ref}
                                 className="block py-2 hover:text-uni-green2 relative group"
+                                onClick={handleLinkClick}
                               >
                                 {subLink.title}
                               </Link>
@@ -115,6 +120,7 @@ const Navbar = () => {
                         <Link
                           to={link.ref}
                           className="block py-2 font-medium hover:text-uni-green2 relative group"
+                          onClick={handleLinkClick}
                         >
                           {link.title}
                           <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-uni-green2 transition-all duration-300 group-hover:w-full"></span>

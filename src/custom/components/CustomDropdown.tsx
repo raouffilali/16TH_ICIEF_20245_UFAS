@@ -1,12 +1,15 @@
 import { useState, useEffect, useRef, ReactNode } from "react";
 import { ChevronDown } from "lucide-react";
-import "./component.css"
+import "./component.css";
+import React from "react";
+
 interface CustomDropdownProps {
   title: string;
   children: ReactNode;
+  onLinkClick?: () => void; // Add onLinkClick prop
 }
 
-const CustomDropdown = ({ title, children }: CustomDropdownProps) => {
+const CustomDropdown = ({ title, children, onLinkClick }: CustomDropdownProps) => {
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
 
@@ -23,6 +26,13 @@ const CustomDropdown = ({ title, children }: CustomDropdownProps) => {
     };
   }, []);
 
+  const handleLinkClick = () => {
+    setIsOpen(false);
+    if (onLinkClick) {
+      onLinkClick();
+    }
+  };
+
   return (
     <div className="relative" ref={dropdownRef}>
       <button
@@ -38,7 +48,13 @@ const CustomDropdown = ({ title, children }: CustomDropdownProps) => {
       </button>
       {isOpen && (
         <div className="absolute z-50 mt-2 bg-white shadow-lg rounded-lg py-2 w-56 border border-gray-200">
-          <div className="flex flex-col">{children}</div>
+          <div className="flex flex-col">
+            {React.Children.map(children, (child) =>
+              React.cloneElement(child as React.ReactElement<any>, {
+                onClick: handleLinkClick,
+              })
+            )}
+          </div>
         </div>
       )}
     </div>
