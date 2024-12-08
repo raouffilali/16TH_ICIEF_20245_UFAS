@@ -16,7 +16,7 @@ const AnimatedBanner = ({ buttonRef, buttonName }: AnimatedBannerProps) => {
   };
 
   return (
-    <div className="relative w-full h-[800px] overflow-hidden">
+    <div className="relative w-full h-[600px] overflow-hidden">
       {/* Animated Gradient Background */}
       <div className="absolute inset-0 bg-gradient-to-l from-[#0f5a08] via-[#709c1f] to-[#0f5a08] animate-gradient-x">
         {/* Wavy Bottom Effect */}
