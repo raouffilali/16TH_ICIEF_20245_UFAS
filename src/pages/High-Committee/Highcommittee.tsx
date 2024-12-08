@@ -110,8 +110,8 @@ const Hicommittee = () => {
           </p>
 
           {/* Blurred Transparent Card with Steering Committee */}
-          <div className="mt-8 max-w-[950px] w-full bg-white bg-opacity-20 backdrop-blur-lg border border-white shadow-xl p-6 rounded-lg animate-slidleft800 transition-all ease-in-out duration-300 transform hover:scale-105">
-            <ul className="text-white space-y-3 ">
+          <div className="mt-8 max-w-[950px] w-full bg-white bg-opacity-20 hover:bg-opacity-50 backdrop-blur-lg border border-white shadow-xl p-6 rounded-lg animate-slidleft800 transition-all ease-in-out duration-300 transform hover:scale-105">
+            <ul className="text-white space-y-3 hover:text-uni-green2  ">
               <li>
                 1. Prof Dr. Chaouki Bourakba, Dean of the Faculty of Economics,
                 Commerce, and Management Sciences, Setif 1 University _ Ferhat
