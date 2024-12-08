@@ -49,7 +49,7 @@ const AnimatedBanner = ({ buttonRef, buttonName }: AnimatedBannerProps) => {
           <Button
             variant={"outline"}
             size="lg"
-            className=" text-uni-green hover:shadow-xl shadow-md text-sm md:text-lg px-20 border-2 hover:border-dotted border-uni-green2-light "
+            className=" text-uni-green hover:shadow-xl shadow-md text-sm md:text-lg px-20 border-2 hover:border-dotted border-uni-green2-light transition-all ease-in-out duration-300 transform hover:scale-105"
             onClick={handleClick}
           >
             {buttonName}

@@ -1,16 +1,9 @@
 import { Bodytexture, Conf } from "@/assets";
 import { highcommittees } from "../../constants/Highcommittee";
-import { motion } from "framer-motion";
 
 const Hicommittee = () => {
   return (
-    <motion.div
-      className="relative pt-24 p-10 bg-gradient-to-br from-gray-50 via-white to-gray-50 text-gray-800 flex flex-col justify-center items-center"
-      initial="initial"
-      animate="animate"
-      exit="exit"
-      transition={{ duration: 0.6 }}
-    >
+    <div className="relative pt-10 p-10 bg-gradient-to-br from-gray-50 via-white to-gray-50 text-gray-800 flex flex-col justify-center items-center">
       {/* Background Effect */}
       <img
         className="absolute inset-0 w-full h-full object-cover opacity-25 blur-[0.5px] z-0"
@@ -22,23 +15,23 @@ const Hicommittee = () => {
       <div className="relative z-10 w-full max-w-[950px] ">
         {/* Page Title */}
         <h1
-          className="p-2 text-center items-center bg-gradient-to-r from-uni-green2 via-uni-green2-light to-uni-green2 text-transparent 
-          bg-clip-text text-4xl font-bold mb-5 animate-slidein100"
+          className="p-1 text-center items-center bg-gradient-to-r from-uni-green2 via-uni-green2-light to-uni-green2 text-transparent 
+          bg-clip-text text-4xl font-bold mb-5 animate-slidein100 transition-all ease-in-out duration-300 transform hover:scale-105 "
         >
           High Committee
         </h1>
 
         {/* Group 1: Honorary Chairs */}
         <div className="mb-4">
-          <h2 className="text-2xl font-bold text-uni-green2 mb-4 animate-slidein100">
+          <h2 className=" text-center md:text-start text-2xl font-bold text-uni-green2-light mb-4 animate-slidein100 ">
             Honorary Chairs
           </h2>
-          <div className="flex flex-col md:flex-row md:gap-8 animate-slidein100">
+          <div className="relative flex flex-col md:flex-row md:gap-8 animate-slidein100 transition-all ease-in-out duration-300 transform hover:scale-105">
             {highcommittees.slice(0, 2).map((Highcommittee) => (
               <div
                 key={Highcommittee.id}
-                className="flex flex-col h-full items-center md:flex-row md:items-start bg-gradient-to-br from-uni-green2 via-uni-green2-light to-uni-green2 
-                  p-4 rounded-lg shadow-xl md:w-[calc(50%-16px)] mb-4 md:mb-0 "
+                className="flex flex-col h-full items-center md:flex-row md:items-start bg-gradient-to-br from-uni-green2 via-uni-green2-light to-transparent
+                  p-4 rounded-lg shadow-2xl md:w-[calc(50%-16px)] mb-4 md:mb-0 "
               >
                 {Highcommittee.image && (
                   <img
@@ -64,15 +57,15 @@ const Hicommittee = () => {
 
         {/* Group 2: Conference Chairman */}
         <div>
-          <h2 className="text-2xl font-bold text-uni-green2 mb-4 animate-slidein100">
+          <h2 className="text-center md:text-start text-2xl font-bold text-uni-green2-light mb-4 animate-slidein100">
             Conference Chairman
           </h2>
-          <div className="flex flex-col md:flex-row md:gap-8 animate-slidein100">
+          <div className="flex flex-col md:flex-row md:gap-8 animate-slidein100 transition-all ease-in-out duration-300 transform hover:scale-105">
             {highcommittees.slice(2).map((Highcommittee) => (
               <div
                 key={Highcommittee.id}
-                className="flex flex-col h-full items-center md:flex-row md:items-start bg-gradient-to-br from-uni-green2 via-uni-green2-light to-uni-green2 bg-opacity-60
-                  p-4 rounded-lg shadow-xl w-full"
+                className="flex flex-col h-full items-center md:flex-row md:items-start bg-gradient-to-br from-uni-green2 via-uni-green2-light to-transparent bg-opacity-60
+                  p-4 rounded-lg shadow-2xl w-full"
               >
                 {Highcommittee.image && (
                   <img
@@ -96,7 +89,7 @@ const Hicommittee = () => {
           </div>
         </div>
       </div>
-      <div className="w-screen relative mt-[50px] h-full py-32 overflow-hidden animate-slidein300">
+      <div className="w-screen relative mt-[50px] h-full py-10 overflow-hidden animate-slidein300">
         {/* Background Image */}
         <div
           className="absolute inset-0 w-full h-full bg-cover bg-center bg-fixed"
@@ -104,21 +97,21 @@ const Hicommittee = () => {
         ></div>
 
         {/* Gradient Overlay */}
-        <div className="w-full absolute inset-0 bg-gradient-to-t from-uni-green2 to-uni-green2-light opacity-90"></div>
+        <div className="w-full absolute inset-0 bg-gradient-to-r from-uni-green2 to-uni-green2-light opacity-90"></div>
 
         {/* Content Over Gradient */}
 
-        <div className="relative flex flex-col justify-center items-center w-full h-full text-white px-6">
-          <h2 className="text-4xl text-center font-bold mb-4 mt-5">
+        <div className="relative flex flex-col justify-center items-center w-full h-full text-white px-6 ">
+          <h2 className="text-4xl text-center font-bold mb-4 mt-5 animate-slidleft800">
             Steering Committee Of The Conference
           </h2>
-          <p className="text-lg text-center max-w-3xl">
+          <p className="text-lg text-center max-w-3xl animate-slideright800">
             steering comitte description
           </p>
 
           {/* Blurred Transparent Card with Steering Committee */}
-          <div className="mt-8 max-w-[950px] w-full bg-white bg-opacity-20 backdrop-blur-lg border border-white p-6 rounded-lg">
-            <ul className="text-white space-y-3">
+          <div className="mt-8 max-w-[950px] w-full bg-white bg-opacity-20 backdrop-blur-lg border border-white shadow-xl p-6 rounded-lg animate-slidleft800 transition-all ease-in-out duration-300 transform hover:scale-105">
+            <ul className="text-white space-y-3 ">
               <li>
                 1. Prof Dr. Chaouki Bourakba, Dean of the Faculty of Economics,
                 Commerce, and Management Sciences, Setif 1 University _ Ferhat
@@ -146,15 +139,15 @@ const Hicommittee = () => {
             </ul>
           </div>
 
-          <h2 className="text-center text-4xl font-bold mb-4 mt-5">
+          <h2 className="text-center text-4xl font-bold mb-4 mt-5 animate-slideright800">
             Scientific Committee:
           </h2>
-          <p className="text-lg text-center max-w-3xl">
+          <p className="text-lg text-center max-w-3xl animate-slidleft800">
             Scientific Committee: description
           </p>
 
           {/* Another Blurred Transparent Card with Steering Committee */}
-          <div className="mt-8 max-w-[950px] w-full bg-white bg-opacity-20 backdrop-blur-lg border border-white p-6 rounded-lg">
+          <div className="mt-8 max-w-[950px] w-full bg-white bg-opacity-20 backdrop-blur-lg border shadow-xl border-white p-6 rounded-lg animate-slideright800 transition-all ease-in-out duration-300 transform hover:scale-105">
             <ul className="text-white space-y-3 items-center">
               <li>
                 1. Prof. Dr. Tariqullah Khan, Istanbul Zaim University, Turkey.
@@ -196,15 +189,15 @@ const Hicommittee = () => {
             </ul>
           </div>
 
-          <h2 className="text-center text-4xl font-bold mb-4 mt-5">
-            Scientific Committee:
+          <h2 className="text-center text-4xl font-bold mb-4 mt-5 animate-slidleft800">
+            Organizing Committee:
           </h2>
-          <p className="text-lg text-center max-w-3xl">
-            Scientific Committee: description
+          <p className="text-lg text-center max-w-3xl animate-slideright800">
+            Organizing Committee: description
           </p>
 
           {/* Another Blurred Transparent Card with Steering Committee */}
-          <div className="mt-8 max-w-[950px] w-full bg-white bg-opacity-20 backdrop-blur-lg border border-white p-6 rounded-lg">
+          <div className="mt-8 max-w-[950px] w-full bg-white bg-opacity-20 backdrop-blur-lg border shadow-xl border-white p-6 rounded-lg animate-slidleft800 transition-all ease-in-out duration-300 transform hover:scale-105">
             <ul className="text-white space-y-3">
               <li>
                 1. Dr. Bensalem Farouq, Setif 1 University _ Ferhat Abbas,
@@ -237,7 +230,7 @@ const Hicommittee = () => {
           </div>
         </div>
       </div>
-    </motion.div>
+    </div>
   );
 };
 
