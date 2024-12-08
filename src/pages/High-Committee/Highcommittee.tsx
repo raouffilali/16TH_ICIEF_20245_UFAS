@@ -41,11 +41,11 @@ const Hicommittee = () => {
                   />
                 )}
                 <div className="w-full h-full flex flex-col items-center md:items-start p-2 animate-slideright800">
-                  <h3 className="text-xl font-bold text-white text-center md:text-start">
+                  <h3 className="px-2 text-xl font-bold text-white text-center md:text-start">
                     {Highcommittee.name}
                   </h3>
                   {Highcommittee.description && (
-                    <div className="mt-2 h-24 overflow-y-auto text-white border-0 text-sm p-2 rounded-md scrollbar-thin scrollbar-thumb-uni-green2 scrollbar-track-gray-100 bg-transparent">
+                    <div className="mt-2 h-24 overflow-y-auto overflow-hidden text-white border-0 text-sm px-2 rounded-md scrollbar-thin scrollbar-thumb-uni-green2 scrollbar-track-gray-100 bg-transparent">
                       {Highcommittee.description}
                     </div>
                   )}
@@ -75,11 +75,11 @@ const Hicommittee = () => {
                   />
                 )}
                 <div className="w-full h-full flex flex-col items-center md:items-start p-2 animate-slideright800 ">
-                  <h3 className="text-xl font-bold text-white text-center md:text-start">
+                  <h3 className=" px-2 text-xl font-bold text-white text-center md:text-start">
                     {Highcommittee.name}
                   </h3>
                   {Highcommittee.description && (
-                    <div className="mt-2 h-24 overflow-y-auto text-white border-0 text-sm p-2  rounded-md scrollbar-thin scrollbar-thumb-uni-green2 scrollbar-track-gray-100 bg-transparent">
+                    <div className="mt-2 h-24 overflow-y-auto  text-white border-0 text-sm px-2  rounded-md scrollbar-thin scrollbar-thumb-uni-green2 scrollbar-track-gray-100 bg-transparent">
                       {Highcommittee.description}
                     </div>
                   )}

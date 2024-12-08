@@ -25,7 +25,7 @@ const Organizer = () => {
 
       <h1
         className="p-2 text-center bg-gradient-to-r from-uni-green2 via-uni-green2-light to-uni-green2 text-transparent 
-      bg-clip-text text-4xl font-bold mb-6 animate-slidein100 transition-all ease-in-out duration-300 transform hover:scale-105"
+      bg-clip-text text-4xl font-bold mb-6 animate-slidein100 "
       >
         Conference Organizers
       </h1>
@@ -35,7 +35,7 @@ const Organizer = () => {
             <th className="bg-gradient-to-r from-uni-green2 to-uni-green2 text-white py-3 px-4 text-left text-lg">
               No.
             </th>
-            <th className="bg-gradient-to-r from-uni-green2 via-uni-green2-light to-transparent text-white py-3 px-4 text-left text-lg">
+            <th className="bg-gradient-to-r from-uni-green2 to-uni-green2-light text-white py-3 px-4 text-left text-lg">
               Organizer Name
             </th>
           </tr>
@@ -62,7 +62,7 @@ const Organizer = () => {
           </tr>
         </tbody>
       </table>
-      <div className=" p-2 md:p-10 m-10 w-full h-full max-w-[900px] bg-gradient-to-br from-transparent via-uni-green2-light to-transparent rounded-md shadow-xl text-transparent animate-fadeInLeft">
+      <div className=" p-2 md:p-10 m-10 w-full h-full max-w-[900px] bg-gradient-to-br from-uni-green2 via-uni-green2-light to-uni-green2 rounded-md shadow-xl text-transparent animate-fadeInLeft">
         <Carousel
           className="flex flex-col p-6 rounded-sm  border-2 border-opacity-30 border-dashed border-uni-green2-light "
           plugins={[plugin.current]}
