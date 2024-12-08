@@ -12,7 +12,7 @@ const Hicommittee = () => {
       />
 
       {/* Page Content */}
-      <div className="relative z-10 w-full max-w-[950px] ">
+      <div className="flex flex-col items-center relative z-10 w-full max-w-[950px] ">
         {/* Page Title */}
         <h1
           className="p-1 text-center items-center bg-gradient-to-r from-uni-green2 via-uni-green2-light to-uni-green2 text-transparent 
@@ -23,7 +23,7 @@ const Hicommittee = () => {
 
         {/* Group 1: Honorary Chairs */}
         <div className="mb-4">
-          <h2 className=" text-center md:text-start text-2xl font-bold text-uni-green2-light mb-4 animate-slidein100 ">
+          <h2 className=" text-center text-2xl font-bold text-uni-green2-light mb-4 animate-slidein100 ">
             Honorary Chairs
           </h2>
           <div className="relative flex flex-col md:flex-row md:gap-8 animate-slidein100 ">
@@ -57,15 +57,15 @@ const Hicommittee = () => {
 
         {/* Group 2: Conference Chairman */}
         <div>
-          <h2 className="text-center md:text-start text-2xl font-bold text-uni-green2-light mb-4 animate-slidein100">
+          <h2 className="text-center text-2xl font-bold text-uni-green2-light mb-4 animate-slidein100">
             Conference Chairman
           </h2>
-          <div className="flex flex-col md:flex-row md:gap-8 animate-slidein100 transition-all ease-in-out duration-300 transform hover:scale-105">
+          <div className="flex flex-col md:flex-row md:gap-8 animate-slidein100 ">
             {highcommittees.slice(2).map((Highcommittee) => (
               <div
                 key={Highcommittee.id}
                 className="flex flex-col h-full items-center md:flex-row md:items-start bg-gradient-to-br from-uni-green2 via-uni-green2-light to-transparent bg-opacity-60
-                  p-4 rounded-lg shadow-2xl w-full"
+                  p-4 rounded-lg shadow-2xl transition-all ease-in-out duration-300 transform hover:scale-105"
               >
                 {Highcommittee.image && (
                   <img
