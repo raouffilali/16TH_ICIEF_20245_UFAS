@@ -14,8 +14,8 @@ const Objectives = () => {
 
       {/* Title Section */}
       <div className="max-w-4xl text-center mb-10 z-10">
-        <h1 className="text-4xl font-extrabold bg-gradient-to-r from-uni-green2 via-uni-green2-light to-uni-green2 bg-clip-text text-transparent mb-4 animate-slidein100">
-          Conference Objectives
+        <h1 className="text-3xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-uni-green2 to bg-uni-green2-light bg-clip-text text-transparent border-b-2 border-dashed pb-2 animate-slidein100">
+          Registration:
         </h1>
         <p className="text-lg bg-gradient-to-r from-uni-green2 via-uni-green2-light to-uni-green2 bg-clip-text text-transparent animate-fadeInLeft">
           Islamic Finance Industry's 50th Anniversary Conference, Reflecting on
