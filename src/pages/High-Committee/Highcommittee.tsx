@@ -26,12 +26,12 @@ const Hicommittee = () => {
           <h2 className=" text-center md:text-start text-2xl font-bold text-uni-green2-light mb-4 animate-slidein100 ">
             Honorary Chairs
           </h2>
-          <div className="relative flex flex-col md:flex-row md:gap-8 animate-slidein100 transition-all ease-in-out duration-300 transform hover:scale-105">
+          <div className="relative flex flex-col md:flex-row md:gap-8 animate-slidein100 ">
             {highcommittees.slice(0, 2).map((Highcommittee) => (
               <div
                 key={Highcommittee.id}
                 className="flex flex-col h-full items-center md:flex-row md:items-start bg-gradient-to-br from-uni-green2 via-uni-green2-light to-transparent
-                  p-4 rounded-lg shadow-2xl md:w-[calc(50%-16px)] mb-4 md:mb-0 "
+                  p-4 rounded-lg shadow-2xl md:w-[calc(50%-16px)] mb-4 md:mb-0 transition-all ease-in-out duration-300 transform hover:scale-105 "
               >
                 {Highcommittee.image && (
                   <img
