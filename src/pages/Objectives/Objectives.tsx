@@ -14,7 +14,7 @@ const Objectives = () => {
 
       {/* Title Section */}
       <div className="max-w-4xl text-center mb-10 z-10">
-        <h1 className="text-4xl font-extrabold bg-gradient-to-r from-uni-green2 via-uni-green2-light to-uni-green2 bg-clip-text text-transparent mb-4  animate-slidein100">
+        <h1 className="text-4xl font-extrabold bg-gradient-to-r from-uni-green2 via-uni-green2-light to-uni-green2 bg-clip-text text-transparent mb-4 animate-slidein100">
           Conference Objectives
         </h1>
         <p className="text-lg bg-gradient-to-r from-uni-green2 via-uni-green2-light to-uni-green2 bg-clip-text text-transparent animate-fadeInLeft">
