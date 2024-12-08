@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import "./component.css";
-import { IslamicTex } from "@/assets";
+import { Bodytexture } from "@/assets";
 import { RefObject } from "react";
 
 interface AnimatedBannerProps {
@@ -27,7 +27,7 @@ const AnimatedBanner = ({
         {/* Wavy Bottom Effect */}
         <img
           className=" inset-0 w-full h-full object-cover opacity-25 blur-[0.5px]"
-          src={IslamicTex}
+          src={Bodytexture}
           alt="Texture"
         />
         <svg

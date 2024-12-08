@@ -1,6 +1,6 @@
 import { Link } from "react-router";
 import Social from "@/components/ui/Social";
-import { IslamicTex, Logo1 } from "@/assets";
+import { Bodytexture, Logo1 } from "@/assets";
 
 const Footer = () => {
   return (
@@ -8,7 +8,7 @@ const Footer = () => {
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
-          src={IslamicTex}
+          src={Bodytexture}
           alt="Texture"
           className="w-full h-full object-cover opacity-25 blur-[0.5px]"
         />

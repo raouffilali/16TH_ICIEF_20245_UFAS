@@ -34,7 +34,10 @@ const TargetParticipants = () => {
       
       <div className="relative z-10 max-w-7xl mx-auto">
         {/* Page Title */}
-        <h1 className="text-4xl font-extrabold text-center p-2 mb-8 bg-gradient-to-r from-uni-green2 via-uni-green2-light to-uni-green2 bg-clip-text text-transparent animate-slidein100">
+        <h1
+          className="p-1 text-center items-center bg-gradient-to-r from-uni-green2 via-uni-green2-light to-uni-green2 text-transparent 
+          bg-clip-text text-4xl font-bold mb-5 animate-slidein100  "
+        >
           Target Participants
         </h1>
         <p className="text-lg md:text-3xl font-semibold md:italic text-center mb-12 text-gray-600 animate-slidein100">
