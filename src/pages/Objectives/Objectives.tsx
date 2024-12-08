@@ -14,10 +14,10 @@ const Objectives = () => {
 
       {/* Title Section */}
       <div className="max-w-4xl text-center mb-10 z-10">
-        <h1 className="text-4xl font-extrabold bg-gradient-to-r from-uni-green2 via-uni-green2-light to-uni-green2 bg-clip-text text-transparent mb-4 animate-fadein animate-slidein100">
+        <h1 className="text-4xl font-extrabold bg-gradient-to-r from-uni-green2 via-uni-green2-light to-uni-green2 bg-clip-text text-transparent mb-4  animate-slidein100">
           Conference Objectives
         </h1>
-        <p className="text-lg bg-gradient-to-r from-uni-green2 via-uni-green2-light to-uni-green2 bg-clip-text text-transparent animate-slidein300">
+        <p className="text-lg bg-gradient-to-r from-uni-green2 via-uni-green2-light to-uni-green2 bg-clip-text text-transparent animate-fadeInLeft">
           Islamic Finance Industry's 50th Anniversary Conference, Reflecting on
           fifty years of growth, challenges, and opportunities in the Islamic
           finance industry.
@@ -25,7 +25,7 @@ const Objectives = () => {
       </div>
 
       {/* Objectives Section */}
-      <div className="bg-white rounded-lg p-8 w-full max-w-5xl space-y-8 shadow-[0_0_20px_10px_rgba(15,90,8,0.2)] animate-slidein500 z-10">
+      <div className="bg-white rounded-lg p-8 w-full max-w-5xl space-y-8 shadow-[0_0_20px_10px_rgba(15,90,8,0.2)] animate-fadeInLeft z-10">
         {/* Objective 1 */}
         <div className="border-l-4 border-uni-green2 pl-4 transition-all ease-in-out duration-300 transform hover:scale-105">
           <h2 className="text-xl font-semibold text-gray-800">
