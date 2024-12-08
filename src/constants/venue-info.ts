@@ -14,7 +14,7 @@ export const venueInfo = [
   },
   {
     title: "Email:",
-    content: "ufas-webmaster@univ-setif.dz",
+    content: "icief25@univ-setif.dz",
   },
   {
     title: "",

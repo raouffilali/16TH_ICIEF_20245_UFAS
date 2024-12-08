@@ -3,6 +3,7 @@ import {
   Sheet,
   SheetClose,
   SheetContent,
+  SheetDescription,
   SheetHeader,
   SheetTitle,
   SheetTrigger,
@@ -21,7 +22,7 @@ const Navbar = () => {
 
   const handleLinkClick = () => {
     setTimeout(() => {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+      window.scrollTo({ top: 0, behavior: "smooth" });
     }, 100); // 500ms delay
     setIsMobileMenuOpen(false);
   };
@@ -39,7 +40,10 @@ const Navbar = () => {
           {navLinks.map((link, index) => (
             <div key={index} className="relative">
               {link.subLinks ? (
-                <CustomDropdown title={link.title} onLinkClick={handleLinkClick}>
+                <CustomDropdown
+                  title={link.title}
+                  onLinkClick={handleLinkClick}
+                >
                   {link.subLinks.map((subLink, subIndex) => (
                     <div key={subIndex} className="relative group">
                       <Link
@@ -91,6 +95,10 @@ const Navbar = () => {
                 <SheetTitle className="text-xl font-bold bg-gradient-to-b from-uni-green2 to bg-uni-green2-light bg-clip-text text-transparent">
                   ICIEF 16TH EDITION
                 </SheetTitle>
+                <SheetDescription className="text-sm">
+                  UFAS 16th International Conference on Islamic Economics and
+                  Finance
+                </SheetDescription>
                 <Separator />
               </SheetHeader>
               <div className="grid gap-4 py-4">
@@ -138,7 +146,9 @@ const Navbar = () => {
                   variant="ghost"
                   className="text-uni-green border-2 border-uni-green2-light hover:bg-uni-green2 hover:text-white px-6 hover:shadow-lg"
                 >
-                  Register
+                  <SheetClose asChild onClick={handleLinkClick}>
+                    <Link to="/registration">Register</Link>
+                  </SheetClose>
                 </Button>
               </div>
             </SheetContent>

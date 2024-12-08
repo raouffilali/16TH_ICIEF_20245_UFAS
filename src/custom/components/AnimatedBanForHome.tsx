@@ -33,7 +33,7 @@ const AnimatedBanner = ({ buttonRef, buttonName }: AnimatedBannerProps) => {
         >
           <path
             fill="#ffffff"
-            fill-opacity="1"
+            fillOpacity="1"
             d="M0,32L80,53.3C160,75,320,117,480,160C640,203,800,245,960,240C1120,235,1280,181,1360,154.7L1440,
             128L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
           ></path>
