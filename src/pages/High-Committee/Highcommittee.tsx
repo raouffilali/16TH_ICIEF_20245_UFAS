@@ -45,7 +45,7 @@ const Hicommittee = () => {
                     {Highcommittee.name}
                   </h3>
                   {Highcommittee.description && (
-                    <div className="mt-2 h-24 overflow-y-auto overflow-hidden text-white border-0 text-sm px-2 rounded-md scrollbar-thin scrollbar-thumb-uni-green2 scrollbar-track-gray-100 bg-transparent">
+                    <div className="text-center md:text-start mt-2 h-24 overflow-y-auto overflow-hidden text-white border-0 text-sm px-2 rounded-md scrollbar-thin scrollbar-thumb-uni-green2 scrollbar-track-gray-100 bg-transparent">
                       {Highcommittee.description}
                     </div>
                   )}
@@ -79,7 +79,7 @@ const Hicommittee = () => {
                     {Highcommittee.name}
                   </h3>
                   {Highcommittee.description && (
-                    <div className="mt-2 h-24 overflow-y-auto  text-white border-0 text-sm px-2  rounded-md scrollbar-thin scrollbar-thumb-uni-green2 scrollbar-track-gray-100 bg-transparent">
+                    <div className="text-center md:text-start mt-2 h-20 overflow-y-auto text-white border-0 text-sm px-2 rounded-md scrollbar-thin scrollbar-thumb-uni-green2 scrollbar-track-gray-100 bg-transparent">
                       {Highcommittee.description}
                     </div>
                   )}
