@@ -1,6 +1,4 @@
 import { useEffect } from 'react';
-import { ArrowLeft } from "lucide-react";
-import { Link } from "react-router-dom";
 import { Bodytexture } from '@/assets'; // Adjust the import path as needed
 
 const BackgroundEvent = () => {
