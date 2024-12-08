@@ -6,9 +6,8 @@ function App() {
   return (
     <>
       <Navbar />
-      <main >
-        {" "}
-        <Outlet />{" "}
+      <main className="pt-16 sm:pt-20"> {/* Adjust the padding as needed */}
+        <Outlet />
       </main>
       <Footer />
     </>
