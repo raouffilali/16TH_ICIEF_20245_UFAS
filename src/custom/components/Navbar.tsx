@@ -36,7 +36,7 @@ const Navbar = () => {
           {navLinks.map((link, index) => (
             <div key={index} className="relative">
               {link.subLinks ? (
-                <CustomDropdown title={link.title}>
+                <CustomDropdown title={link.title} onLinkClick={handleLinkClick}>
                   {link.subLinks.map((subLink, subIndex) => (
                     <div key={subIndex} className="relative group">
                       <Link
