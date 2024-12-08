@@ -1,12 +1,12 @@
-import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
-
-import { Link, useNavigate } from 'react-router-dom';
+import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { Bodytexture } from '@/assets'; // Adjust the import path as needed
 
 const AuthorGuideline = () => {
-
-
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div className="relative pt-10 p-10 bg-gradient-to-br from-gray-50 via-white to-gray-50 text-gray-800 flex flex-col justify-center items-center">
@@ -19,14 +19,14 @@ const AuthorGuideline = () => {
 
       {/* Page Content */}
       <div className="flex flex-col items-center relative z-10 w-full max-w-[950px]">
-        <h1 className="text-2xl md:text-3xl font-bold mb-6 bg-gradient-to-r from-uni-green2 to bg-uni-green2-light bg-clip-text text-transparent border-b-2 border-dashed pb-2">
+        <h1 className="text-3xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-uni-green2 to bg-uni-green2-light bg-clip-text text-transparent border-b-2 border-dashed pb-2 animate-slidein100">
           Author Guidelines:
         </h1>
-        <p className="text-sm md:text-base md:italic mb-6 font-semibold">
+        <p className="text-base md:text-lg md:italic mb-6 font-semibold animate-slidein200">
           Participants are invited to submit research papers within the
           conference themes according to the following conditions:
         </p>
-        <table className="w-full shadow-lg border border-gray-300 text-sm md:text-base">
+        <table className="w-full shadow-lg border border-gray-300 text-base md:text-lg animate-slidein300">
           <tbody>
             <tr className="bg-white border-b border-gray-300">
               <td className="p-4 border-r border-gray-300">
@@ -103,15 +103,15 @@ const AuthorGuideline = () => {
           </tbody>
         </table>
 
-        <div className="flex justify-center md:justify-end mt-6 w-full">
+        <div className="flex justify-center md:justify-end mt-6 w-full animate-slidein400">
           <Link
             to="/dates"
-            className="flex items-center px-4 py-2 bg-gradient-to-l from-uni-green2 to-uni-green2-light text-white rounded shadow hover:from-uni-green2 hover:to-uni-green transition-colors"
+            className="flex items-center px-3 py-2 md:px-5 md:py-3 bg-gradient-to-l from-uni-green2 to-uni-green2-light text-white rounded shadow hover:from-uni-green2 hover:to-uni-green transition-colors"
           >
-            <span className="mr-2 md:mr-4 text-xs md:text-base">
+            <span className="mr-2 md:mr-4 text-sm md:text-lg">
               Important Dates
             </span>
-            <ArrowRight className="w-4 h-4 md:w-6 md:h-6" />
+            <ArrowRight className="w-5 h-5 md:w-6 md:h-6" />
           </Link>
         </div>
       </div>

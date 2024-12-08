@@ -28,7 +28,7 @@ export const navLinks = [
     subLinks: [
       { title: "Author Guidelines", ref: "/guidelines" },
       { title: "Important Dates", ref: "/dates" },
-      { title: "Registration", ref: "/registration" },
+      { title: "Paper Submission", ref: "/registration" },
     ],
   },
   {

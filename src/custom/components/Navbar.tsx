@@ -74,7 +74,7 @@ const Navbar = () => {
             variant="ghost"
             className="font-semibold text-uni-green border-2 border-uni-green2-light hover:bg-uni-green2 hover:text-white px-6"
           >
-            Register
+            <Link to="/registration">Register</Link>
           </Button>
         </div>
 

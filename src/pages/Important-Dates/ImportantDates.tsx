@@ -1,9 +1,13 @@
-import { Button } from "@/components/ui/button";
+import { useEffect } from 'react';
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Bodytexture } from '@/assets'; // Adjust the import path as needed
 
 const ImportantDates = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="relative pt-10 p-10 bg-gradient-to-br from-gray-50 via-white to-gray-50 text-gray-800 flex flex-col justify-center items-center">
       {/* Background Effect */}
@@ -15,10 +19,10 @@ const ImportantDates = () => {
 
       {/* Page Content */}
       <div className="flex flex-col items-center relative z-10 w-full max-w-[950px]">
-        <h1 className="text-2xl md:text-3xl font-bold mb-6 bg-gradient-to-r from-uni-green2 to bg-uni-green2-light bg-clip-text text-transparent border-b-2 border-dashed pb-2">
+        <h1 className="text-3xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-uni-green2 to bg-uni-green2-light bg-clip-text text-transparent border-b-2 border-dashed pb-2 animate-slidein100">
           Important Dates:
         </h1>
-        <table className="w-full shadow-lg border border-gray-300 text-sm md:text-base mb-6">
+        <table className="w-full shadow-lg border border-gray-300 text-base md:text-lg mb-6 animate-slidein200">
           <tbody>
             <tr className="bg-white border-b border-gray-300">
               <td className="p-4 border-r border-gray-300 text-left">
@@ -46,14 +50,14 @@ const ImportantDates = () => {
             </tr>
           </tbody>
         </table>
-        <p className="text-sm md:text-base md:italic mb-6 text-left w-full">
+        <p className="text-base md:text-lg md:italic mb-6 text-left w-full animate-slidein300">
           <span className="font-bold text-uni-green2">Note: </span> Research
           papers submitted after these deadlines will not be considered.
         </p>
-        <h2 className="text-2xl md:text-3xl font-bold mb-6 bg-gradient-to-r from-uni-green2 to bg-uni-green2-light bg-clip-text text-transparent border-b-2 border-dashed pb-2">
+        <h2 className="text-3xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-uni-green2 to bg-uni-green2-light bg-clip-text text-transparent border-b-2 border-dashed pb-2 animate-slidein400">
           Publication Opportunities:
         </h2>
-        <ul className="list-none text-left space-y-4 text-sm md:text-base">
+        <ul className="list-none text-left space-y-4 text-base md:text-lg animate-slidein500">
           <li>
             • All accepted full papers will be published in the conference
             proceedings with an ISBN.
@@ -66,14 +70,14 @@ const ImportantDates = () => {
             and Financial Research.
           </li>
         </ul>
-        <div className="flex justify-between mt-20 w-full">
-          <Link to="/guidelines" className="flex items-center px-2 py-2 md:px-4 md:py-2 bg-gradient-to-l from-uni-green2 to-uni-green2-light text-white rounded shadow hover:from-uni-green2 hover:to-uni-green transition-colors">
-            <ArrowLeft className="w-4 h-4 md:w-6 md:h-6" />
-            <span className="ml-2 md:ml-4 text-xs md:text-base">Author Guidelines</span>
+        <div className="flex justify-between mt-20 w-full animate-slidein600">
+          <Link to="/guidelines" className="flex items-center px-3 py-2 md:px-5 md:py-3 bg-gradient-to-l from-uni-green2 to-uni-green2-light text-white rounded shadow hover:from-uni-green2 hover:to-uni-green transition-colors">
+            <ArrowLeft className="w-5 h-5 md:w-6 md:h-6" />
+            <span className="ml-2 md:ml-4 text-sm md:text-lg">Author Guidelines</span>
           </Link>
-          <Link to="/registration" className="flex items-center px-2 py-1 md:px-4 md:py-2 bg-gradient-to-l from-uni-green2 to-uni-green2-light text-white rounded shadow hover:from-uni-green2 hover:to-uni-green transition-colors">
-            <span className="mr-2 md:mr-4 text-xs md:text-base">Register</span>
-            <ArrowRight className="w-4 h-4 md:w-6 md:h-6" />
+          <Link to="/registration" className="flex items-center px-3 py-2 md:px-5 md:py-3 bg-gradient-to-l from-uni-green2 to-uni-green2-light text-white rounded shadow hover:from-uni-green2 hover:to-uni-green transition-colors">
+            <span className="mr-2 md:mr-4 text-sm md:text-lg">Register</span>
+            <ArrowRight className="w-5 h-5 md:w-6 md:h-6" />
           </Link>
         </div>
       </div>
