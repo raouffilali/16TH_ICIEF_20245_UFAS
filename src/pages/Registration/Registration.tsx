@@ -45,8 +45,8 @@ const Registration = () => {
           href="https://events.univ-setif.dz/register/"
           className="block text-center px-12 py-2 md:px-32 md:py-4 bg-white text-uni-green rounded border-dashed border-2 border-uni-green2 mb-6 animate-slidein600 hover:bg-gradient-to-l from-uni-green2 to-uni-green2-light hover:text-white hover:border-white hover:shadow-xl"
         >
-          <span className="md:hidden">Submit your Paper</span>
-          <span className="hidden md:inline">events.univ-setif.dz/register/</span>
+          <span>Submit your Paper</span>
+
         </a>
       </div>
     </div>
