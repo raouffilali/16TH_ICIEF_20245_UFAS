@@ -5,8 +5,7 @@ import {
   SheetContent,
   SheetHeader,
   SheetTitle,
-  SheetTrigger,
-} from "@/components/ui/sheet";
+  SheetTrigger, } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
 import { Menu, ChevronDown } from "lucide-react";
 import Logo from "./Logo";
@@ -16,9 +15,10 @@ import { navLinks } from "@/constants/navLinks";
 import "./component.css";
 import CustomDropdown from "./CustomDropdown"; // Import the new CustomDropdown component
 
+
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-
+  
   return (
     <nav className="fixed top-0 left-0 w-full z-50 bg-white shadow-md rounded-b-sm">
       <div className="container mx-auto flex justify-between items-center px-4 py-2">

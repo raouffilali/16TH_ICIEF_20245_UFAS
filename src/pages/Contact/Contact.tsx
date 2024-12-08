@@ -17,9 +17,9 @@ const Contact = () => {
       >
         <div className="relative flex flex-col rounded-lg shadow-xl bg-white p-4 md:justify-between w-full max-w-[900px] gap-6 ring-1 ring-uni-green2-light">
           {/* Headline */}
-          
+
           <div className="text-center ">
-            <h2 className="text-2xl md:text-3xl font-bold bg-gradient-to-b from-uni-green2 to bg-uni-green2-light bg-clip-text text-transparent">
+            <h2 className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-uni-green2 to bg-uni-green2-light bg-clip-text text-transparent">
               For any inquiries, please contact the conference secretariat via:
             </h2>
           </div>
@@ -51,6 +51,7 @@ const Contact = () => {
                     type="text"
                     id="name"
                     name="name"
+                    placeholder="Enter Your First Name"
                   />
                 </div>
                 {/* Last Name Input */}
@@ -66,6 +67,7 @@ const Contact = () => {
                     type="text"
                     id="lastName"
                     name="lastName"
+                    placeholder="Enter Your Last Name"
                   />
                 </div>
               </div>
@@ -82,6 +84,7 @@ const Contact = () => {
                   type="email"
                   id="email"
                   name="email"
+                  placeholder="Enter Your Email"
                 />
               </div>
               {/* Message Input */}
@@ -97,6 +100,7 @@ const Contact = () => {
                   id="message"
                   name="message"
                   rows={5}
+                  placeholder="Enter Your Message"
                 ></textarea>
               </div>
               {/* Submit Button */}

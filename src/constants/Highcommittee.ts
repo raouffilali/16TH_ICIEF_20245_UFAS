@@ -7,6 +7,7 @@ export type highcommittee = {
   image?: string; // Optional field for the image URL
 };
 
+
 export const highcommittees: highcommittee[] = [
   {
     id: 1,
@@ -18,7 +19,7 @@ export const highcommittees: highcommittee[] = [
     id: 2,
     name: "Prof Dr. Mohd Azmi Omar",
     description:
-      "President & Chief Executive Officer INCEIF University, Malaysia & President of International Association for Islamic Economics",
+      "President & Chief Executive Officer INCEIF University, Malaysia & President of International Association for Islamic Economics ",
     image: MalRec,
   },
   {

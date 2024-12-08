@@ -10,4 +10,5 @@ import ConfImg from "./conferenceimage.png"
 import Recteur from "./recteur.png";
 import MalRec from "./MalaysiaRec.png"
 import Dean from"./Dean.png"
-export { Logo1, Texture, IslamicTex, ConferenceImg, Bodytexture, HIC, IAFIE, Logo2, ConfImg, Recteur, MalRec, Dean}
+import Conf from "./conference.jpg"
+export { Logo1, Texture, IslamicTex, ConferenceImg, Bodytexture, HIC, IAFIE, Logo2, ConfImg, Recteur, MalRec, Dean, Conf}
