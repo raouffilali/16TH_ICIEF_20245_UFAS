@@ -1,14 +1,13 @@
 import { useRef } from "react";
 import "./contact.css";
 import AnimatedBanner from "@/custom/components/AnimatedBanner";
-import { Bodytexture } from "@/assets";
 
 const Contact = () => {
   const contactRef = useRef<HTMLDivElement>(null);
 
   return (
     <>
-      <AnimatedBanner buttonName={"Learn More"} />
+      <AnimatedBanner buttonName={"Contact Us"} buttonRef={contactRef} />
 
       {/* Contact Form Section */}
       <div

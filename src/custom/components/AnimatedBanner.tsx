@@ -6,9 +6,14 @@ import { RefObject } from "react";
 interface AnimatedBannerProps {
   buttonRef?: RefObject<HTMLDivElement>;
   buttonName: string;
+  bannerText?:string;
 }
 
-const AnimatedBanner = ({ buttonRef, buttonName }: AnimatedBannerProps) => {
+const AnimatedBanner = ({
+  buttonRef,
+  buttonName,
+  bannerText = "International Conference on Islamic Economics and Finance - UFAS",
+}: AnimatedBannerProps) => {
   const handleClick = () => {
     if (buttonRef && buttonRef.current) {
       window.scrollBy({ top: 350, behavior: "smooth" });
@@ -41,7 +46,7 @@ const AnimatedBanner = ({ buttonRef, buttonName }: AnimatedBannerProps) => {
         {/* Banner Content */}
         <div className="absolute inset-0 flex flex-col justify-center items-center text-white text-center px-4 animate-slidein300">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 drop-shadow-lg textpre ">
-            International Conference on Islamic Economics and Finance - UFAS
+            {bannerText}
           </h1>
           <p className="text-xl md:text-2xl mb-6 max-w-2xl drop-shadow-md ">
             ICIEF 16TH Edition, 2025

@@ -5,7 +5,8 @@ import {
   SheetContent,
   SheetHeader,
   SheetTitle,
-  SheetTrigger, } from "@/components/ui/sheet";
+  SheetTrigger,
+} from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
 import { Menu, ChevronDown } from "lucide-react";
 import Logo from "./Logo";
@@ -15,11 +16,13 @@ import { navLinks } from "@/constants/navLinks";
 import "./component.css";
 import CustomDropdown from "./CustomDropdown"; // Import the new CustomDropdown component
 
-
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const handleLinkClick = () => {
+    setTimeout(() => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }, 100); // 500ms delay
     setIsMobileMenuOpen(false);
   };
 
@@ -42,6 +45,7 @@ const Navbar = () => {
                       <Link
                         to={subLink.ref}
                         className="block px-4 py-2 border-transparent border-l-2 hover:border-uni-green2-light transition-colors relative group hover:text-uni-green"
+                        onClick={handleLinkClick}
                       >
                         {subLink.title}
                         <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-uni-green2-light transition-all duration-300 group-hover:w-full"></span>
@@ -56,6 +60,7 @@ const Navbar = () => {
                 <Link
                   to={link.ref}
                   className="font-medium hover:text-uni-green2 transition-colors relative group"
+                  onClick={handleLinkClick}
                 >
                   {link.title}
                   <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-uni-green2 transition-all duration-300 group-hover:w-full"></span>

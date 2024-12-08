@@ -2,23 +2,23 @@
 export const venueInfo = [
   {
     title: "EVENT VENUE:",
-    content: "Galleria mall conference",
+    content: "Faculty of Economics, Commerce, and Management Sciences",
   },
   {
     title: "ADDRESS:",
-    content: "19 By Pass NR, Bali, Indonesia, BC 22196",
+    content: "University Ferhat Abbas, El Baz Campus, Setif, 19137, Algeria",
   },
   {
     title: "RECEPTION INFO:",
-    content: "Booking: (+62) 1919-2020",
+    content: "Call:  (+213)36 6202 23/24",
   },
   {
     title: "Email:",
-    content: "eventen@mail.com",
+    content: "ufas-webmaster@univ-setif.dz",
   },
   {
     title: "",
-    content: "Get Directions",
+    content: "Get Directions: ",
     isBold: true,
   },
 ];
