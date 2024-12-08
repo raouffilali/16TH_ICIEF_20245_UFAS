@@ -41,7 +41,7 @@ function App() {
       {showButton && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-4 right-4 p-2 z-50 bg-uni-yellow text-white rounded-full shadow-lg hover:bg-[#709c1f] transition-colors"
+          className="fixed bottom-4 right-4 p-2 z-50 bg-[#709c1f] text-white rounded-full shadow-lg hover:bg-uni-yellow transition-colors"
           aria-label="Scroll to top"
         >
           <ChevronUp />
