@@ -1,5 +1,4 @@
 import { Bodytexture } from "@/assets";
-import React from "react";
 
 const themes = [
   {
