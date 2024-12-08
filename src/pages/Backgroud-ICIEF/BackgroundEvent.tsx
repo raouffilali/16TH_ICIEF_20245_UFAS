@@ -37,7 +37,7 @@ const BackgroundEvent = () => {
                 key={index}
                 className={
                   event.edition === "16th"
-                    ? "bg-gradient-to-bl from-[#0f5a08] via-[#709c1f] to-[#0f5a08] text-white border-2 border-dashed border-uni-yellow"
+                    ? "bg-gradient-to-bl from-[#0f5a08] via-[#709c1f] to-[#0f5a08] text-white border-2 border-dashed border-black shadow-xl"
                     : index % 2 === 0
                     ? "bg-white border-b border-gray-300"
                     : "bg-uni-green2-light text-white border-b border-gray-300"
