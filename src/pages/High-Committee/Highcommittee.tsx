@@ -3,7 +3,7 @@ import { highcommittees } from "../../constants/Highcommittee";
 
 const Hicommittee = () => {
   return (
-    <div className="relative pt-10 p-10 bg-gradient-to-br from-gray-50 via-white to-gray-50 text-gray-800 flex flex-col justify-center items-center">
+    <div className="relative pt-10  bg-gradient-to-br from-gray-50 via-white to-gray-50 text-gray-800 flex flex-col justify-center items-center">
       {/* Background Effect */}
       <img
         className="absolute inset-0 w-full h-full object-cover opacity-25 blur-[0.5px] z-0"
@@ -16,7 +16,7 @@ const Hicommittee = () => {
         {/* Page Title */}
         <h1
           className="p-1 text-center items-center bg-gradient-to-r from-uni-green2 via-uni-green2-light to-uni-green2 text-transparent 
-          bg-clip-text text-4xl font-bold mb-5 animate-slidein100 transition-all ease-in-out duration-300 transform hover:scale-105 "
+          bg-clip-text text-4xl font-bold mb-5 animate-slidein100  "
         >
           High Committee
         </h1>
@@ -89,7 +89,7 @@ const Hicommittee = () => {
           </div>
         </div>
       </div>
-      <div className="w-screen relative mt-[50px] h-full py-10 overflow-hidden animate-slidein300">
+      <div className="w-full relative my-[50px] h-full py-10 overflow-hidden animate-slidein300">
         {/* Background Image */}
         <div
           className="absolute inset-0 w-full h-full bg-cover bg-center bg-fixed"
