@@ -12,7 +12,9 @@ import MalRec from "./MalaysiaRec.png";
 import Dean from "./Dean.png";
 import Conf from "./conference.jpg";
 import ufas_banner from "./UFAS-banner.jpeg";
-
+import Confrimg1 from "./fonerenceIMG1.jpg";
+import Confrimg2 from "./fonerenceIMG2.jpg";
+import Confrimg3 from "./fonerenceIMG3.jpg";
 export {
   ufas_banner,
   Logo1,
@@ -28,4 +30,7 @@ export {
   MalRec,
   Dean,
   Conf,
+  Confrimg1,
+  Confrimg2,
+  Confrimg3,
 };
