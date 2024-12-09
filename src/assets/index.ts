@@ -12,6 +12,7 @@ import MalRec from "./MalaysiaRec.png";
 import Dean from "./Dean.png";
 import Conf from "./conference.jpg";
 import ufas_banner from "./UFAS-banner.jpeg";
+import sponsors from "./sponsors.png";
 
 export {
   ufas_banner,
@@ -28,4 +29,5 @@ export {
   MalRec,
   Dean,
   Conf,
+  sponsors,
 };
