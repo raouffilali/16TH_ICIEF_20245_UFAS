@@ -21,7 +21,7 @@ const AnimatedBanner = ({ buttonRef, buttonName }: AnimatedBannerProps) => {
       <div className="absolute inset-0 bg-gradient-to-l from-[#122e10] via-[#293d04] to-[#174413] animate-gradient-x">
         {/* Wavy Bottom Effect */}
         <img
-          className=" inset-0 w-full h-full object-cover md:object-fill opacity-45 blur-[6px]"
+          className=" inset-0 w-full h-full object-cover md:object-fill opacity-45 blur-[4px] md:blur-[6px]"
           src={ufas_banner}
           alt="Texture"
         />
