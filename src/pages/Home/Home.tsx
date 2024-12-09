@@ -12,7 +12,7 @@ const Home = () => {
 
       <div className="container mx-auto w-full h-full flex flex-col py-4 md:px-16 ">
       {/* 1- Event Overview */}  
-      
+      <EventOverview/>
       {/* 2- Sponsor Partners */}
       <SponsorPrtners/>
 
