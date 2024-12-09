@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import "./component.css";
-import { ConfImg } from "@/assets";
+import { ConfImg, ufas_banner } from "@/assets";
 import { RefObject } from "react";
 
 interface AnimatedBannerProps {
@@ -21,8 +21,8 @@ const AnimatedBanner = ({ buttonRef, buttonName }: AnimatedBannerProps) => {
       <div className="absolute inset-0 bg-gradient-to-l from-[#122e10] via-[#293d04] to-[#174413] animate-gradient-x">
         {/* Wavy Bottom Effect */}
         <img
-          className=" inset-0 w-full h-full object-cover opacity-25 blur-[0.5px]"
-          src={ConfImg}
+          className=" inset-0 w-full h-full object-cover md:object-fill opacity-45 blur-[6px]"
+          src={ufas_banner}
           alt="Texture"
         />
         <svg
