@@ -15,6 +15,8 @@ import ufas_banner from "./UFAS-banner.jpeg";
 import Confrimg1 from "./fonerenceIMG1.jpg";
 import Confrimg2 from "./fonerenceIMG2.jpg";
 import Confrimg3 from "./fonerenceIMG3.jpg";
+import sponsors from "./sponsors.png";
+
 export {
   ufas_banner,
   Logo1,
@@ -33,4 +35,5 @@ export {
   Confrimg1,
   Confrimg2,
   Confrimg3,
+  sponsors,
 };
