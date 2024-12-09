@@ -1,10 +1,15 @@
 import { Link } from "react-router";
 import Social from "@/components/ui/Social";
 import { Bodytexture, Logo1 } from "@/assets";
-
+import { HomeIcon, ContactIcon, MapPin  } from 'lucide-react';
+const menuItems = [
+  { title: "Home", path: "/", icon:<HomeIcon/>  },
+  { title: "Contact", path: "/Contact",icon:<ContactIcon/> },
+  { title: "Venue", path: "/Venue", icon: <MapPin/> },
+];
 const Footer = () => {
   return (
-    <footer className="p-3 m-auto  relative bg-gradient-to-l from-[#0f5a08] via-[#709c1f] to-[#0f5a08] text-white ">
+    <footer className="p-3 m-auto relative bg-gradient-to-l from-[#0f5a08] via-[#709c1f] to-[#0f5a08] text-white ">
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
@@ -32,18 +37,14 @@ const Footer = () => {
         <div>
           <h3 className="font-semibold text-lg mb-4">Quick Links</h3>
           <ul className="space-y-2">
-            {["Home", "About", "Programme", "Submission", "Contact Us"].map(
-              (title, idx) => (
-                <li key={idx}>
-                  <Link
-                    to={`/${title.toLowerCase().replace(/ /g, "-")}`}
-                    className="hover:underline"
-                  >
-                    {title}
-                  </Link>
-                </li>
-              )
-            )}
+            {menuItems.map((item, idx) => (
+              <li key={idx} className="flex flex-row p-1 gap-2">
+                {item.icon}
+                <Link to={item.path} className="hover:underline">
+                  {item.title}
+                </Link>
+              </li>
+            ))}
           </ul>
         </div>
 
@@ -51,7 +52,6 @@ const Footer = () => {
         <div>
           <h3 className="font-semibold text-lg mb-4">Follow Us</h3>
           <Social />
-          
         </div>
       </div>
 

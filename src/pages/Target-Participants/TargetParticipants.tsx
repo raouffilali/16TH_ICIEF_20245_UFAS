@@ -56,7 +56,7 @@ const TargetParticipants = () => {
               <div className="text-6xl text-uni-green2">{participant.icon}</div>
 
               {/* Title */}
-              <h2 className="text-xl md:text-2xl shadow-sm text-center font-bold text-uni-green">
+              <h2 className="text-xl md:text-2xl  text-center font-bold text-uni-green">
                 {participant.title}
               </h2>
 
