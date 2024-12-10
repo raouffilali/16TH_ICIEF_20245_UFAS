@@ -3,7 +3,7 @@ import { MapPin, Calendar } from "lucide-react";
 
 const EventOverview = () => {
   return (
-    <div className="flex gap-6 md:gap-8 w-full h-full flex-col md:flex-row rounded-lg items-center justify-center md:mb-16 mb-8">
+    <div className="flex gap-6 md:gap-8 w-full h-full flex-col md:flex-row rounded-lg justify-center items-center md:mb-16 mb-8">
       <div className="flex flex-col my-4 w-full md:w-1/2 h-auto md:h-full md:order-1 z-10">
         <div className="flex flex-col items-center md:items-start   ">
           <p className="text-lg text-uni-green2 my-1 md:text-xl">
@@ -56,7 +56,7 @@ const EventOverview = () => {
         </div>
       </div>
       {/* image section */}
-      <div className="hidden md:flex md:flex-row gap-3 w-1/2 md:order-2 -z-10">
+      <div className="hidden  md:flex md:flex-row gap-3 w-1/2 md:order-2 -z-10 ">
         <div className="flex flex-col items-center gap-3 justify-end md:items-end">
           <img
             src={Confrimg1}
