@@ -1,5 +1,5 @@
 import { submissionBannerImage } from "@/assets";
-import "./components.css"
+
 const SubmissionBanner = () => {
   return (
     <div className="relative text-white text-center py-20 px-6 w-full overflow-hidden mb-12">
