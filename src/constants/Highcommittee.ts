@@ -1,4 +1,4 @@
-import { Dean, HIC, IAFIE, Logo2, MalRec, Recteur } from "@/assets";
+import { Dean, MalRec, Recteur } from "@/assets";
 
 export type highcommittee = {
   id: number;

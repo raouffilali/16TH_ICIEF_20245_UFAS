@@ -36,9 +36,9 @@ const Home = () => {
       <div className="container mx-auto w-full h-full flex flex-col py-4 md:px-16 ">
         <Lp_venue />
       </div>
-      <div>
-        <FAQandFORMbanner/>
-      </div>
+      
+      <FAQandFORMbanner/>
+     
     </>
   );
 };

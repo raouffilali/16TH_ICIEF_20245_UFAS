@@ -3,10 +3,10 @@ import { Instagram ,Facebook, LinkedinIcon, YoutubeIcon} from 'lucide-react';
 
 // Social media links array
 const socials = [
-  { icon: <Facebook />, path: 'https://github.com/jacoubtech' },
-  { icon: <Instagram />, path: 'https://github.com/jacoubtech' },
-  { icon: <LinkedinIcon />, path: 'https://github.com/jacoubtech' },
-  { icon: <YoutubeIcon />, path: 'https://github.com/jacoubtech' },
+  { icon: <Facebook />, path: 'https://www.facebook.com/search/top?q=universit%C3%A9%20ferhat%20abbas%20s%C3%A9tif1' },
+  { icon: <Instagram />, path: 'https://www.instagram.com/universite_ferhat_abbas_setif/' },
+  { icon: <LinkedinIcon />, path: 'https://www.linkedin.com/school/universite-ferhat-abbas-setif/posts/?feedView=all' },
+  { icon: <YoutubeIcon />, path: 'https://www.youtube.com/@-ferhatabbasuniversitysetif1dz' },
 
  ];
 

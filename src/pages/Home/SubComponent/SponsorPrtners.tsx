@@ -6,10 +6,10 @@ const SponsorPrtners = () => {
       {/* Sponsor Section */}
       <div className="flex flex-col">
         <h1 className=" text-lg mt-9 py-2 text-center text-uni-green2 md:text-xl">
-          OUR PARTNER
+          OUR PARTNERS
         </h1>
         <h2 className="text-center  font-semibold text-2xl md:text-5xl md:font-bold">
-          SPONSOR AND{" "}
+          SPONSORS AND{" "}
           <span className="bg-gradient-to-r from-uni-green2 to bg-uni-green2-light bg-clip-text text-transparent">
             PARTNERS
           </span>

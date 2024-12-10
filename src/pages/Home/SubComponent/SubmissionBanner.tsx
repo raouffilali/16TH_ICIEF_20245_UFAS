@@ -2,7 +2,6 @@ import { submissionBannerImage, ICIEF_ar, ICIEF_en, pdf_svg } from "@/assets";
 import { Link } from "react-router";
 import {
   AlertDialog,
-  AlertDialogAction,
   AlertDialogCancel,
   AlertDialogContent,
   AlertDialogDescription,
@@ -31,7 +30,7 @@ const SubmissionBanner = () => {
           Let's do it hurry
         </p>
         <h1 className="text-4xl font-extrabold mt-2">
-          Haven't Submitted Your Paper Yet?
+          Haven't You Submitted Your Paper Yet?
         </h1>
         <h2 className="text-2xl font-bold text-uni-yellow mt-3">
           Register Now{" "}
