@@ -6,12 +6,13 @@ import ImportantDatesHighCommittee from "./SubComponent/ImportantDatesHighCommit
 import "./Home.css";
 import CountdownTimer from "./SubComponent/Discounter";
 import SubmissionBanner from "./SubComponent/SubmissionBanner";
+import Lp_venue from "./SubComponent/Lp_venue";
 
 const Home = () => {
   const targetDate = "2024-12-31T23:59:59";
   return (
     <>
-      <AnimatedBanForHome buttonName={"Learn More"}/>
+      <AnimatedBanForHome buttonName={"Learn More"} />
       {/* Event Timer  */}
       <div className=" ml-36 md:ml-40 -mt-32 md:-mt-40 z-20  h-full w-1/4 flex flex-col justify-center items-center ">
         <CountdownTimer targetDate={targetDate} />
@@ -30,6 +31,10 @@ const Home = () => {
         <LpSpeaker />
       </div>
       <SubmissionBanner />
+
+      <div className="container mx-auto w-full h-full flex flex-col py-4 md:px-16 ">
+        <Lp_venue />
+      </div>
     </>
   );
 };
