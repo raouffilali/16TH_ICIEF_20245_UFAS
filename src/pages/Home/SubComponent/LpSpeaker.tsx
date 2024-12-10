@@ -1,8 +1,9 @@
 import { Button } from "@/components/ui/button";
-
+import {speakers} from "../../../constants/speakers"
+import { Facebook, Linkedin, Instagram } from "lucide-react";
 const LpSpeaker = () => {
   return (
-    <div className="flex flex-col w-full mb-2 ">
+    <div className="flex flex-col w-full md:mb-24 ">
       {/* Speaker Text Section */}
       <div className="flex flex-col md:flex-row justify-start items-center md:justify-between">
         {/* infot text */}
@@ -22,13 +23,61 @@ const LpSpeaker = () => {
           </p>
         </div>
         {/* Button */}
-        <Button className="w-1/2 md:w-1/5 mt-8 md:mt-6 bg-gradient-to-l from-uni-green2 to-uni-green2-light">
-          Meet our Speakers
+        <Button className="w-1/2 md:w-1/5 mt-4 md:mt-6 bg-gradient-to-l from-uni-green2 to-uni-green2-light">
+          See more Speakers
         </Button>
       </div>
 
       {/* Speaker image slider Section */}
-      <div className=""></div>
+      <div className="mt-8">
+        <div className="grid grid-cols-2 gap-2 md:grid-cols-4 md:gap-4">
+          {speakers.map((speaker) => (
+            <div
+              key={speaker.id}
+              className="relative group overflow-hidden rounded-lg shadow-lg"
+            >
+              {/* Speaker Image */}
+              <img
+                src={speaker.image}
+                alt={speaker.name}
+                className="w-full h-64 lg:h-[400px] object-cover"
+              />
+
+              {/* Hover Overlay */}
+              <div className="absolute inset-0 bg-black bg-opacity-75 text-white flex flex-col items-center justify-center transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+                <h3 className="text-lg font-bold md:text-2xl">{speaker.name}</h3>
+                <p className="text-sm mb-3">{speaker.role}</p>
+                <div className="flex gap-3">
+                  <a
+                    href={speaker.social.facebook}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-green-500"
+                  >
+                    <Facebook name="facebook" className="w-5 h-5" />
+                  </a>
+                  <a
+                    href={speaker.social.twitter}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-green-500"
+                  >
+                    <Linkedin name="twitter" className="w-5 h-5" />
+                  </a>
+                  <a
+                    href={speaker.social.pinterest}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-green-500"
+                  >
+                    <Instagram name="pinterest" className="w-5 h-5" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
     </div>
   );
 };
