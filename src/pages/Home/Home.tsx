@@ -16,7 +16,7 @@ const Home = () => {
       <div className=" ml-36 md:ml-40 -mt-32 md:-mt-40 z-20  h-full w-1/4 flex flex-col justify-center items-center ">
         <CountdownTimer targetDate={targetDate} />
       </div>
-      <div className="container mx-auto w-full h-full flex-col py-4 md:px-16 ">
+      <div className="container mx-auto w-full h-full flex-col py-4 md:px-16 md:py-14 ">
         {/* 1- Event Overview */}
         <EventOverview />
         {/* 2- Sponsor Partners */}
