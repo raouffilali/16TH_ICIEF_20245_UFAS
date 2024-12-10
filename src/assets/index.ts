@@ -16,6 +16,7 @@ import Confrimg1 from "./fonerenceIMG1.jpg";
 import Confrimg2 from "./fonerenceIMG2.jpg";
 import Confrimg3 from "./fonerenceIMG3.jpg";
 import sponsors from "./sponsors.png";
+import submissionBannerImage from "./submissionBanner.jpg"
 
 export {
   ufas_banner,
@@ -36,4 +37,5 @@ export {
   Confrimg2,
   Confrimg3,
   sponsors,
+  submissionBannerImage,
 };
