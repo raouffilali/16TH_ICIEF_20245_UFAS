@@ -20,7 +20,10 @@ const FAQandFORMbanner = () => {
         }}
       ></div>
       <div className="absolute inset-0 bg-gradient-to-l from-uni-green to-uni-green2 opacity-85"></div>
-            <div className="relative bg-white text-gray-800 md:w-1/2 shadow-[0_0_20px_0px_rgba(15,90,8,0.25)] h-full rounded-lg justify-center items-center md:items-start ">
+            <div className="relative flex flex-col gap-3 bg-transparent text-gray-800 md:w-1/2 shadow-[0_0_20px_0px_rgba(15,90,8,0.25)] h-full rounded-lg justify-center items-center md:items-start ">
+            <div>
+                <h1 className="text-2xl font-semibold md:text-4xl md:font-bold text-white">FREQUENT ASKED<span className="text-yellow-600"><br/> QUESTIONS!!</span></h1>
+            </div>
             <Accordion type="single" collapsible className="w-full h-full bg-white text-uni-green2 p-4 rounded-lg">
                     <AccordionItem value="item-1">
                         <AccordionTrigger>What is Islamic finance?</AccordionTrigger>
