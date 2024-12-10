@@ -4,14 +4,14 @@ import { MapPin, Calendar } from "lucide-react";
 const EventOverview = () => {
   return (
     
-    <div className="justify-center items-center flex flex-col gap-6 w-full h-full rounded-lg md:flex-row md:my-16">
+    <div className="justify-center items-center flex flex-col gap-6 w-full h-full rounded-lg md:flex-row md:-my-4">
       <div className="flex flex-col my-4 w-full md:w-1/2 h-auto md:h-full md:order-1 z-10">
         <div className="flex flex-col md:items-start">
-          <p className="text-lg text-uni-green2 my-1 md:text-xl">
+          <p className="text-lg text-center text-uni-green2 my-1 md:text-xl">
             Overview
           </p>
           <h1 className="text-2xl md:text-5xl font-semibold md:font-bold text-gray-800 py-1 text-center md:text-start">
-            GET THE LATEST INFO ABOUT <br />THE{" "}
+            GET THE LATEST INFO ABOUT THE{" "}
             <span
               className="bg-gradient-to-r from-uni-green via-uni-green2-light to-uni-green2 
             bg-clip-text text-transparent"

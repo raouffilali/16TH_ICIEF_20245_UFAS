@@ -2,7 +2,7 @@ import { sponsors } from "@/assets";
 import { Button } from "@/components/ui/button";
 const SponsorPrtners = () => {
   return (
-    <div className="flex flex-col border-t-2 border-dashed border-uni-green2-light w-full ">
+    <div className="flex flex-col border-t-2 border-dashed border-uni-green2-light w-full mt-14 ">
       {/* Sponsor Section */}
       <div className="flex flex-col">
         <h1 className=" text-lg mt-9 py-2 text-center text-uni-green2 md:text-xl">
