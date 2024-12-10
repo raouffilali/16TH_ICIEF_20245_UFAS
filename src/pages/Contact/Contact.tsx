@@ -18,14 +18,14 @@ const Contact = () => {
           {/* Headline */}
 
           <div className="text-center ">
-            <h2 className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-uni-green2 to bg-uni-green2-light bg-clip-text text-transparent">
+            <h2 className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-uni-green to bg-uni-green2-light bg-clip-text text-transparent">
               For any inquiries, please contact the conference secretariat via:
             </h2>
           </div>
 
           <div className="flex flex-col-reverse md:flex-row rounded-lg bg-white p-4 md:justify-between w-full gap-6">
             {/* Left Section (25%) */}
-            <div className="flex flex-col w-full md:w-1/4 h-auto mx-1 bg-gradient-to-bl gap-5 from-[#0f5a08] via-[#709c1f] to-[#0f5a08] text-white p-5 justify-center items-start rounded-lg shadow-lg">
+            <div className="flex flex-col w-full md:w-1/4 h-auto mx-1 bg-gradient-to-bl gap-5 from-uni-green via-uni-green2 to-uni-green text-white p-5 justify-center items-start rounded-lg shadow-lg">
               <h1 className="text-xl font-extrabold">Email</h1>
               <p>- icief25@univ-setif.dz </p>
               <p>- icief25@gmail.com </p>
@@ -34,7 +34,7 @@ const Contact = () => {
             </div>
 
             {/* Right Section (75%) */}
-            <form className="flex flex-col w-full md:w-3/4 mx-1 rounded-lg p-4 bg-white">
+            <form className="flex flex-col w-full md:w-3/4 mx-1 rounded-lg px-4 bg-white">
               {/* Name and Last Name Inputs */}
               <div className="flex flex-col md:flex-row gap-4">
                 {/* First Name Input */}
@@ -105,7 +105,7 @@ const Contact = () => {
               {/* Submit Button */}
               <button
                 type="submit"
-                className="p-3 bg-[#0f5a08] text-white rounded-lg hover:bg-[#709c1f] transition-colors"
+                className="p-3 bg-uni-green text-white rounded-lg hover:bg-uni-green2 transition-colors"
               >
                 Submit
               </button>

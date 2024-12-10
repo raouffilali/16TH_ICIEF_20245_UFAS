@@ -18,14 +18,14 @@ const Venue = () => {
         <div className="relative flex flex-col rounded-lg shadow-xl bg-white p-4 md:justify-between w-full max-w-[900px] gap-6 ring-1 ring-uni-green2-light">
           {/* Headline */}
           <div className="text-center">
-            <h2 className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-uni-green2 to bg-uni-green2-light bg-clip-text text-transparent">
+            <h2 className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-uni-green to bg-uni-green2 bg-clip-text text-transparent">
               Venue Information
             </h2>
           </div>
 
           <div className="flex flex-col md:flex-row rounded-lg bg-white p-4 md:justify-between w-full gap-6">
             {/* Left Section (25%) */}
-            <div className="flex flex-col w-full md:w-2/4 h-auto mx-1 bg-gradient-to-bl gap-5 from-[#0f5a08] via-[#709c1f] to-[#0f5a08] text-white p-5 justify-center items-start rounded-lg shadow-lg">
+            <div className="flex flex-col w-full md:w-2/4 h-auto mx-1 bg-gradient-to-bl gap-5 from-uni-green via-uni-green2 to-uni-green text-white p-5 justify-center items-start rounded-lg shadow-lg">
               {venueInfo.map((info, index) => (
                 <div key={index} className="mb-4">
                   {info.title && (

@@ -30,7 +30,7 @@ const Hicommittee = () => {
             {highcommittees.slice(0, 2).map((Highcommittee) => (
               <div
                 key={Highcommittee.id}
-                className="flex flex-col h-full items-center md:flex-row md:items-start bg-gradient-to-br from-uni-green2 via-uni-green2-light to-white
+                className="flex flex-col h-full items-center md:flex-row md:items-start bg-gradient-to-br from-uni-green via-uni-green2 to-white
                   p-4 rounded-lg shadow-2xl md:w-[calc(50%-16px)] mb-6 mt-6 md:mb-0 md:mt-0 transition-all ease-in-out duration-300 transform hover:scale-105 "
               >
                 {Highcommittee.image && (
@@ -64,7 +64,7 @@ const Hicommittee = () => {
             {highcommittees.slice(2).map((Highcommittee) => (
               <div
                 key={Highcommittee.id}
-                className="flex flex-col h-full items-center mx md:flex-row md:items-start bg-gradient-to-br from-uni-green2 via-uni-green2-light to-white bg-opacity-60
+                className="flex flex-col h-full items-center mx md:flex-row md:items-start bg-gradient-to-br from-uni-green via-uni-green2 to-white bg-opacity-60
                   p-4 rounded-lg shadow-2xl mb-6 mt-6 md:mb-0 md:mt-0 transition-all ease-in-out duration-300 transform hover:scale-105"
               >
                 {Highcommittee.image && (
@@ -97,7 +97,7 @@ const Hicommittee = () => {
         ></div>
 
         {/* Gradient Overlay */}
-        <div className="w-full absolute inset-0 bg-gradient-to-r from-uni-green2 to-uni-green2-light opacity-90"></div>
+        <div className="w-full absolute inset-0 bg-gradient-to-r from-uni-green to-uni-green2 opacity-90"></div>
 
         {/* Content Over Gradient */}
 
@@ -105,9 +105,7 @@ const Hicommittee = () => {
           <h2 className="text-4xl text-center font-bold mb-4 mt-5 animate-slidleft800">
             Steering Committee Of The Conference
           </h2>
-          <p className="text-lg text-center max-w-3xl animate-slideright800">
-            steering comitte description
-          </p>
+
 
           {/* Blurred Transparent Card with Steering Committee */}
           <div className="mt-8 max-w-[950px] w-full bg-white backdrop-blur-lg border border-white shadow-xl p-6 rounded-lg animate-slidleft800 ">
@@ -142,9 +140,6 @@ const Hicommittee = () => {
           <h2 className="text-center text-4xl font-bold mb-4 mt-5 animate-slideright800">
             Scientific Committee:
           </h2>
-          <p className="text-lg text-center max-w-3xl animate-slidleft800">
-            Scientific Committee: description
-          </p>
 
           {/* Another Blurred Transparent Card with Steering Committee */}
           <div className="mt-8 max-w-[950px] w-full bg-white backdrop-blur-lg border border-white shadow-xl p-6 rounded-lg animate-slidleft800">
@@ -192,9 +187,6 @@ const Hicommittee = () => {
           <h2 className="text-center text-4xl font-bold mb-4 mt-5 animate-slidleft800">
             Organizing Committee:
           </h2>
-          <p className="text-lg text-center max-w-3xl animate-slideright800">
-            Organizing Committee: description
-          </p>
 
           {/* Another Blurred Transparent Card with Steering Committee */}
           <div className="mt-8 max-w-[950px] w-full bg-white backdrop-blur-lg border border-white shadow-xl p-6 rounded-lg animate-slidleft800">

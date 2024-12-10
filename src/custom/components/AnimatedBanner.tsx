@@ -23,7 +23,7 @@ const AnimatedBanner = ({
   return (
     <div className="relative w-full h-[521px] overflow-hidden">
       {/* Animated Gradient Background */}
-      <div className="absolute inset-0 bg-gradient-to-l from-[#0f5a08] via-[#709c1f] to-[#0f5a08] animate-gradient-x">
+      <div className="absolute inset-0 bg-gradient-to-l from-uni-green  to-uni-green2 animate-gradient-x">
         {/* Wavy Bottom Effect */}
         <img
           className=" inset-0 w-full h-full object-cover opacity-25 blur-[0.5px]"

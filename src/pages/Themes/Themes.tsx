@@ -36,7 +36,7 @@ const themes = [
         subheading: "Legislative Development:",
         details: [
           "Laws governing the Islamic finance industry in different countries.",
-          "Role of supporting international institutions such as AAOIFI and IFSB.",
+          "Role of supporting international institutions, such as the Accounting and Auditing Organization for Islamic Financial Institutions (AAOIFI) and the Islamic Financial Services Board (IFSB), in the development and standardization of the Islamic finance industry.",
         ],
       },
       {
@@ -44,14 +44,14 @@ const themes = [
         details: [
           "Importance of Sharia boards in ensuring compliance.",
           "Challenges in standardizing Sharia rulings across schools of thought.",
-          "Relationship between Sharia principles and conventional financial systems.",
+          "-	The relationship between Sharia principles and conventional financial regulatory systems.",
         ],
       },
       {
         subheading: "Role of Central Banks:",
         details: [
           "Strategies for supporting and regulating the Islamic finance industry.",
-          "Challenges in balancing flexibility and control.",
+          "-	Challenges faced by central banks in achieving balance between flexibility and control.",
         ],
       },
     ],
@@ -72,6 +72,13 @@ const themes = [
           "Islamic Sukuk as a global investment instrument.",
           "Islamic microfinance and its role in enhancing financial inclusion.",
           "Impact of financial technology (FINTECH) on product development.",
+        ],
+      },
+      {
+        subheading: "Challenges and Opportunities:",
+        details: [
+          "Competition with conventional financial products.",
+          "Responding to the needs of youth and sustainability-oriented consumers.",
         ],
       },
     ],
@@ -203,7 +210,7 @@ const Themes = () => {
         </p>
 
         {/* Themes */}
-        <div className="space-y-12 flex flex-col items-center">
+        <div className="space-y-12 flex flex-col items-center animate-appear">
           {themes.map((theme, index) => (
             <div
               key={index}

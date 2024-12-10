@@ -12,7 +12,7 @@ const ImportantDatesHighCommittee = () => {
       {/* Gradient Overlay */}
       <div className="w-full absolute inset-0 bg-gradient-to-r from-uni-green2 to-uni-green2-light opacity-90"></div>
       <div className="container items-center xl:items-start mx-auto w-full h-full flex-col py-4 md:px-16 ">
-        <h1 className="relative text-center md:text-left text-xl md:text-3xl font-bold md:font-bold text-white px-4 py-4 my-4">
+        <h1 className="underline relative text-center md:text-left text-xl md:text-3xl font-bold md:font-bold text-white px-4 py-4 my-4">
           Important Dates
         </h1>
 
@@ -53,11 +53,11 @@ const ImportantDatesHighCommittee = () => {
           </div>
         </div>
 
-        <h1 className="relative text-center md:text-start text-xl md:text-3xl font-bold md:font-bold text-white px-4 py-8 my-4">
+        <h1 className="underline relative text-center md:text-start text-xl md:text-3xl font-bold md:font-bold text-white px-4 py-4 my-4">
           High Committee
         </h1>
         <div className="relative flex flex-col items-center md:flex-row mx-4 gap-4">
-          <div className="relative p-5 rounded-lg  shadow-uni-green2 w-full h-full mx-auto-50 flex flex-col gap-4 md:flex-row items-center ">
+          <div className="relative px-5 rounded-lg  shadow-uni-green2 w-full h-full mx-auto-50 flex flex-col gap-4 md:flex-row items-center ">
             {highcommittees.map((Highcommittee) => (
               <div
                 key={Highcommittee.id}
