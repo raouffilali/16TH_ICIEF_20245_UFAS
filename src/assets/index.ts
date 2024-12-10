@@ -17,6 +17,9 @@ import Confrimg2 from "./fonerenceIMG2.jpg";
 import Confrimg3 from "./fonerenceIMG3.jpg";
 import sponsors from "./sponsors.png";
 import submissionBannerImage from "./submissionBanner.jpg"
+import pdf_svg from "./pdf-svg.svg";
+import ICIEF_ar from "./Files/ICIEF ar.pdf";
+import ICIEF_en from "./Files/ICIEF en.pdf";
 
 export {
   ufas_banner,
@@ -38,4 +41,7 @@ export {
   Confrimg3,
   sponsors,
   submissionBannerImage,
+  pdf_svg,
+  ICIEF_ar,
+  ICIEF_en
 };

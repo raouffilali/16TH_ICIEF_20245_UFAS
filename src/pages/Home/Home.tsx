@@ -5,6 +5,7 @@ import LpSpeaker from "./SubComponent/LpSpeaker";
 import ImportantDatesHighCommittee from "./SubComponent/ImportantDatesHighCommittee";
 import "./Home.css";
 import CountdownTimer from "./SubComponent/Discounter";
+import SubmissionBanner from "./SubComponent/SubmissionBanner";
 
 const Home = () => {
   const targetDate = "2024-12-31T23:59:59";
@@ -27,10 +28,8 @@ const Home = () => {
       <div className="container mx-auto w-full h-full flex flex-col py-4 md:px-16 ">
         {/* 4- Event Speakers &  */}
         <LpSpeaker />
-
-        {/* 4- Event Speakers &  */}
-        <LpSpeaker />
       </div>
+      <SubmissionBanner />
     </>
   );
 };

@@ -1,4 +1,17 @@
-import { submissionBannerImage } from "@/assets";
+import { submissionBannerImage, ICIEF_ar, ICIEF_en, pdf_svg } from "@/assets";
+import { Link } from "react-router";
+import {
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+  AlertDialogTrigger,
+} from "@/components/ui/alert-dialog";
+import { Separator } from "@/components/ui/separator";
 
 const SubmissionBanner = () => {
   return (
@@ -25,15 +38,81 @@ const SubmissionBanner = () => {
         </h2>
         <p className="text-sm mt-4 max-w-md mx-auto">
           All informations about the conference and the submission process and
-          dates are available on the Submission section above.
+          dates are available on the{" "}
+          <Link className="underline font-semibold" to="/registration">
+            Submission section above.
+          </Link>{" "}
         </p>
         <div className="mt-6 flex flex-col md:flex-row gap-4 justify-center">
-          <button className="bg-white text-gray-800 px-6 md:px-12 py-3 rounded-full font-semibold hover:bg-green-100 transition">
+          <Link
+            to={"/registration"}
+            className="bg-white text-gray-800 px-6 md:px-12 py-3 rounded-full font-semibold hover:bg-green-100 transition"
+          >
             Register
-          </button>
-          <button className="bg-white text-gray-800 px-6 py-3 rounded-full font-semibold hover:bg-green-100 transition">
-            Call for paper
-          </button>
+          </Link>
+          <AlertDialog>
+            <AlertDialogTrigger asChild>
+              <button className="bg-white text-gray-800 px-6 py-3 rounded-full font-semibold hover:bg-green-100 transition">
+                Call for papers
+              </button>
+            </AlertDialogTrigger>
+            <AlertDialogContent className="w-full max-w-lg md:max-w-4xl md:h-auto">
+              <AlertDialogHeader>
+                <AlertDialogTitle className="text-3xl text-center md:font-bold bg-gradient-to-l from-uni-green2 to bg-uni-green2-light bg-clip-text text-transparent">
+                  Call for papers
+                </AlertDialogTitle>
+                <Separator />
+                <AlertDialogDescription>
+                  <p className="text-start">
+                    In this section, you can download the call for paper
+                    documents in both English and Arabic languages.
+                  </p>
+                  <br />
+                  <p>
+                    * if you have encountered any problems contact us via:{" "}
+                    <span className="font-bold italic">
+                      <a href="mailto:icief16@univ-setif.dz?subject=Call%20for%20papers%20files%20not%20working">
+                        icief16@univ-setif.dz
+                      </a>
+                    </span>
+                  </p>
+                  <ul className="mt-4 flex flex-col md:flex-row gap-x-3 justify-evenly items-center border-2 border-dashed border-uni-green2 py-4">
+                    <li className="flex flex-col items-center">
+                      <img
+                        src={pdf_svg}
+                        alt="PDF Icon"
+                        className="w-6 md:w-16 mb-2"
+                      />
+                      <a
+                        href={ICIEF_en}
+                        target="_blank"
+                        className="underline text-gray-800"
+                      >
+                        Call for Papers (English)
+                      </a>
+                    </li>
+                    <li className="flex flex-col items-center mt-2 md:mt-0">
+                      <img
+                        src={pdf_svg}
+                        alt="PDF Icon"
+                        className="w-6 md:w-16 mb-2"
+                      />
+                      <a
+                        href={ICIEF_ar}
+                        target="_blank"
+                        className="underline text-gray-800"
+                      >
+                        Call for Papers (Arabic)
+                      </a>
+                    </li>
+                  </ul>
+                </AlertDialogDescription>
+              </AlertDialogHeader>
+              <AlertDialogFooter>
+                <AlertDialogCancel>Cancel</AlertDialogCancel>
+              </AlertDialogFooter>
+            </AlertDialogContent>
+          </AlertDialog>
         </div>
       </div>
     </div>
