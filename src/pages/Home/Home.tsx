@@ -11,19 +11,19 @@ const Home = () => {
     <>
       <AnimatedBanForHome buttonName={"Learn More"} />
       {/* Event Timer  */}
-      
 
       <div className="container mx-auto w-full h-full flex-col py-4 md:px-16 ">
-      {/* 1- Event Overview */}  
-      <EventOverview/>
-      {/* 2- Sponsor Partners */}
-      <SponsorPrtners/>
-      <div/>
+        {/* 1- Event Overview */}
+        <EventOverview />
+        {/* 2- Sponsor Partners */}
+        <SponsorPrtners />
+      </div>
+     
       {/* 3- Important Dates & High committee */}
-      <ImportantDatesHighCommittee/>
-      <div className="container mx-auto w-full h-full flex flex-col py-4 md:px-16 "></div>
-      {/* 4- Event Speakers &  */}
-      <LpSpeaker/>
+      <ImportantDatesHighCommittee />
+      <div className="container mx-auto w-full h-full flex flex-col py-4 md:px-16 ">
+        {/* 4- Event Speakers &  */}
+        <LpSpeaker />
 
         {/* 4- Event Speakers &  */}
         <LpSpeaker />
