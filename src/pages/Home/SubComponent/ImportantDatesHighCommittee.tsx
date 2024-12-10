@@ -1,6 +1,5 @@
 import { Conf } from '@/assets'
 import { highcommittees } from '@/constants/Highcommittee';
-
 const ImportantDatesHighCommittee = () => {
   return (
     <div className="w-full relative my-[50px] h-full py-5 overflow-hidden animate-slidein300">

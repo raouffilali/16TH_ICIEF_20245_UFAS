@@ -8,15 +8,15 @@ const SponsorPrtners = () => {
         <h1 className=" text-lg mt-9 py-2 text-center text-uni-green2 md:text-xl">
           OUR PARTNER
         </h1>
-        <h2 className="text-center font font-semibold text-2xl md:text-5xl">
+        <h2 className="text-center  font-semibold text-2xl md:text-5xl md:font-bold">
           SPONSOR AND{" "}
           <span className="bg-gradient-to-r from-uni-green2 to bg-uni-green2-light bg-clip-text text-transparent">
             PARTNERS
           </span>
         </h2>
         <p className="text-center py-2 md:py-4 text-gray-500 ">
-          We are proud to have the following sponsors and partners for the
-          ICIEF event. We are grateful for their support and contribution.
+          We are proud to have the following sponsors and partners for the ICIEF
+          event. We are grateful for their support and contribution.
         </p>
       </div>
 
