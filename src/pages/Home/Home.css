@@ -1,0 +1,16 @@
+@keyframes appear {
+    from{
+      opacity: 0;
+      scale: 1;
+    }
+  }
+  to{
+    opacity: 0;
+    scale:1;
+  }
+
+  .appearanim{
+    animation :appeare linear ;
+    animation-timeline:view() ;
+    animation-range: entry 0 cover 40%;
+  }

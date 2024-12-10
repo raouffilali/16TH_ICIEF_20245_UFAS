@@ -1,3 +1,5 @@
+import { Scale } from 'lucide-react';
+
 /** @type {import('tailwindcss').Config} */
 export default {
   darkMode: ["class"],
@@ -87,6 +89,10 @@ export default {
             transform: "translateX(0)",
           },
         },
+        appear: {
+          '0%': { opacity: 0, transform: 'scale(1)' },
+          '100%': { opacity: 1, transform: 'scale(1)' },
+        },
       },
       animation: {
         slidein100: "slidein 1s ease 0ms",
@@ -98,6 +104,7 @@ export default {
         slidein700: "slidein 7s ease 0ms",
         slidleft800: "slidleft 1s ease 0ms",
         slideright800: "slidright 2s ease 0ms",
+        appear: 'appear 1s linear forwards animation-timeline:view() animation-range: entry 0 cover 40% ',
       },
     },
   },
