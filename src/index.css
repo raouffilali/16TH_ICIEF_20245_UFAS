@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -61,9 +62,13 @@
   * {
     @apply border-border;
   }
-  body {
+  /* body {
     @apply bg-background text-foreground;
-  }
+    background-image: url("src/assets/bodytexture.png");
+    background-size:cover ;
+    opacity: 0.2;
+    
+  } */
 }
 @layer base {
   ::selection {
