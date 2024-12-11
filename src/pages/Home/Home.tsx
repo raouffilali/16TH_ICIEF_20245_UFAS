@@ -32,9 +32,9 @@ const Home = () => {
       </div>
       <div
         ref={mainRef}
-        className="relative container mx-auto w-full h-full flex-col justify-center items-center py-4 md:px-16 md:py-14 "
+        className="relative container mx-auto w-full h-full flex-col justify-center items-center py-4 md:px-16 md:py-14 animate-fadeInLeft"
       >
-        <div className="absolute inset-0 -z-10">
+        <div className="absolute inset-0 -z-10 ">
           <img
             className="w-full h-full object-cover opacity-10 blur-[0.5px]"
             src={Bodytexture}

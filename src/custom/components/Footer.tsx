@@ -29,7 +29,9 @@ const Footer = () => {
             className="w-16 h-16 md:w-[150px] md:h-[100px]"
           />
           <p className="text-sm mt-4">
-            Description of the team or organizers bla bla bla etc...
+            The <span className="font-bold">16th ICIEF</span> at Ferhat Abbas University, Sétif 1,
+            gathers global experts to explore innovations and challenges in
+            Islamic economics and finance.
           </p>
         </div>
 
