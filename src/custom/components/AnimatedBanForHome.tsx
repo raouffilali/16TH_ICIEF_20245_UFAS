@@ -1,19 +1,8 @@
-import { Button } from "@/components/ui/button";
 import "./component.css";
 import { ICIEF16LOGO, ufas_banner } from "@/assets";
-import { RefObject } from "react";
 
-interface AnimatedBannerProps {
-  buttonRef?: RefObject<HTMLDivElement>;
-  buttonName: string;
-}
 
-const AnimatedBannerForHome = ({ buttonRef, buttonName }: AnimatedBannerProps) => {
-  const handleClick = () => {
-    if (buttonRef && buttonRef.current) {
-      window.scrollBy({ behavior: "smooth" });
-    }
-  };
+const AnimatedBannerForHome = () => {
 
   return (
     <div className="relative w-full h-[600px] overflow-hidden -z-20">
