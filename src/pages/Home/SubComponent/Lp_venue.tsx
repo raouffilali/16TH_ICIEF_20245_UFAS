@@ -9,7 +9,7 @@ const Lp_venue = () => {
           REACH US
         </h1>
         <h2 className="text-center  font-semibold text-2xl md:text-5xl md:font-bold">
-          GET DIRECTION TO THE{" "}
+          GET DIRECTIONS TO THE{" "}
           <span className="bg-gradient-to-r from-uni-green2 to bg-uni-green2-light bg-clip-text text-transparent">
             EVENT HALL
           </span>

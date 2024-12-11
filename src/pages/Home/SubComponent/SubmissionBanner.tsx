@@ -36,7 +36,7 @@ const SubmissionBanner = () => {
           Register Now{" "}
         </h2>
         <p className="text-sm mt-4 max-w-md mx-auto">
-          All informations about the conference and the submission process and
+          All the information about the conference and the submission process and
           dates are available on the{" "}
           <Link className="underline font-semibold" to="/registration">
             Submission section above.
