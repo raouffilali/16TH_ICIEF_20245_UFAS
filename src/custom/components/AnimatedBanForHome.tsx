@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import "./component.css";
-import { ConfImg, ufas_banner } from "@/assets";
+import { ufas_banner } from "@/assets";
 import { RefObject } from "react";
 
 interface AnimatedBannerProps {
@@ -48,13 +48,13 @@ const AnimatedBanner = ({ buttonRef, buttonName }: AnimatedBannerProps) => {
               ICIEF 16TH Edition, 2025
             </p>
             <Button
-              variant={"outline"}
-              size="lg"
-              className=" text-uni-green hover:shadow-xl shadow-md text-sm md:text-lg px-20 border-2 hover:border-dotted border-uni-green2-light animate-slidein600 transition-all ease-in-out hover:duration-300 transform hover:scale-105"
-              onClick={handleClick}
-            >
-              {buttonName}
-            </Button>
+            variant={"outline"}
+            size="lg"
+            className=" text-uni-green hover:shadow-xl shadow-md text-sm md:text-lg px-20 border-2 hover:border-dotted border-uni-green2-light transition-all ease-in-out duration-300 transform hover:scale-105"
+            onClick={handleClick}
+          >
+            {buttonName}
+          </Button>
           </div>
         </div>
   </div>

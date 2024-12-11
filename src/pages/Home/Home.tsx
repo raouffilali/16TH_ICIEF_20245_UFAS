@@ -8,21 +8,12 @@ import CountdownTimer from "./SubComponent/Discounter";
 import SubmissionBanner from "./SubComponent/SubmissionBanner";
 import Lp_venue from "./SubComponent/Lp_venue";
 import FAQandFORMbanner from "./SubComponent/FAQandFORMbanner";
-import { Bodytexture } from "@/assets";
 
 const Home = () => {
   const targetDate = "2025-05-12T23:59:59";
   return (
     <>
-      
-      <div className="absolute inset-0 -z-10">
-        <img
-          className="w-full h-full object-cover opacity-10 blur-[0.5px]"
-          src={Bodytexture}
-          alt="Texture"
-        />
-      </div>
-      <AnimatedBanForHome buttonName={"Learn More"} />
+      <AnimatedBanForHome buttonName={"See More"} />
       {/* Event Timer  */}
       <div className=" ml-36 md:ml-48 -mt-32 md:-mt-40 z-20 h-full w-1/4 flex flex-col justify-center items-center ">
         <CountdownTimer targetDate={targetDate} />
