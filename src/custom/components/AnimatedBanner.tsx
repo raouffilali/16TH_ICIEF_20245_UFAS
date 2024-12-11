@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import "./component.css";
-import { Bodytexture } from "@/assets";
+import { Bodytexture, ICIEF16LOGO } from "@/assets";
 import { RefObject } from "react";
 
 interface AnimatedBannerProps {
@@ -44,7 +44,12 @@ const AnimatedBanner = ({
         </svg>
 
         {/* Banner Content */}
-        <div className="absolute inset-0 flex flex-col justify-center items-center text-white text-center px-4 animate-slidein300">
+        <div className="absolute inset-0 flex flex-col justify-center items-center text-white text-center px-4 animate-slidein300 -mt-14">
+          <img
+            className="w-full h-full max-w-[100px] max-h-[60px] md:max-h-[100px] md:max-w-[200px] animate-slidein200"
+            src={ICIEF16LOGO}
+            alt="Texture"
+          />
           <h1 className="text-4xl md:text-5xl font-bold mb-4 drop-shadow-lg textpre ">
             {bannerText}
           </h1>

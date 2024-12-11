@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import "./component.css";
-import { ufas_banner } from "@/assets";
+import { ICIEF16LOGO, ufas_banner } from "@/assets";
 import { RefObject } from "react";
 
 interface AnimatedBannerProps {
@@ -39,7 +39,12 @@ const AnimatedBannerForHome = ({ buttonRef, buttonName }: AnimatedBannerProps) =
         </svg>
 
         {/* Banner Content */}
-        <div className="absolute inset-0 flex flex-col justify-center items-center text-white text-center px-4">
+        <div className="absolute inset-0 flex flex-col justify-center items-center text-white text-center px-4 -mt-14 ">
+          <img
+            className="w-full h-full max-w-[100px] max-h-[60px] md:max-h-[100px] md:max-w-[200px] animate-slidein200"
+            src={ICIEF16LOGO}
+            alt="Texture"
+          />
           <h1 className="text-4xl md:text-5xl font-bold mb-4 drop-shadow-lg textpre animate-slidein300">
             International Conference on Islamic Economics and Finance - UFAS
           </h1>

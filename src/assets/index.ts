@@ -20,6 +20,7 @@ import submissionBannerImage from "./submissionBanner.jpg"
 import pdf_svg from "./pdf-svg.svg";
 import ICIEF_ar from "./Files/ICIEF ar.pdf";
 import ICIEF_en from "./Files/ICIEF en.pdf";
+import ICIEF16LOGO from "./icief16.png";
 
 export {
   ufas_banner,
@@ -43,5 +44,6 @@ export {
   submissionBannerImage,
   pdf_svg,
   ICIEF_ar,
-  ICIEF_en
+  ICIEF_en,
+  ICIEF16LOGO,
 };
