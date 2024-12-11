@@ -28,7 +28,7 @@ const Registration = () => {
         </p>
         <ul className="list-disc text-base md:text-lg mb-12 text-left w-full pl-6 animate-slidein300">
           <li>Certificates of participation;</li>
-          <li>Meals, break tea, and transportation during the event days;</li>
+          <li>Meals, tea break, and transportation during the event days;</li>
         </ul>
         <h2 className="text-3xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-uni-green2 to bg-uni-green2-light bg-clip-text text-transparent border-b-2 border-dashed pb-2 animate-slidein400">
           Submission of Papers:
@@ -46,7 +46,6 @@ const Registration = () => {
           className="block text-center px-12 py-2 md:px-32 md:py-4 bg-white text-uni-green rounded border-dashed border-2 border-uni-green2 mb-6 animate-slidein600 hover:bg-gradient-to-l from-uni-green2 to-uni-green2-light hover:text-white hover:border-white hover:shadow-xl"
         >
           <span>Submit your Paper</span>
-
         </a>
       </div>
     </div>

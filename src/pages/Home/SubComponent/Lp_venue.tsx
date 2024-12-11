@@ -1,3 +1,5 @@
+import { mapInfo } from "../../../constants/maps_Info";
+
 const Lp_venue = () => {
   return (
     <div className="flex flex-col border-t-2 border-dashed border-uni-green2-light w-full ">
@@ -31,7 +33,9 @@ const Lp_venue = () => {
           <h3 className="text-xl font-bold mb-4">Reception Info:</h3>
           <p className="mb-4">Booking: (+213) 1234-5678</p>
           <a
-            href="#"
+            href={mapInfo.map_Link}
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-block mt-4 bg-white text-uni-green2 font-semibold py-2 px-4 rounded-full hover:bg-uni-green2-light transition"
           >
             Get Directions
@@ -42,7 +46,7 @@ const Lp_venue = () => {
         <div className="w-full md:w-3/5 border-2 border-dashed border-uni-green2-light rounded-lg shadow-lg">
           <iframe
             title="Event Location"
-            src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d3923.9911245374446!2d5.362661276473721!3d36.198541372424756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x12f33e5a99993c61%3A0xbf33966b62b1a5ec!2zNTlXNitYOUcg2YPZhNmK2Kkg2KfZhNin2YLYqti12KfYr9iMINmH2LbYqNipINin2YTYqNin2LIsIFPDqXRpZg!3m2!1d36.197181!2d5.3609165!5e0!3m2!1sen!2sdz"
+            src={mapInfo.map_src}
             width="100%"
             height="375"
             style={{ border: 0 }}
