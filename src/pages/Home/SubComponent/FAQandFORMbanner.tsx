@@ -47,9 +47,9 @@ const FAQandFORMbanner = () => {
               Is there a submission deadline ?
             </AccordionTrigger>
             <AccordionContent className="text-gray-800">
-              Yes, the submission deadline is the 15th of December 2024. Make sure
-              to submit your paper before the deadline to be considered for the
-              conference.
+              Yes, the submission deadline is the 15th of December 2024. Make
+              sure to submit your paper before the deadline to be considered for
+              the conference.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-3">
@@ -68,7 +68,7 @@ const FAQandFORMbanner = () => {
       <div className="flex flex-col h-full w-full md:w-1/2 rounded-lg bg-white p-4 shadow-[0_0_20px_0px_rgba(15,90,8,0.5)] z-10 -mb-20">
         <div>
           <h2 className="text-2xl font-semibold md:text-4xl md:font-bold">
-            LET'S BOOK A <span className="text-uni-green2">SEAT</span> ( FOR attendees)
+            BOOK AN ATTENDANT <span className="text-uni-green2">SEAT</span>
           </h2>
         </div>
         <form className="flex flex-col w-full">
