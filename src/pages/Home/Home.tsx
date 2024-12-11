@@ -1,4 +1,4 @@
-import AnimatedBanForHome from "@/custom/components/AnimatedBanForHome";
+import {AnimatedBanForHome} from "./../../custom/index";
 import "./Home.css";
 import CountdownTimer from "./SubComponent/Discounter";
 import EventOverview from "./SubComponent/EventOverview";
