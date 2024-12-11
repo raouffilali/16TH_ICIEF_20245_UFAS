@@ -1,5 +1,4 @@
-import { submissionBannerImage, ICIEF_ar, ICIEF_en, pdf_svg } from "@/assets";
-import { Link } from "react-router";
+import { ICIEF_ar, ICIEF_en, pdf_svg, submissionBannerImage } from "@/assets";
 import {
   AlertDialog,
   AlertDialogCancel,
@@ -11,6 +10,7 @@ import {
   AlertDialogTrigger,
 } from "@/components/ui/alert-dialog";
 import { Separator } from "@/components/ui/separator";
+import { Link } from "react-router";
 
 const SubmissionBanner = () => {
   return (

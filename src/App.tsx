@@ -1,7 +1,7 @@
-import { Footer, Navbar } from "./custom";
-import { Outlet } from "react-router";
-import { useRef, useState, useEffect } from "react";
 import { ChevronUp } from "lucide-react";
+import { useEffect, useRef, useState } from "react";
+import { Outlet } from "react-router";
+import { Footer, Navbar } from "./custom";
 
 function App() {
   const topRef = useRef<HTMLDivElement>(null);

@@ -1,5 +1,5 @@
-import { useEffect } from 'react';
 import { Bodytexture } from '@/assets'; // Adjust the import path as needed
+import { useEffect } from 'react';
 
 const Registration = () => {
   useEffect(() => {

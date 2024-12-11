@@ -18,8 +18,8 @@ export const navLinks = [
     title: "About",
     ref: "#",
     subLinks: [
-      { title: "Background of ICIEF", ref: "/background" },
       { title: "Target Participants", ref: "/participants" },
+      { title: "Background of ICIEF", ref: "/background" },
     ],
   },
   {

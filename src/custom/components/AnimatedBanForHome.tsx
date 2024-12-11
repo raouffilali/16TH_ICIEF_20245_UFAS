@@ -1,5 +1,5 @@
-import "./component.css";
 import { ICIEF16LOGO, ufas_banner } from "@/assets";
+import "./component.css";
 
 
 const AnimatedBannerForHome = () => {

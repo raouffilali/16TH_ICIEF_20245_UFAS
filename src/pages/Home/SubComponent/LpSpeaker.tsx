@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
-import {speakers} from "../../../constants/speakers"
-import { Facebook, Linkedin, Instagram } from "lucide-react";
+import { Facebook, Instagram, Linkedin } from "lucide-react";
+import { speakers } from "../../../constants/speakers";
 const LpSpeaker = () => {
   return (
     <div className="flex flex-col w-full md:mb-20 ">

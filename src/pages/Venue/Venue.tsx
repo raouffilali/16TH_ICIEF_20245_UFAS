@@ -1,8 +1,8 @@
-import { useRef } from "react";
-import "../Contact/contact.css";
-import AnimatedBanner from "@/custom/components/AnimatedBanner";
-import { venueInfo } from "../../constants/venue-info";
 import { mapInfo } from "@/constants/maps_Info";
+import AnimatedBanner from "@/custom/components/AnimatedBanner";
+import { useRef } from "react";
+import { venueInfo } from "../../constants/venue-info";
+import "../Contact/contact.css";
 
 const Venue = () => {
   const venueRef = useRef<HTMLDivElement>(null);

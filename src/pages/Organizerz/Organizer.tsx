@@ -1,4 +1,3 @@
-import { organizers } from "../../constants/Organizors";
 import { Bodytexture } from "@/assets";
 import {
   Carousel,
@@ -7,8 +6,9 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import * as React from "react"
-import Autoplay from "embla-carousel-autoplay"
+import Autoplay from "embla-carousel-autoplay";
+import * as React from "react";
+import { organizers } from "../../constants/Organizors";
 
 const Organizer = () => {
   const plugin = React.useRef(

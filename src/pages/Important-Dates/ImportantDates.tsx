@@ -1,7 +1,7 @@
-import { useEffect } from 'react';
-import { ArrowLeft, ArrowRight } from "lucide-react";
-import { Link } from "react-router-dom";
 import { Bodytexture } from '@/assets'; // Adjust the import path as needed
+import { ArrowLeft, ArrowRight } from "lucide-react";
+import { useEffect } from 'react';
+import { Link } from "react-router-dom";
 
 const ImportantDates = () => {
   useEffect(() => {

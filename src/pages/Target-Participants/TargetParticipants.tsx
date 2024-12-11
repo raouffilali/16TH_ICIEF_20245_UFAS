@@ -1,5 +1,5 @@
 import { Bodytexture } from "@/assets";
-import { Book, GraduationCap, BriefcaseBusiness, } from 'lucide-react';
+import { Book, BriefcaseBusiness, GraduationCap, } from 'lucide-react';
 
 const participants = [
   {

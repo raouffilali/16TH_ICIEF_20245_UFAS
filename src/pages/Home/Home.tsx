@@ -1,29 +1,29 @@
 import AnimatedBanForHome from "@/custom/components/AnimatedBanForHome";
-import EventOverview from "./SubComponent/EventOverview";
-import SponsorPrtners from "./SubComponent/SponsorPrtners";
-import LpSpeaker from "./SubComponent/LpSpeaker";
-import ImportantDatesHighCommittee from "./SubComponent/ImportantDatesHighCommittee";
 import "./Home.css";
 import CountdownTimer from "./SubComponent/Discounter";
-import SubmissionBanner from "./SubComponent/SubmissionBanner";
-import Lp_venue from "./SubComponent/Lp_venue";
+import EventOverview from "./SubComponent/EventOverview";
 import FAQandFORMbanner from "./SubComponent/FAQandFORMbanner";
-import { useRef } from "react";
+import ImportantDatesHighCommittee from "./SubComponent/ImportantDatesHighCommittee";
+import Lp_venue from "./SubComponent/Lp_venue";
+import LpSpeaker from "./SubComponent/LpSpeaker";
+import SponsorPrtners from "./SubComponent/SponsorPrtners";
+import SubmissionBanner from "./SubComponent/SubmissionBanner";
+
 
 const Home = () => {
   const targetDate = "2025-05-12T23:59:59";
-  const mainRef = useRef<HTMLDivElement>(null);
+
   return (
     <>
       <div className="z-20">
-        <AnimatedBanForHome buttonName={"Learn More"} buttonRef={mainRef} />
+        <AnimatedBanForHome />
       </div>
       {/* Event Timer  */}
       <div className=" ml-36 md:ml-48 -mt-32 md:-mt-40 z-20 h-full w-1/4 flex flex-col justify-center items-center ">
         <CountdownTimer targetDate={targetDate} />
       </div>
       <div
-        ref={mainRef}
+
         className=" container mx-auto w-full h-full flex-col justify-center items-center py-4 md:px-16 md:py-14 animate-fadeInLeft"
       >
         {/* 1- Event Overview */}
