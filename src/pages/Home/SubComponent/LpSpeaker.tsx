@@ -3,7 +3,7 @@ import {speakers} from "../../../constants/speakers"
 import { Facebook, Linkedin, Instagram } from "lucide-react";
 const LpSpeaker = () => {
   return (
-    <div className="flex flex-col w-full md:mb-24 ">
+    <div className="flex flex-col w-full md:mb-20 ">
       {/* Speaker Text Section */}
       <div className="flex flex-col md:flex-row justify-start items-center md:justify-between">
         {/* infot text */}

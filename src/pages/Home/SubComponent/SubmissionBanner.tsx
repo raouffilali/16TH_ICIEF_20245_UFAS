@@ -14,7 +14,7 @@ import { Separator } from "@/components/ui/separator";
 
 const SubmissionBanner = () => {
   return (
-    <div className="relative text-white text-center py-20 px-6 w-full overflow-hidden mb-12">
+    <div className="relative text-white text-center py-20 px-6 w-full overflow-hidden mb-8">
       <div
         className="absolute inset-0"
         style={{

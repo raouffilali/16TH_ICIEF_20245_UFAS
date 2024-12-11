@@ -8,7 +8,7 @@ import {
 import { ArrowRight } from "lucide-react";
 const FAQandFORMbanner = () => {
   return (
-    <div className="relative w-full h-full flex flex-col md:flex-row items-center gap-6 bg-gray-500 p-8 md:px-36 mb-24 mt-24 animate-fadeInLeft">
+    <div className="relative w-full h-full flex flex-col md:flex-row items-center gap-6 bg-gray-500 p-8 md:px-36 md:mb-40 mt-24 animate-fadeInLeft">
       <div
         className="absolute inset-0"
         style={{
@@ -36,7 +36,7 @@ const FAQandFORMbanner = () => {
         >
           <AccordionItem value="item-1">
             <AccordionTrigger>What are the Registraion Fees</AccordionTrigger>
-            <AccordionContent>
+            <AccordionContent className="text-gray-800">
               Registration is free for all attendees and the papers submission
               will be proccessed through our portal. Register now to secure your
               spot!
@@ -46,7 +46,7 @@ const FAQandFORMbanner = () => {
             <AccordionTrigger>
               Is there a submission deadline ?
             </AccordionTrigger>
-            <AccordionContent>
+            <AccordionContent className="text-gray-800">
               Yes, the submission deadline is 15th of December 2024. Make sure
               to submit your paper before the deadline to be considered for the
               conference.
@@ -56,7 +56,7 @@ const FAQandFORMbanner = () => {
             <AccordionTrigger>
               What am i going to benifit from this conference ?
             </AccordionTrigger>
-            <AccordionContent>
+            <AccordionContent className="text-gray-800">
               The conference will provide you with the opportunity to present
               your research, network with other researchers, and learn from
               experts in the field. You will also have the opportunity to
