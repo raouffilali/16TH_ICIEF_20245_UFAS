@@ -21,6 +21,12 @@ import pdf_svg from "./pdf-svg.svg";
 import ICIEF_ar from "./Files/ICIEF ar.pdf";
 import ICIEF_en from "./Files/ICIEF en.pdf";
 import ICIEF16LOGO from "./icief16.png";
+import speaker_2 from "./speakers/speaker-2.jpg";
+import speaker_3 from "./speakers/speaker-3.jpg";
+import speaker_4 from "./speakers/speaker-4.jpg";
+import speaker_5 from "./speakers/speaker-5.jpg";
+
+
 
 export {
   ufas_banner,
@@ -46,4 +52,8 @@ export {
   ICIEF_ar,
   ICIEF_en,
   ICIEF16LOGO,
+  speaker_2,
+  speaker_3,
+  speaker_4,
+  speaker_5,
 };
