@@ -8,10 +8,10 @@ interface AnimatedBannerProps {
   buttonName: string;
 }
 
-const AnimatedBanner = ({ buttonRef, buttonName }: AnimatedBannerProps) => {
+const AnimatedBannerForHome = ({ buttonRef, buttonName }: AnimatedBannerProps) => {
   const handleClick = () => {
     if (buttonRef && buttonRef.current) {
-      window.scrollBy({ top: 350, behavior: "smooth" });
+      window.scrollBy({ behavior: "smooth" });
     }
   };
 
@@ -62,4 +62,4 @@ const AnimatedBanner = ({ buttonRef, buttonName }: AnimatedBannerProps) => {
   );
 };
 
-export default AnimatedBanner;
+export default AnimatedBannerForHome;
