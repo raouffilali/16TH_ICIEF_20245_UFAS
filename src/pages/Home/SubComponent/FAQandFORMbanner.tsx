@@ -8,7 +8,7 @@ import {
 import { ArrowRight } from "lucide-react";
 const FAQandFORMbanner = () => {
   return (
-    <div className="relative w-full h-full flex flex-col md:flex-row items-center gap-6 bg-gray-500 p-8 md:px-36 md:mb-40 mt-24 animate-fadeInLeft">
+    <div className="relative w-full h-full flex flex-col md:flex-row items-center gap-6 bg-gray-500 p-8 md:px-36 mb-24 md:mb-40 mt-24 animate-fadeInLeft">
       <div
         className="absolute inset-0"
         style={{
