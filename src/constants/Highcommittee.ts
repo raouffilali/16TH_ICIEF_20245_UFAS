@@ -11,7 +11,7 @@ export type highcommittee = {
 export const highcommittees: highcommittee[] = [
   {
     id: 1,
-    name: "Prof Dr. El-Hadi Latrache",
+    name: "Prof Dr. Mohamed El-Hadi Latrache",
     description: "Rector of Setif 1 University _ Ferhat Abbas",
     image: Recteur,
   },

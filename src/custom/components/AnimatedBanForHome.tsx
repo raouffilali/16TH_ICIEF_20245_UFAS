@@ -21,7 +21,7 @@ const AnimatedBannerForHome = ({ buttonRef, buttonName }: AnimatedBannerProps) =
       <div className="absolute inset-0 bg-gradient-to-l from-[#122e10] via-[#293d04] to-[#174413] animate-gradient-x -z-10">
         {/* Wavy Bottom Effect */}
         <img
-          className=" inset-0 w-full h-full object-cover md:object-fill opacity-45 blur-[4px] md:blur-[6px]"
+          className=" inset-0 w-full h-full object-cover md:object-fill opacity-45 blur-[4px] md:blur-[15px]"
           src={ufas_banner}
           alt="Texture"
         />
@@ -39,9 +39,9 @@ const AnimatedBannerForHome = ({ buttonRef, buttonName }: AnimatedBannerProps) =
         </svg>
 
         {/* Banner Content */}
-        <div className="absolute inset-0 flex flex-col justify-center items-center text-white text-center px-4 -mt-14 ">
+        <div className="absolute inset-0 flex flex-col justify-center items-center text-white text-center px-4 -mt-24 ">
           <img
-            className="w-full h-full max-w-[100px] max-h-[60px] md:max-h-[100px] md:max-w-[200px] animate-slidein200"
+            className="w-full h-full max-w-[160px] max-h-[90px] md:max-h-[140px] md:max-w-[250px] animate-slidein200"
             src={ICIEF16LOGO}
             alt="Texture"
           />
@@ -51,14 +51,7 @@ const AnimatedBannerForHome = ({ buttonRef, buttonName }: AnimatedBannerProps) =
           <p className="text-xl md:text-2xl mb-6 max-w-2xl drop-shadow-md animate-slidein500">
             ICIEF 16TH Edition, 2025
           </p>
-          <Button
-            variant={"outline"}
-            size="lg"
-            className=" text-uni-green hover:shadow-xl shadow-md text-sm md:text-lg px-20 border-2 hover:border-dotted border-uni-green2-light transition-all ease-in-out duration-300 transform hover:scale-105"
-            onClick={handleClick}
-          >
-            {buttonName}
-          </Button>
+          
         </div>
       </div>
     </div>
