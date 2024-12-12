@@ -1,4 +1,4 @@
-import { Abdulkarim, Asutay, Beik, Belouafi, Boudjellal, Bourakba, Bulut, Chachi, Gharbi, Hafiz, Haneef, Hassan, Ibrahim, Khan, Omar, Senouci, Tahir } from "@/assets";
+import { Abdulkarim, Asutay, Belouafi,  Gharbi,  Haneef, Hassan, Ibrahim, Khan, Omar, Senouci, Tahir } from "@/assets";
 
 export type organizingcommittee = {
   id: number;
