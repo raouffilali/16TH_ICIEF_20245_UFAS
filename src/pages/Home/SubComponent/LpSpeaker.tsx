@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import { Facebook, Instagram, Linkedin } from "lucide-react";
 import { speakers } from "../../../constants/speakers";
 import { Link } from "react-router";
 
@@ -40,55 +39,56 @@ const LpSpeaker = () => {
             Stay tuned for speaker announcements...
           </div>
         ) : (
-          <div className="grid grid-cols-2 gap-2 md:grid-cols-4 md:gap-4">
-            {speakers.map((speaker) => (
-              <div
-                key={speaker.id}
-                className="relative group overflow-hidden rounded-lg shadow-lg"
-              >
-                {/* Speaker Image */}
-                <img
-                  src={speaker.image}
-                  alt={speaker.name}
-                  className="w-full h-64 lg:h-[400px] object-cover"
-                />
+          <div>Comming soon !</div>
+          // <div className="grid grid-cols-2 gap-2 md:grid-cols-4 md:gap-4">
+          //   {speakers.map((speaker) => (
+          //     <div
+          //       key={speaker.id}
+          //       className="relative group overflow-hidden rounded-lg shadow-lg"
+          //     >
+          //       {/* Speaker Image */}
+          //       <img
+          //         src={speaker.image}
+          //         alt={speaker.name}
+          //         className="w-full h-64 lg:h-[400px] object-cover"
+          //       />
 
-                {/* Hover Overlay */}
-                <div className="absolute inset-0 bg-black bg-opacity-75 text-white flex flex-col items-center justify-center transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-                  <h3 className="text-lg font-bold md:text-2xl">
-                    {speaker.name}
-                  </h3>
-                  <p className="text-sm mb-3">{speaker.role}</p>
-                  <div className="flex gap-3">
-                    <a
-                      href={speaker.social.facebook}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="hover:text-green-500"
-                    >
-                      <Facebook name="facebook" className="w-5 h-5" />
-                    </a>
-                    <a
-                      href={speaker.social.twitter}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="hover:text-green-500"
-                    >
-                      <Linkedin name="twitter" className="w-5 h-5" />
-                    </a>
-                    <a
-                      href={speaker.social.pinterest}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="hover:text-green-500"
-                    >
-                      <Instagram name="pinterest" className="w-5 h-5" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
+          //       {/* Hover Overlay */}
+          //       <div className="absolute inset-0 bg-black bg-opacity-75 text-white flex flex-col items-center justify-center transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+          //         <h3 className="text-lg font-bold md:text-2xl">
+          //           {speaker.name}
+          //         </h3>
+          //         <p className="text-sm mb-3">{speaker.role}</p>
+          //         <div className="flex gap-3">
+          //           <a
+          //             href={speaker.social.facebook}
+          //             target="_blank"
+          //             rel="noopener noreferrer"
+          //             className="hover:text-green-500"
+          //           >
+          //             <Facebook name="facebook" className="w-5 h-5" />
+          //           </a>
+          //           <a
+          //             href={speaker.social.twitter}
+          //             target="_blank"
+          //             rel="noopener noreferrer"
+          //             className="hover:text-green-500"
+          //           >
+          //             <Linkedin name="twitter" className="w-5 h-5" />
+          //           </a>
+          //           <a
+          //             href={speaker.social.pinterest}
+          //             target="_blank"
+          //             rel="noopener noreferrer"
+          //             className="hover:text-green-500"
+          //           >
+          //             <Instagram name="pinterest" className="w-5 h-5" />
+          //           </a>
+          //         </div>
+          //       </div>
+          //     </div>
+          //   ))}
+          // </div>
         )}
       </div>
     </div>

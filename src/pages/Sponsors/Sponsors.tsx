@@ -1,6 +1,8 @@
-import React from 'react'
-
+import { useEffect } from "react";
 export const Sponsors = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <div className="relative h-screen w-full flex items-center justify-center bg-gray-50 dark:bg-gray-900">
@@ -35,4 +37,4 @@ export const Sponsors = () => {
       </div>
     </>
   );
-}
+};
