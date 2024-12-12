@@ -50,6 +50,7 @@ import Rafik from "./Scientific Committee/Dr. Khelfi Rafik.jpg";
 import Ainouss from "./Scientific Committee/Dr. Riadh Ainouss.jpg";
 import Ouassaa from "./Scientific Committee/Dr. Hamza Ouassaa.jpg";
 import Guemazi from "./default.webp";
+import twitter from "./twitter.png"
 export {
   ufas_banner,
   Logo1,
@@ -103,4 +104,5 @@ export {
   Ainouss,
   Ouassaa,
   Guemazi,
+  twitter,
 };

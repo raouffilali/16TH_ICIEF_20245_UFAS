@@ -1,10 +1,12 @@
 import { Instagram ,Facebook, LinkedinIcon, YoutubeIcon} from 'lucide-react';
+import { BsTwitterX } from "react-icons/bs";
+
 
 // Social media links array
 const socials = [
   {
     icon: <Facebook />,
-    path: "https://www.facebook.com/profile.php?id=100095074632230",
+    path: "https://www.facebook.com/people/16TH-ICIEF-2025/61568863628034/?sk=about",
   },
   {
     icon: <Instagram />,
@@ -12,11 +14,15 @@ const socials = [
   },
   {
     icon: <LinkedinIcon />,
-    path: "https://www.linkedin.com/school/universite-ferhat-abbas-setif/posts/?feedView=all",
+    path: "https://www.linkedin.com/authwall?trk=bf&trkInfo=AQE68IP-oZdEwQAAAZO74oGgdyksK7KyNBD-ptl95C7QswDKMyiiIvz6nXQMo51-pUXc4FM_2CWJ0NfMjMMQkennzppyWQWaRw1bdPOOhqn5RTkcjWDzjZzjgf7W_T8WTLzYBjE=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fic-ief-12b12833a%2F",
   },
   {
     icon: <YoutubeIcon />,
     path: "https://www.youtube.com/@-ferhatabbasuniversitysetif1dz",
+  },
+  {
+    icon: <BsTwitterX />,
+    path: "https://x.com/i/flow/login?redirect_after_login=%2Ficief16",
   },
 ];
 
