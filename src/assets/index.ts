@@ -101,5 +101,5 @@ export {
   Ainouss,
   Ouassaa,
   Guemazi,
-  twitter,
+
 };
