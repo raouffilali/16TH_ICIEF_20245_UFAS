@@ -6,7 +6,6 @@ import ConferenceImg from "./conference.jpg";
 import Bodytexture from "./bodytexture.png";
 import HIC from "./HIC2.png";
 import IAFIE from "./IAFIE2.png";
-import ConfImg from "./conferenceimage.png";
 import Recteur from "./recteur.png";
 import MalRec from "./MalaysiaRec.png";
 import Dean from "./Steering Committee/Prof Dr. Chaouki Bourakba.jpg";
@@ -50,7 +49,6 @@ import Rafik from "./Scientific Committee/Dr. Khelfi Rafik.jpg";
 import Ainouss from "./Scientific Committee/Dr. Riadh Ainouss.jpg";
 import Ouassaa from "./Scientific Committee/Dr. Hamza Ouassaa.jpg";
 import Guemazi from "./default.webp";
-import twitter from "./twitter.png"
 export {
   ufas_banner,
   Logo1,

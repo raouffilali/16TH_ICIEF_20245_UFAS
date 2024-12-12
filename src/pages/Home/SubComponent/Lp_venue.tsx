@@ -31,7 +31,7 @@ const Lp_venue = () => {
           <h3 className="text-xl font-bold mb-4">Address:</h3>
           <p className="mb-4">Setif 1 University_Ferhat Abass, Algeria</p>
           <h3 className="text-xl font-bold mb-4">Reception Info:</h3>
-          <p className="mb-4">Booking: (+213) 1234-5678</p>
+          <p className="mb-4">Booking: 036 42 01 50</p>
           <a
             href={mapInfo.map_Link}
             target="_blank"

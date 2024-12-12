@@ -29,6 +29,8 @@ const Contact = () => {
               <h1 className="text-xl font-extrabold">Email</h1>
               <p> icief16@univ-setif.dz </p>
               <p> icief16setif@gmail.com </p>
+              <h1 className="text-xl font-extrabold">For More:</h1>
+              <p> 036 42 01 50 </p>
               <h1 className="text-xl font-extrabold">ADDRESS:</h1>
               <p>Université de Sétif, El Bez, Sétif 19000</p>
             </div>

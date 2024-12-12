@@ -10,7 +10,7 @@ export const venueInfo = [
   },
   {
     title: "RECEPTION INFO:",
-    content: "Call:  (+213)36 6202 23/24",
+    content: "Call: 036 42 01 50",
   },
   {
     title: "Email:",
