@@ -1,8 +1,6 @@
 import Logo1 from "./ufas-log.png";
 import Logo2 from "./logoforslider.png";
 import Texture from "./islamic-texture.jpg";
-import IslamicTex from "./islamictexture.png";
-import ConferenceImg from "./conference.jpg";
 import Bodytexture from "./bodytexture.png";
 import HIC from "./HIC2.png";
 import IAFIE from "./IAFIE2.png";
@@ -53,8 +51,6 @@ export {
   ufas_banner,
   Logo1,
   Texture,
-  IslamicTex,
-  ConferenceImg,
   Bodytexture,
   HIC,
   IAFIE,
