@@ -16,7 +16,7 @@ export const navLinks = [
       { title: "Target Participants", ref: "/participants" },
       { title: "Themes", ref: "/themes" },
       { title: "Organizers", ref: "/organizers" },
-      { title: "Hostory of the ICIEF", ref: "/background" },
+      { title: "History of the ICIEF", ref: "/background" },
     ],
   },
   {
