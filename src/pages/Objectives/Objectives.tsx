@@ -18,9 +18,11 @@ const Objectives = () => {
           Conference Objectives
         </h1>
         <p className="text-lg md:text-l font-semibold md:italic text-gray-800 animate-fadeInLeft">
-          Islamic Finance Industry's 50th Anniversary Conference, Reflecting on
-          fifty years of growth, challenges, and opportunities in the Islamic
-          finance industry.
+          As the Islamic finance industry marks its fiftieth anniversary, it is
+          imperative to pause and assess this experience, rich with achievements
+          and challenges alike. This conference aims to shed light on the
+          evolution of the Islamic Finance Industry through the following key
+          areas:
         </p>
       </div>
 
@@ -29,100 +31,76 @@ const Objectives = () => {
         {/* Objective 1 */}
         <div className="border-l-4 border-uni-green2 pl-4 transition-all ease-in-out duration-300 transform hover:scale-105">
           <h2 className="text-xl font-semibold text-gray-800">
-            1. Celebrating Fifty Years of Islamic Finance
+            Evaluating the Islamic Finance Industry's experience after fifty
+            years of practice.
           </h2>
-          <p className="text-gray-600">
-            Reflect on the evolution of the Islamic finance industry over the
-            past five decades, highlighting its milestones, achievements, and
-            transformative impact on global economies.
-          </p>
         </div>
 
         {/* Objective 2 */}
         <div className="border-l-4 border-uni-green2 pl-4 transition-all ease-in-out duration-300 transform hover:scale-105">
           <h2 className="text-xl font-semibold text-gray-800">
-            2. Strengthening Global Partnerships
+            Strengthening international institution partnerships supporting the
+            Islamic Finance Industry.
           </h2>
-          <p className="text-gray-600">
-            Foster collaborations between international organizations and
-            Islamic financial institutions to amplify support for sustainable
-            development initiatives and financial inclusion.
-          </p>
         </div>
 
         {/* Objective 3 */}
         <div className="border-l-4 border-uni-green2 pl-4 transition-all ease-in-out duration-300 transform hover:scale-105">
           <h2 className="text-xl font-semibold text-gray-800">
-            3. Driving Sustainable Development Goals (SDGs)
+            Evaluating the contribution of Islamic Finance to achieving key
+            SDGs, including energy, food, health, and water security.
           </h2>
-          <p className="text-gray-600">
-            Evaluate the industry's contributions to achieving critical SDGs,
-            including:
-          </p>
-          <ul className="list-disc pl-6 text-gray-600">
-            <li>Energy security</li>
-            <li>Food security</li>
-            <li>Health security</li>
-            <li>Water security</li>
-          </ul>
         </div>
 
         {/* Objective 4 */}
         <div className="border-l-4 border-uni-green2 pl-4 transition-all ease-in-out duration-300 transform hover:scale-105">
           <h2 className="text-xl font-semibold text-gray-800">
-            4. Addressing Challenges and Opportunities
+            Analyzing achievements and addressing challenges faced by the
+            Islamic Finance Industry.
           </h2>
-          <p className="text-gray-600">
-            Provide a platform to analyze the achievements and persistent
-            challenges in Islamic finance while discussing strategies to
-            navigate emerging challenges.
-          </p>
         </div>
 
         {/* Objective 5 */}
         <div className="border-l-4 border-uni-green2 pl-4 transition-all ease-in-out duration-300 transform hover:scale-105">
           <h2 className="text-xl font-semibold text-gray-800">
-            5. Enhancing Global Awareness
+            Increasing awareness of Islamic Finance's role in the global
+            economy.
           </h2>
-          <p className="text-gray-600">
-            Increase awareness of Islamic finance's role in the global economy,
-            promoting knowledge transfer and intellectual exchange.
-          </p>
         </div>
 
         {/* Objective 6 */}
         <div className="border-l-4 border-uni-green2 pl-4 transition-all ease-in-out duration-300 transform hover:scale-105">
           <h2 className="text-xl font-semibold text-gray-800">
-            6. Promoting Innovative Financial Products
+            Encouraging financial institutions to develop financial products and
+            services that meet market demands.
           </h2>
-          <p className="text-gray-600">
-            Encourage financial institutions to develop products and services
-            that meet modern market demands, facilitating sustainable growth.
-          </p>
         </div>
 
         {/* Objective 7 */}
         <div className="border-l-4 border-uni-green2 pl-4 transition-all ease-in-out duration-300 transform hover:scale-105">
           <h2 className="text-xl font-semibold text-gray-800">
-            7. Strengthening Collaborative Efforts
+            Enhancing collaboration between Islamic Financial Institutions and
+            global financial institutions to facilitate the exchange of
+            expertise and best practices.
           </h2>
-          <p className="text-gray-600">
-            Enhance collaboration between Islamic and global financial
-            institutions to facilitate the exchange of expertise and best
-            practices.
-          </p>
         </div>
 
         {/* Objective 8 */}
         <div className="border-l-4 border-uni-green2 pl-4 transition-all ease-in-out duration-300 transform hover:scale-105">
           <h2 className="text-xl font-semibold text-gray-800">
-            8. Ensuring Future Sustainability
+            Examining the future challenges and opportunities for the Islamic
+            Finance Industry and developing strategies to ensure sustainability
+            and continued success.
           </h2>
-          <p className="text-gray-600">
-            Examine future challenges and opportunities, devising strategies to
-            ensure the sustainability and success of the Islamic finance
-            industry.
-          </p>
+        </div>
+
+        {/* Objective 9 */}
+        <div className="border-l-4 border-uni-green2 pl-4 transition-all ease-in-out duration-300 transform hover:scale-105">
+          <h2 className="text-xl font-semibold text-gray-800">
+            Promoting knowledge transfer, fostering intellectual exchange, and
+            strengthening collaborative efforts among all stakeholders within
+            the Islamic Finance Industry.
+          </h2>
         </div>
       </div>
     </div>

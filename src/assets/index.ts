@@ -25,7 +25,7 @@ import speaker_2 from "./speakers/speaker-2.jpg";
 import speaker_3 from "./speakers/speaker-3.jpg";
 import speaker_4 from "./speakers/speaker-4.jpg";
 import speaker_5 from "./speakers/speaker-5.jpg";
-
+import Eco from "./Economi.svg"
 
 
 export {
@@ -56,4 +56,5 @@ export {
   speaker_3,
   speaker_4,
   speaker_5,
+  Eco,
 };
