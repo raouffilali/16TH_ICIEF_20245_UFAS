@@ -1,5 +1,6 @@
+import React from 'react'
 
-const Speakers = () => {
+export const Sponsors = () => {
   return (
     <>
       <div className="relative h-screen w-full flex items-center justify-center bg-gray-50 dark:bg-gray-900">
@@ -26,12 +27,12 @@ const Speakers = () => {
             <span id="minutes" className="px-2">
               EDITTION
             </span>
-            <span id="seconds" className="px-2">2025</span>
+            <span id="seconds" className="px-2">
+              2025
+            </span>
           </div>
         </div>
       </div>
     </>
   );
-};
-
-export default Speakers;
+}

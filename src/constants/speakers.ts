@@ -1,6 +1,9 @@
 import { Dean, Recteur, MalRec,speaker_2,speaker_3,speaker_4,speaker_5 } from "@/assets";
 
-export const speakers = [
+// speakers.ts
+export const speakers = [];
+
+export const speakers2 = [
   {
     id: 1,
     name: "Gerardo Ambrose",

@@ -1,5 +1,6 @@
 import { sponsors } from "@/assets";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router";
 const SponsorPrtners = () => {
   return (
     <div className="flex flex-col border-t-2 border-dashed border-uni-green2-light w-full mt-14 ">
@@ -30,7 +31,7 @@ const SponsorPrtners = () => {
       </div>
       <div className="flex justify-center items-center ">
         <Button className="w-1/3 md:w-1/5 mt-8 md:mt-6 bg-gradient-to-l from-uni-green2 to-uni-green2-light">
-          Learn More
+          <Link to="/sponsors">View All Sponsors</Link>
         </Button>
       </div>
     </div>

@@ -49,14 +49,7 @@ const BackgroundEvent = () => {
             ))}
           </tbody>
         </table>
-        <h2 className="mt-12 text-2xl md:text-3xl font-bold mb-6 bg-gradient-to-r from-uni-green2 to bg-uni-green2-light bg-clip-text text-transparent border-b-2 border-dashed pb-2 animate-slidein800">
-          Overview:
-        </h2>
-        {eventBackground.introduction.map((intro, index) => (
-          <p key={index} className="text-base md:text-lg md:italic mb-6 text-left w-full animate-slidein900 md:text-justify">
-            {intro}
-          </p>
-        ))}
+
       </div>
     </div>
   );

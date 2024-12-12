@@ -8,12 +8,12 @@ const Logo = () => {
         <img
           src={Logo1}
           alt="UFAS-LOGO"
-          className="w-24 h-20 md:w-[100px] md:h-[75px]"
+          className="w-20 h-20 md:w-[110px] md:h-[75px]"
         />
         <img
           src={Eco}
           alt="Economi-Faculty-LOGO"
-          className="w-24 h-20 md:w-[120px] md:h-[65px]"
+          className="w-28 h-20 md:w-[145px] md:h-[65px]"
         />
       </div>
     </Link>

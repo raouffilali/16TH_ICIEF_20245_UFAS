@@ -16,8 +16,6 @@ import { Separator } from "@/components/ui/separator";
 import { navLinks } from "@/constants/navLinks";
 import "./component.css";
 import CustomDropdown from "./CustomDropdown"; // Import the new CustomDropdown component
-import { Eco } from "@/assets";
-
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 

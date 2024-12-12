@@ -17,6 +17,7 @@ import {
   Themes,
   Venue,
 } from "./pages/index.ts";
+import { Sponsors } from "./pages/Sponsors/Sponsors.tsx";
 
 const router = createBrowserRouter([
   {
@@ -74,6 +75,10 @@ const router = createBrowserRouter([
       {
         path: "/speakers",
         element: <Speakers />,
+      },
+      {
+        path: "/sponsors",
+        element: <Sponsors />,
       },
     ],
   },

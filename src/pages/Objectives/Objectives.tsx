@@ -1,4 +1,5 @@
 import { Bodytexture } from '@/assets';
+import { eventBackground } from '@/constants/eventBackground';
 
 const Objectives = () => {
   return (
@@ -14,10 +15,21 @@ const Objectives = () => {
 
       {/* Title Section */}
       <div className="max-w-4xl text-center mb-10 z-10">
+        <h2 className=" text-2xl md:text-3xl font-bold mb-6 bg-gradient-to-r from-uni-green2 to bg-uni-green2-light bg-clip-text text-transparent border-b-2 border-dashed pb-2 animate-slidein800">
+          Overview:
+        </h2>
+        {eventBackground.introduction.map((intro, index) => (
+          <p
+            key={index}
+            className="text-base md:text-lg md:italic mb-6 text-left w-full animate-slidein900 md:text-justify"
+          >
+            {intro}
+          </p>
+        ))}
         <h1 className="text-3xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-uni-green2 to bg-uni-green2-light bg-clip-text text-transparent border-b-2 border-dashed pb-2 animate-slidein100">
           Conference Objectives
         </h1>
-        <p className="text-lg md:text-l font-semibold md:italic text-gray-800 animate-fadeInLeft">
+        <p className="text-lg md:text-xl font-semibold md:italic text-gray-800 animate-fadeInLeft">
           As the Islamic finance industry marks its fiftieth anniversary, it is
           imperative to pause and assess this experience, rich with achievements
           and challenges alike. This conference aims to shed light on the

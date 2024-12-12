@@ -5,21 +5,18 @@ export const navLinks = [
     ref: "/",
   },
   {
-    title: "Conference",
-    ref: "/",
-    subLinks: [
-      { title: "High Committee", ref: "/high-committee" },
-      { title: "Organizers", ref: "/organizers" },
-      { title: "Objectives", ref: "/objectives" },
-      { title: "Themes", ref: "/themes" },
-    ],
+    title: "Committees",
+    ref: "/high-committee",
   },
   {
     title: "About",
     ref: "#",
     subLinks: [
+      { title: "Overview & Objectives", ref: "/objectives" },
       { title: "Target Participants", ref: "/participants" },
-      { title: "Background of ICIEF", ref: "/background" },
+      { title: "Themes", ref: "/themes" },
+      { title: "Organizers", ref: "/organizers" },
+      { title: "Hostory of the ICIEF", ref: "/background" },
     ],
   },
   {
