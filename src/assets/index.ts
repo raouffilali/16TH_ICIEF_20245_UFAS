@@ -59,7 +59,6 @@ export {
   HIC,
   IAFIE,
   Logo2,
-  ConfImg,
   Recteur,
   MalRec,
   Dean,
@@ -102,5 +101,4 @@ export {
   Ainouss,
   Ouassaa,
   Guemazi,
-  twitter,
 };

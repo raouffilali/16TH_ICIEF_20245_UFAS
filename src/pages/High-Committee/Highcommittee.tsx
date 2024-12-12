@@ -6,7 +6,7 @@ import { scientificcommittees } from "@/constants/Scientific Committee";
 
 const Hicommittee = () => {
   return (
-    <div className="relative pt-10  bg-gradient-to-br from-gray-50 via-white to-gray-50 text-gray-800 flex flex-col justify-center items-center">
+    <div className="relative pt-10 p-10 bg-gradient-to-br from-gray-50 via-white to-gray-50 text-gray-800 flex flex-col justify-center items-center">
       {/* Background Effect */}
       <img
         className="absolute inset-0 w-full h-full object-cover opacity-25 blur-[0.5px] z-0"
@@ -180,7 +180,7 @@ const Hicommittee = () => {
 
           {/* Another Blurred Transparent Card with Organizing Committee */}
           <div className="flex flex-row items-center mt-8 p-6 bg-transparent rounded-lg  ">
-            <div className="grid grid-col md:grid-cols-2 lg:grid-cols-4 gap-4 justify-center items-center md:gap-8 ">
+            <div className="grid grid-col md:grid-cols-2 lg:grid-cols-3 gap-4 justify-center items-center md:gap-8 ">
               {scientificcommittees.map((steeringcommittee) => (
                 <div
                   key={steeringcommittee.id}
