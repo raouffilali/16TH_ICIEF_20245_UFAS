@@ -1,5 +1,8 @@
 import { Bodytexture, Conf } from "@/assets";
 import { highcommittees } from "../../constants/Highcommittee";
+import { organizingcommittees } from "@/constants/Organizing Committee";
+import { steeringcommittees } from "@/constants/Steering Committee Of The Conference";
+import { scientificcommittees } from "@/constants/Scientific Committee";
 
 const Hicommittee = () => {
   return (
@@ -71,7 +74,7 @@ const Hicommittee = () => {
                   <img
                     src={Highcommittee.image}
                     alt={Highcommittee.name}
-                    className="w-full h-auto max-w-[150px] bg-white shadow-2xl object-cover rounded-lg mb-4 animate-slidleft800"
+                    className="w-full h-full max-h-[150px] max-w-[150px] bg-white shadow-2xl object-cover rounded-lg mb-4 animate-slidleft800"
                   />
                 )}
                 <div className="w-full h-full flex flex-col items-center md:items-start p-2 animate-slideright800 ">
@@ -99,126 +102,111 @@ const Hicommittee = () => {
         {/* Gradient Overlay */}
         <div className="w-full absolute inset-0 bg-gradient-to-r from-uni-green to-uni-green2 opacity-90"></div>
 
-        {/* Content Over Gradient */}
+        {/* Steering committe */}
 
         <div className="relative flex flex-col justify-center items-center w-full h-full text-white px-6 ">
           <h2 className="text-4xl text-center font-bold mb-4 mt-5 animate-slidleft800">
-            Steering Committee Of The Conference
+            Steering Committee
           </h2>
-
-
           {/* Blurred Transparent Card with Steering Committee */}
-          <div className="mt-8 max-w-[950px] w-full bg-white backdrop-blur-lg border border-white shadow-xl p-6 rounded-lg animate-slidleft800 ">
-            <ul className="text-uni-green space-y-3  ">
-              <li>
-                1. Prof Dr. Chaouki Bourakba, Dean of the Faculty of Economics,
-                Commerce, and Management Sciences, Setif 1 University _ Ferhat
-                Abbas, Algeria.
-              </li>
-              <li>
-                2. Prof Dr. Omar Zuhair Hafiz, President at Hafiz Financial
-                Consulting, Saudi Arabia.
-              </li>
-              <li>
-                3. Prof Dr. Abdelkader Chachi, Professor at Istanbul Sabahattin
-                Zaim University, Istanbul, Turkey
-              </li>
-              <li>
-                4. Prof Dr. Irfan Syauqi Beik, Dean of the Faculty of Economics
-                and Management, IPB University, Indonesia.
-              </li>
-              <li>
-                5. Prof Dr. Mehmet Bulut, President of Istanbul Sabahattin Zaim
-                University, Turkey.
-              </li>
-              <li>
-                6. Prof. Dr. Mohamed Boudjellal, High Islamic Council, Algeria.
-              </li>
-            </ul>
+          <div className="flex flex-row items-center mt-8 p-6 bg-transparent rounded-lg ">
+            <div className="grid grid-col md:grid-cols-2 lg:grid-cols-3 gap-4 justify-center items-center md:gap-8  ">
+              {steeringcommittees.map((steeringcommittee) => (
+                <div
+                  key={steeringcommittee.id}
+                  className="flex flex-col w-full h-full max-w-[300px] items-center bg-gradient-to-br bg-white drop-blur-lg border border-white to-uni-green2 bg-opacity-60
+                  p-4 rounded-lg shadow-2xl my-6 md:my-0 transition-all ease-in-out duration-300 transform hover:scale-105"
+                >
+                  {steeringcommittee.image && (
+                    <img
+                      src={steeringcommittee.image}
+                      alt={steeringcommittee.name}
+                      className="w-full h-full max-w-[190px] max-h-[190px] bg-white shadow-2xl rounded-lg "
+                    />
+                  )}
+                  <div className="w-full h-full flex flex-col items-center md:items-center p-2  ">
+                    <h3 className=" px-2 text-xl font-bold text-gray-800 text-center md:text-center">
+                      {steeringcommittee.name}
+                    </h3>
+                    {steeringcommittee.description && (
+                      <div className="text-center md:text-center mt-2 h-20 overflow-y-auto text-uni-green border-0 text-sm px-2 rounded-md scrollbar-thin scrollbar-thumb-uni-green2 scrollbar-track-gray-100 bg-transparent">
+                        {steeringcommittee.description}
+                      </div>
+                    )}
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
 
           <h2 className="text-center text-4xl font-bold mb-4 mt-5 animate-slideright800">
-            Scientific Committee:
+            Scientific Committee
           </h2>
 
-          {/* Another Blurred Transparent Card with Steering Committee */}
-          <div className="mt-8 max-w-[950px] w-full bg-white backdrop-blur-lg border border-white shadow-xl p-6 rounded-lg animate-slidleft800">
-            <ul className="text-uni-green space-y-3 items-center">
-              <li>
-                1. Prof. Dr. Tariqullah Khan, Istanbul Zaim University, Turkey.
-              </li>
-              <li>
-                2. Prof. Dr. Mohammad Kabir Hassan, University of New Orleans,
-                USA.
-              </li>
-              <li>
-                3. Prof. Dr. Sayyid Tahir, International Islamic University
-                Islamabad, Pakistan.
-              </li>
-              <li>4. Prof. Dr. Mansorh Ibrahim, INCEIF University, USA.</li>
-              <li>
-                5. Prof. Dr. Mustafa Omar, International Islamic University
-                Malaysia, Malaysia.
-              </li>
-              <li>
-                6. Prof. Dr. Aslam Haneef, International Islamic university,
-                Malaysia.
-              </li>
-              <li>7. Prof. Dr. Mehmet Asutay, Durham University, England.</li>
-              <li>
-                8. Prof. Dr. Abderrahmane Senouci, High Islamic Council,
-                Algeria.
-              </li>
-              <li>
-                9. Prof. Dr. Ahmed Belouafi, King Abdulaziz University, Saudi
-                Arabia.
-              </li>
-              <li>
-                10. Prof. Dr. Fadul Abdulkarim, King Abdulaziz University, Saudi
-                Arabia.
-              </li>
-              <li>
-                11. Prof. Dr. Abdelhalim Gharbi, Imam Mohammad Ibn Saud Islamic
-                University, Saudi Arabia.
-              </li>
-            </ul>
+          {/* Another Blurred Transparent Card with Organizing Committee */}
+          <div className="flex flex-row items-center mt-8 p-6 bg-transparent rounded-lg  ">
+            <div className="grid grid-col md:grid-cols-2 lg:grid-cols-4 gap-4 justify-center items-center md:gap-8 ">
+              {organizingcommittees.map((organizingcommittee) => (
+                <div
+                  key={organizingcommittee.id}
+                  className="flex flex-col w-full h-full max-w-[300px] items-center bg-gradient-to-br bg-white drop-blur-lg border border-white to-uni-green2 bg-opacity-60
+                  p-4 rounded-lg shadow-2xl my-6 md:my-0 transition-all ease-in-out duration-300 transform hover:scale-105"
+                >
+                  {organizingcommittee.image && (
+                    <img
+                      src={organizingcommittee.image}
+                      alt={organizingcommittee.name}
+                      className="w-full h-full max-w-[190px] max-h-[190px] bg-white shadow-2xl rounded-lg "
+                    />
+                  )}
+                  <div className="w-full h-full flex flex-col items-center md:items-center p-2  ">
+                    <h3 className=" px-2 text-xl font-bold text-gray-800 text-center md:text-center">
+                      {organizingcommittee.name}
+                    </h3>
+                    {organizingcommittee.description && (
+                      <div className="text-center md:text-center mt-2 h-20 overflow-y-auto text-uni-green border-0 text-sm px-2 rounded-md scrollbar-thin scrollbar-thumb-uni-green2 scrollbar-track-gray-100 bg-transparent">
+                        {organizingcommittee.description}
+                      </div>
+                    )}
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
 
           <h2 className="text-center text-4xl font-bold mb-4 mt-5 animate-slidleft800">
-            Organizing Committee:
+            Organizing Committee
           </h2>
 
-          {/* Another Blurred Transparent Card with Steering Committee */}
-          <div className="mt-8 max-w-[950px] w-full bg-white backdrop-blur-lg border border-white shadow-xl p-6 rounded-lg animate-slidleft800">
-            <ul className="text-uni-green space-y-3">
-              <li>
-                1. Dr. Bensalem Farouq, Setif 1 University _ Ferhat Abbas,
-                Algeria.
-              </li>
-              <li>
-                2. Dr. Bouguaa Zineb, Setif 1 University _ Ferhat Abbas,
-                Algeria.
-              </li>
-              <li>
-                3. Dr. Harfouche Anissa, Setif 1 University _ Ferhat Abbas,
-                Algeria.
-              </li>
-              <li>
-                4. Dr. Khelfi Rafik, Setif 1 University _ Ferhat Abbas, Algeria.
-              </li>
-              <li>
-                5. Dr. Riadh Ainouss, Setif 1 University _ Ferhat Abbas,
-                Algeria.
-              </li>
-              <li>
-                6. Dr. Hamza Ouassaa, Setif 1 University _ Ferhat Abbas,
-                Algeria.
-              </li>
-              <li>
-                7. Dr. Noudjoum Guemazi, Setif 1 University _ Ferhat Abbas,
-                Algeria.
-              </li>
-            </ul>
+          {/* Another Blurred Transparent Card with Organizing Committee */}
+          <div className="flex flex-row items-center mt-8 p-6 bg-transparent rounded-lg  ">
+            <div className="grid grid-col md:grid-cols-2 lg:grid-cols-4 gap-4 justify-center items-center md:gap-8 ">
+              {scientificcommittees.map((steeringcommittee) => (
+                <div
+                  key={steeringcommittee.id}
+                  className="flex flex-col w-full h-full max-w-[300px] items-center bg-gradient-to-br bg-white drop-blur-lg border border-white to-uni-green2 bg-opacity-60
+                  p-4 rounded-lg shadow-2xl my-6 md:my-0 transition-all ease-in-out duration-300 transform hover:scale-105"
+                >
+                  {steeringcommittee.image && (
+                    <img
+                      src={steeringcommittee.image}
+                      alt={steeringcommittee.name}
+                      className="w-full h-full max-w-[190px] max-h-[190px] bg-white shadow-2xl rounded-lg "
+                    />
+                  )}
+                  <div className="w-full h-full flex flex-col items-center md:items-center p-2  ">
+                    <h3 className=" px-2 text-xl font-bold text-gray-800 text-center md:text-center">
+                      {steeringcommittee.name}
+                    </h3>
+                    {steeringcommittee.description && (
+                      <div className="text-center md:text-center mt-2 h-20 overflow-y-auto text-uni-green border-0 text-sm px-2 rounded-md scrollbar-thin scrollbar-thumb-uni-green2 scrollbar-track-gray-100 bg-transparent">
+                        {steeringcommittee.description}
+                      </div>
+                    )}
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>

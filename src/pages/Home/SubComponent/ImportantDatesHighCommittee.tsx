@@ -110,7 +110,7 @@ const ImportantDatesHighCommittee = () => {
                     <img
                       src={Highcommittee.image}
                       alt={Highcommittee.name}
-                      className="w-full h-auto max-w-[150px] bg-white shadow-2xl object-cover rounded-lg mb-4 animate-slidleft800"
+                      className="w-full h-full max-h-[150px] max-w-[150px] bg-white shadow-2xl object-cover rounded-lg mb-4 animate-slidleft800"
                     />
                   )}
                   <div className="w-full h-full flex flex-col items-center md:items-start p-2 animate-slideright800 ">
