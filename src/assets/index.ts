@@ -59,7 +59,6 @@ export {
   HIC,
   IAFIE,
   Logo2,
-  ConfImg,
   Recteur,
   MalRec,
   Dean,
