@@ -6,11 +6,11 @@ import { BsTwitterX } from "react-icons/bs";
 const socials = [
   {
     icon: <Facebook />,
-    path: "https://www.facebook.com/people/16TH-ICIEF-2025/61568863628034/?sk=about",
+    path: "https://www.facebook.com/share/189t34RopD/",
   },
   {
     icon: <Instagram />,
-    path: "https://www.instagram.com/universite_ferhat_abbas_setif/",
+    path: "https://www.instagram.com/icief16setif/",
   },
   {
     icon: <LinkedinIcon />,
@@ -18,11 +18,11 @@ const socials = [
   },
   {
     icon: <YoutubeIcon />,
-    path: "https://www.youtube.com/@-ferhatabbasuniversitysetif1dz",
+    path: "https://youtube.com/@icief16",
   },
   {
     icon: <BsTwitterX />,
-    path: "https://x.com/i/flow/login?redirect_after_login=%2Ficief16",
+    path: "https://x.com/icief16",
   },
 ];
 

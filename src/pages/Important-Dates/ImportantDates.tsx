@@ -28,7 +28,7 @@ const ImportantDates = () => {
               <td className="p-4 border-r border-gray-300 text-left">
                 <strong>Submission Opening:</strong>
               </td>
-              <td className="p-4 text-left">01/12/2024</td>
+              <td className="p-4 text-left">05/12/2024</td>
             </tr>
             <tr className="bg-white border-b border-gray-300">
               <td className="p-4 border-r border-gray-300 text-left">
