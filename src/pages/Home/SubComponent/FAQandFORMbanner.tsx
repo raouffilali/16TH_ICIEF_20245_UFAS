@@ -54,10 +54,16 @@ const FAQandFORMbanner = () => {
           </h2>
         </div>
         <form className="flex flex-col w-full">
-          <div className="flex flex-col md:flex-row gap-4">
+          <div className="flex flex-col md:flex-row gap-2">
             {formFields.slice(0, 2).map((field) => (
-              <div key={field.id} className="flex flex-col w-full md:w-1/2">
-                <label className="mb-2 text-lg font-medium text-gray-700" htmlFor={field.id}>
+              <div
+                key={field.id}
+                className="flex flex-col w-full md:w-1/2  "
+              >
+                <label
+                  className="mb-2 text-lg font-medium text-gray-700"
+                  htmlFor={field.id}
+                >
                   {field.label}
                 </label>
                 <input
@@ -73,7 +79,10 @@ const FAQandFORMbanner = () => {
           <div className="flex flex-col">
             {formFields.slice(2, 3).map((field) => (
               <div key={field.id} className="flex flex-col w-full">
-                <label className="mb-2 text-lg font-medium text-gray-700" htmlFor={field.id}>
+                <label
+                  className="mb-2 text-lg font-medium text-gray-700"
+                  htmlFor={field.id}
+                >
                   {field.label}
                 </label>
                 <input
@@ -86,10 +95,16 @@ const FAQandFORMbanner = () => {
               </div>
             ))}
           </div>
-          <div className="flex flex-col md:flex-row gap-4">
+          <div className="flex flex-col md:flex-row gap-2">
             {formFields.slice(3, 5).map((field) => (
-              <div key={field.id} className="flex flex-col w-full md:w-1/2">
-                <label className="mb-2 text-lg font-medium text-gray-700" htmlFor={field.id}>
+              <div
+                key={field.id}
+                className="flex flex-col w-full md:w-1/2 "
+              >
+                <label
+                  className="mb-2 text-lg font-medium text-gray-700"
+                  htmlFor={field.id}
+                >
                   {field.label}
                 </label>
                 <input
@@ -104,7 +119,10 @@ const FAQandFORMbanner = () => {
           </div>
           {formFields.slice(5).map((field) => (
             <div key={field.id} className="flex flex-col">
-              <label className="mb-2 text-lg font-medium text-gray-700" htmlFor={field.id}>
+              <label
+                className="mb-2 text-lg font-medium text-gray-700"
+                htmlFor={field.id}
+              >
                 {field.label}
               </label>
               <input

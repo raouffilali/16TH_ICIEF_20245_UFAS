@@ -27,8 +27,8 @@ const Contact = () => {
             {/* Left Section (25%) */}
             <div className="flex flex-col w-full md:w-1/4 h-auto mx-1 bg-gradient-to-bl gap-5 from-uni-green via-uni-green2 to-uni-green text-white p-5 justify-center items-start rounded-lg shadow-lg">
               <h1 className="text-xl font-extrabold">Email</h1>
-              <p>- icief25@univ-setif.dz </p>
-              <p>- icief25@gmail.com </p>
+              <p> icief16@univ-setif.dz </p>
+              <p> icief16setif@gmail.com </p>
               <h1 className="text-xl font-extrabold">ADDRESS:</h1>
               <p>Université de Sétif, El Bez, Sétif 19000</p>
             </div>
