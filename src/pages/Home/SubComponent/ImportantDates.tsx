@@ -8,11 +8,11 @@ const ImportantDates = () => {
      ];
   return (
     <div className="container items-center mx-auto w-full h-full flex-col py-12 md:px-16 ">
-      <h1 className="underline relative text-center text-4xl md:text-3xl font-bold md:font-bold bg-gradient-to-r from-uni-green via-uni-green2 to-uni-green bg-clip-text text-transparent px-4 py-12 my-4">
+      <h1 className="underline relative text-center text-4xl md:text-5xl font-semibold md:font-bold bg-gradient-to-r from-uni-green2 via-uni-green2-light to-uni-green2 bg-clip-text text-transparent px-4 md:py-12 my-4">
         Important Dates
       </h1>
-      <div className="relative flex flex-col items-center w-full rounded-md text-uni-green2">
-        <div className="flex flex-col items-center xl:w-full xl:flex-row gap-2 md:gap-4 rounded-md">
+      <div className="relative flex flex-col items-center w-full h-full my-9 rounded-md text-uni-green2 z-10">
+        <div className="flex flex-col items-center h-full md:h-[180px] md:mb-72 xl:mb-0 xl:flex-row gap-2 md:gap-4 rounded-md">
           {dates.map((item, index) => (
             <div
               key={index}

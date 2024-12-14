@@ -13,7 +13,7 @@ const ImportantDatesHighCommittee = () => {
       <div className="w-full absolute inset-0 bg-gradient-to-r from-uni-green2 to-uni-green2-light opacity-90"></div>
       
       <div className="container items-center xl:items-center mx-auto w-full h-full flex-col py-6 md:px-16 ">
-        <h1 className="underline relative text-center md:text-start text-4xl md:text-3xl font-bold md:font-bold text-white px-4 ">
+        <h1 className="relative text-center md:text-start text-4xl md:text-5xl font-bold md:font-bold text-white px-4 ">
           High Committee
         </h1>
       </div>
