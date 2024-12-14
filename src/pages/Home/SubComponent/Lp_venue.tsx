@@ -1,3 +1,4 @@
+import { PhoneCallIcon } from "lucide-react";
 import { mapInfo } from "../../../constants/maps_Info";
 
 const Lp_venue = () => {
@@ -31,7 +32,10 @@ const Lp_venue = () => {
           <h3 className="text-xl font-bold mb-4">Address:</h3>
           <p className="mb-4">Setif 1 University_Ferhat Abass, Algeria</p>
           <h3 className="text-xl font-bold mb-4">Reception Info:</h3>
-          <p className="mb-4">Booking: 036 42 01 50</p>
+          <div className="flex flex-row gap-2">
+            <PhoneCallIcon />
+            <p className="mb-4"> 036 42 01 50</p>
+          </div>
           <a
             href={mapInfo.map_Link}
             target="_blank"

@@ -1,4 +1,4 @@
-import { Beik, Boudjellal, Bourakba, Bulut, Chachi, Hafiz } from "@/assets";
+import { Beik, Bourakba, Bulut, Chachi, Hafiz } from "@/assets";
 
 export type steeringcommittee = {
   id: number;
@@ -16,13 +16,13 @@ export const steeringcommittees : steeringcommittee[] = [
   },
   {
     id: 2,
-    name: "Prof Dr. Omar Zuhair Hafiz",
+    name: "Dr. Omar Zuhair Hafiz",
     description: "President at Hafiz Financial Consulting, Saudi Arabia.",
     image: Hafiz,
   },
   {
     id: 3,
-    name: "Prof Dr. Abdelkader Chachi",
+    name: "Dr. Abdelkader Chachi",
     description: "Professor at Istanbul Sabahattin Zaim University, Istanbul, Turkey.",
     image: Chachi,
   },
@@ -37,11 +37,5 @@ export const steeringcommittees : steeringcommittee[] = [
     name: "Prof Dr. Mehmet Bulut",
     description: "President of Istanbul Sabahattin Zaim University, Turkey.",
     image: Bulut,
-  },
-  {
-    id: 6,
-    name: "Prof. Dr. Mohamed Boudjellal",
-    description: "High Islamic Council, Algeria.",
-    image: Boudjellal,
   },
 ]

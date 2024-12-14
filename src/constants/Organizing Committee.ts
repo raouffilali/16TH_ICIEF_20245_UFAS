@@ -1,77 +1,53 @@
-import { Abdulkarim, Asutay, Belouafi,  Gharbi,  Haneef, Hassan, Ibrahim, Khan, Omar, Senouci, Tahir } from "@/assets";
+import { Farouq, Zineb, Anissa, Rafik, Ainouss, Ouassaa, Guemazi } from "@/assets";
 
-export type organizingcommittee = {
+export type scientificcommittee = {
   id: number;
   name: string;
   description?: string;
   image?: string; // Optional field for the image URL
 };
 
-export const organizingcommittees: organizingcommittee[] = [
+export const scientificcommittees: scientificcommittee[] = [
   {
     id: 1,
-    name: "Prof. Dr. Tariqullah Khan",
-    description: "Istanbul Zaim University, Turkey.",
-    image: Khan,
+    name: "Dr. Bensalem Farouq",
+    description: "Setif 1 University _ Ferhat Abbas, Algeria.",
+    image: Farouq,
   },
   {
     id: 2,
-    name: "Prof. Dr. Mohammad Kabir Hassan",
-    description: "University of New Orleans, USA.",
-    image: Hassan,
+    name: "Dr. Bouguaa Zineb",
+    description: "Setif 1 University _ Ferhat Abbas, Algeria.",
+    image: Zineb,
   },
   {
     id: 3,
-    name: "Prof. Dr. Sayyid Tahir",
-    description: "International Islamic University Islamabad, Pakistan.",
-    image: Tahir,
+    name: "Dr. Harfouche Anissa",
+    description: "Setif 1 University _ Ferhat Abbas, Algeria.",
+    image: Anissa,
   },
   {
     id: 4,
-    name: "Prof. Dr. Mansorh Ibrahim",
-    description: "INCEIF University, USA.",
-    image: Ibrahim,
+    name: "Dr. Khelfi Rafik",
+    description: "Setif 1 University _ Ferhat Abbas, Algeria.",
+    image: Rafik,
   },
   {
     id: 5,
-    name: "Prof. Dr. Mustafa Omar",
-    description: "International Islamic University Malaysia, Malaysia.",
-    image: Omar,
+    name: "Dr. Riadh Ainouss",
+    description: "Setif 1 University _ Ferhat Abbas, Algeria.",
+    image: Ainouss,
   },
   {
     id: 6,
-    name: "Prof. Dr. Aslam Haneef",
-    description: "International Islamic University, Malaysia.",
-    image: Haneef,
+    name: "Dr. Hamza Ouassaa",
+    description: "Setif 1 University _ Ferhat Abbas, Algeria.",
+    image: Ouassaa,
   },
   {
     id: 7,
-    name: "Prof. Dr. Mehmet Asutay",
-    description: "Durham University, England.",
-    image: Asutay,
-  },
-  {
-    id: 8,
-    name: "Prof. Dr. Abderrahmane Senouci",
-    description: "High Islamic Council, Algeria.",
-    image: Senouci,
-  },
-  {
-    id: 9,
-    name: "Prof. Dr. Ahmed Belouafi",
-    description: "King Abdulaziz University, Saudi Arabia.",
-    image: Belouafi,
-  },
-  {
-    id: 10,
-    name: "Prof. Dr. Fadul Abdulkarim",
-    description: "King Abdulaziz University, Saudi Arabia.",
-    image: Abdulkarim,
-  },
-  {
-    id: 11,
-    name: "Prof. Dr. Abdelhalim Gharbi",
-    description: "Imam Mohammad Ibn Saud Islamic University, Saudi Arabia.",
-    image: Gharbi,
+    name: "Dr. Noudjoum Guemazi",
+    description: "Setif 1 University _ Ferhat Abbas, Algeria.",
+    image: Guemazi,
   },
 ];

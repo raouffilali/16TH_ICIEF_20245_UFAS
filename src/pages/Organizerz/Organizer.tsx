@@ -64,7 +64,7 @@ const Organizer = () => {
       </table>
       <div className=" p-2 md:p-10 m-10 w-full h-full max-w-[900px]  rounded-md  text-transparent animate-fadeInLeft">
         <Carousel
-          className="flex flex-col p-6 rounded-sm  border-2 border-opacity-80 border-dashed border-uni-green2-light "
+          className="flex flex-col p-6 rounded-sm"
           plugins={[plugin.current]}
           onMouseEnter={plugin.current.stop}
           onMouseLeave={plugin.current.reset}
@@ -79,17 +79,12 @@ const Organizer = () => {
                   <img
                     src={organizer.image}
                     alt={organizer.name}
-                    className="p-3+ w-full h-full max-w-[150px] max-h-[150px] md:max-w-[300px] md:max-h-[300px] shadow-sm object-cover rounded-md mb-4"
+                    className="p-3 max-w-[150px] max-h-[150px] md:max-w-[300px] md:max-h-[300px] shadow-sm object-cover rounded-md mb-4"
                   />
                 )}
                 <h3 className="text-lg md:text-xl font-bold text-uni-green shadow-sm text-center">
                   {organizer.name}
                 </h3>
-                {organizer.description && (
-                  <p className="mt-2 text-uni-green shadow-sm text-center">
-                    {organizer.description}
-                  </p>
-                )}
               </CarouselItem>
             ))}
           </CarouselContent>

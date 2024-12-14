@@ -35,12 +35,11 @@ const AnimatedBannerForHome = () => {
             alt="Texture"
           />
           <h1 className="text-4xl md:text-5xl font-bold mb-4 drop-shadow-lg textpre animate-slidein300">
-            International Conference on Islamic Economics and Finance - UFAS
+            International Conference on Islamic Economics and Finance
           </h1>
           <p className="text-xl md:text-2xl mb-6 max-w-2xl drop-shadow-md animate-slidein500">
-            ICIEF 16TH Edition, 2025
+            Islamic Financial Industry After Fifty Years of Practice
           </p>
-          
         </div>
       </div>
     </div>

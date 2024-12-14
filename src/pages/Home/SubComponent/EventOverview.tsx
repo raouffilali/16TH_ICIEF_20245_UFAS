@@ -3,50 +3,57 @@ import { MapPin, Calendar } from "lucide-react";
 
 const EventOverview = () => {
   return (
-    
     <div className="justify-center items-center flex flex-col gap-6 w-full h-full rounded-lg md:flex-row md:-my-4">
       <div className="flex flex-col my-4 w-full md:w-1/2 h-auto md:h-full md:order-1 z-10">
         <div className="flex flex-col md:items-start">
-          <p className="text-lg text-center text-uni-green2 my-1 md:text-xl">
+          <p className="text-lg text-center text-uni-green2 my-1 md:text-xl"></p>
+          <h1
+            className="text-3xl md:text-5xl font-bold md:font-bold bg-gradient-to-r from-uni-green via-uni-green2-light to-uni-green2 
+            bg-clip-text text-transparent py-1 text-center md:mb-3 md:text-start"
+          >
             Overview
-          </p>
-          <h1 className="text-2xl md:text-5xl font-semibold md:font-bold text-gray-800 py-1 text-center md:text-start">
-            GET THE LATEST INFO ABOUT THE{" "}
-            <span
-              className="bg-gradient-to-r from-uni-green via-uni-green2-light to-uni-green2 
-            bg-clip-text text-transparent"
-            >
-               EVENT
-            </span>
           </h1>
-          <p className="font-medium text-gray-500 text-center md:text-start">
-          The Islamic finance industry, emerging in the 1970s, has grown into a global system offering Shariah-compliant 
-          services like sukuk and takaful. It promotes financial inclusion, ethical investments,  
-          and economic growth. Despite challenges, advancements in fintech and commitment to sustainability position  
-          it for continued expansion as a model for ethical, sustainable finance.
+          <p className="font-medium text-gray-500 text-start">
+            The Islamic Finance Industry emerged in the 1970s with the
+            establishment of pioneering institutions such as : Dubai Islamic
+            Bank and Islamic Develepment Bank. These institutions distinguished
+            themselves by providing Shariah-compliant banking services,
+            prohibiting interest-based transactions, and emphasizing risk and
+            profit sharing through contracts like murabaha musharakah and
+            mudarabah while avoiding usurious transactions.
+            <span className="w-full text-uni-green2 hover:underline cursor-pointer">
+              <a className="w-full" href="./Objectives">
+                {" "}
+                See More
+              </a>
+            </span>
           </p>
         </div>
-        <div className="flex flex-col md:flex-row justify-center items-center gap-4 mt-4 md:-mr-20 ">
-          <div className="py-2 md:px-5 rounded-lg shadow-[0_0_20px_0px_rgba(15,90,8,0.25)] w-1/2 h-full bg-white flex flex-col md:flex-row items-center transition-all ease-in-out duration-300 transform hover:scale-105">
-            <div className="p-4 rounded-full bg-uni-green2 hover:bg-uni-green2-light duration-200 ">
-              <MapPin className="text-white " />
+        <div className="h-full flex flex-col md:flex-row justify-center items-center gap-4 mt-4 md:-mr-20 ">
+          <div className="py-2 px-2 md:px-3 rounded-lg shadow-[0_0_20px_0px_rgba(15,90,8,0.25)] w-full md:w-1/2 h-full md:h-full  bg-white flex flex-row items-center transition-all ease-in-out duration-300 transform hover:scale-105">
+            <div className="p-4 rounded-full bg-uni-green2 hover:bg-gray-300 duration-200 shadow-lg text-white hover:text-uni-green2 ">
+              <MapPin />
             </div>
-            <div className="w-full h-full flex flex-col px-4 items-center md:items-start ">
-              <h1 className="text-xl font-bold ">WHERE</h1>
-              <p className="text-center md:text-start">
-                Auditorium Mouloud Kacem Nait Belkacem-Université Ferhat Abbas
-                Sétif
+            <div className="w-full h-full flex flex-col px-2 items-center md:items-start ">
+              <h1 className="w-full text-start text-lg md:text-xl font-bold overflow-y-auto overflow-hidden">
+                WHERE
+              </h1>
+              <p className="w-full text-start overflow-y-auto overflow-hidden">
+                Mouloud Kacem Auditorium Nait Belkacem, Sétif 1, Ferhat Abbas
+                University
               </p>
             </div>
           </div>
-          <div className=" py-2 md:px-5 rounded-lg shadow-[0_0_20px_0px_rgba(15,90,8,0.25)] w-1/2 h-full bg-white flex flex-col md:flex-row items-center transition-all ease-in-out duration-300 transform hover:scale-105">
-            <div className="p-4 rounded-full bg-uni-green2 hover:bg-uni-green2-light duration-200 ">
-              <Calendar className="text-white " />
+          <div className=" py-2 px-2 md:px-3 rounded-lg shadow-[0_0_20px_0px_rgba(15,90,8,0.25)] w-full md:w-1/2 h-full md:h-full  bg-white flex flex-row items-center transition-all ease-in-out duration-300 transform hover:scale-105">
+            <div className="p-4 rounded-full bg-uni-green2 hover:bg-gray-300 duration-200 shadow-lg text-white hover:text-uni-green2 ">
+              <Calendar />
             </div>
-            <div className="w-full h-full flex flex-col px-4 items-center md:items-start">
-              <h1 className="text-xl font-bold ">WHENE</h1>
-              <p className="text-center md:text-start">
-                From May 13th to May 16th <br /> 08:00 AM - 06:00 PM <br/> Africa/Algiers
+            <div className="w-full h-full flex flex-col px-2 items-center md:items-start ">
+              <h1 className="w-full text-start text-lg md:text-xl font-bold overflow-y-auto overflow-hidden">
+                WHENE
+              </h1>
+              <p className="w-full text-start overflow-y-auto overflow-hidden">
+                From May 13th to May 16th | 08:00 AM - 06:00 PM | Algeria
               </p>
             </div>
           </div>

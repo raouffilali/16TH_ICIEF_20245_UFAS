@@ -1,12 +1,12 @@
 import { Bodytexture, Conf } from "@/assets";
 import { highcommittees } from "../../constants/Highcommittee";
-import { organizingcommittees } from "@/constants/Organizing Committee";
+import { organizingcommittees } from "@/constants/Scientific Committee1";
 import { steeringcommittees } from "@/constants/Steering Committee Of The Conference";
-import { scientificcommittees } from "@/constants/Scientific Committee";
+import { scientificcommittees } from "@/constants/Organizing Committee";
 
 const Hicommittee = () => {
   return (
-    <div className="relative pt-10 p-10 bg-gradient-to-br from-gray-50 via-white to-gray-50 text-gray-800 flex flex-col justify-center items-center">
+    <div className="relative pt-10 bg-gradient-to-br from-gray-50 via-white to-gray-50 text-gray-800 flex flex-col justify-center items-center">
       {/* Background Effect */}
       <img
         className="absolute inset-0 w-full h-full object-cover opacity-25 blur-[0.5px] z-0"
@@ -82,7 +82,7 @@ const Hicommittee = () => {
                     {Highcommittee.name}
                   </h3>
                   {Highcommittee.description && (
-                    <div className="text-center md:text-start mt-2 h-20 overflow-y-auto text-white border-0 text-sm px-2 rounded-md scrollbar-thin scrollbar-thumb-uni-green2 scrollbar-track-gray-100 bg-transparent">
+                    <div className="text-center md:text-start mt-2 h-20 overflow-y-auto text-white md:max-w-[300px] border-0 text-sm px-2 rounded-md scrollbar-thin scrollbar-thumb-uni-green2 scrollbar-track-gray-100 bg-transparent">
                       {Highcommittee.description}
                     </div>
                   )}
@@ -121,7 +121,7 @@ const Hicommittee = () => {
                     <img
                       src={steeringcommittee.image}
                       alt={steeringcommittee.name}
-                      className="w-full h-full max-w-[190px] max-h-[190px] bg-white shadow-2xl rounded-lg "
+                      className="w-full h-full max-w-[190px] min-h-[190px] max-h-[190px] bg-white shadow-2xl rounded-lg "
                     />
                   )}
                   <div className="w-full h-full flex flex-col items-center md:items-center p-2  ">
@@ -184,22 +184,15 @@ const Hicommittee = () => {
               {scientificcommittees.map((steeringcommittee) => (
                 <div
                   key={steeringcommittee.id}
-                  className="flex flex-col w-full h-full max-w-[300px] items-center bg-gradient-to-br bg-white drop-blur-lg border border-white to-uni-green2 bg-opacity-60
-                  p-4 rounded-lg shadow-2xl my-6 md:my-0 transition-all ease-in-out duration-300 transform hover:scale-105"
+                  className="flex flex-col w-full h-full max-w-[300px] justify-center items-center bg-gradient-to-br bg-white drop-blur-lg border border-white to-uni-green2 bg-opacity-60
+                  p-2 rounded-lg shadow-2xl md:items-center my-2 md:my-0 transition-all ease-in-out duration-300 transform hover:scale-105"
                 >
-                  {steeringcommittee.image && (
-                    <img
-                      src={steeringcommittee.image}
-                      alt={steeringcommittee.name}
-                      className="w-full h-full max-w-[190px] max-h-[190px] bg-white shadow-2xl rounded-lg "
-                    />
-                  )}
                   <div className="w-full h-full flex flex-col items-center md:items-center p-2  ">
                     <h3 className=" px-2 text-xl font-bold text-gray-800 text-center md:text-center">
                       {steeringcommittee.name}
                     </h3>
                     {steeringcommittee.description && (
-                      <div className="text-center md:text-center mt-2 h-20 overflow-y-auto text-uni-green border-0 text-sm px-2 rounded-md scrollbar-thin scrollbar-thumb-uni-green2 scrollbar-track-gray-100 bg-transparent">
+                      <div className="flex-col justify-center text-center md:text-center mt-2 h-20 overflow-y-auto text-uni-green border-0 text-sm px-2 rounded-md scrollbar-thin scrollbar-thumb-uni-green2 scrollbar-track-gray-100 bg-transparent">
                         {steeringcommittee.description}
                       </div>
                     )}

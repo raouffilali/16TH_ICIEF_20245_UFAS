@@ -1,11 +1,11 @@
-import { Instagram ,Facebook, LinkedinIcon, YoutubeIcon} from 'lucide-react';
+import { Instagram ,FacebookIcon, LinkedinIcon, YoutubeIcon, LucideFacebook} from 'lucide-react';
 import { BsTwitterX } from "react-icons/bs";
 
 
 // Social media links array
 const socials = [
   {
-    icon: <Facebook />,
+    icon: <FacebookIcon />,
     path: "https://www.facebook.com/share/189t34RopD/",
   },
   {
@@ -35,7 +35,7 @@ const Social = () => {
           href={item.path}
           target="_blank"
           rel="noopener noreferrer"
-          className="w-9 h-9 border border-accent rounded-full flex justify-center items-center text-accent text-base hover:bg-accent hover:text-[#0f5a08] transition-all duration-500"
+          className="w-10 h-10 rounded-full bg-white transition-all duration-200 ease-in-out transform hover:scale-110 flex justify-center items-center text-uni-green2 text-base "
         >
           {item.icon}
         </a>

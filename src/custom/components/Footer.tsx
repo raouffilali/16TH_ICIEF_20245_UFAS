@@ -9,7 +9,7 @@ const menuItems = [
 ];
 const Footer = () => {
   return (
-    <footer className="p-3 m-auto relative bg-gradient-to-r from-uni-green to-uni-green2 text-white ">
+    <footer className="p-3 pt-10 m-auto relative bg-gradient-to-r from-uni-green to-uni-green2 text-white ">
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
@@ -28,10 +28,10 @@ const Footer = () => {
             alt="UFAS-LOGO"
             className="w-16 h-16 md:w-[150px] md:h-[100px]"
           />
-          <p className="text-sm mt-4">
-            The <span className="font-bold">16th ICIEF</span> at Ferhat Abbas University, Sétif 1,
-            gathers global experts to explore innovations and challenges in
-            Islamic economics and finance.
+          <p className="text-lg mt-4">
+            The <span className="font-bold">16th ICIEF</span> at Sétif 1 ,Ferhat
+            Abbas University, gathers global experts to explore innovations and
+            challenges in Islamic economics and finance.
           </p>
         </div>
 
@@ -58,7 +58,7 @@ const Footer = () => {
       </div>
 
       {/* Footer License */}
-      <div className="relative text-center border-t-2 border-white mt-8 pt-4 text-sm z-10">
+      <div className="relative text-center border-t-2 border-white mt-8 py-4 text-sm z-10">
         © 2025 Ferhat Abbas University. All Rights Reserved.
       </div>
     </footer>

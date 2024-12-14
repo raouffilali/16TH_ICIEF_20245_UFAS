@@ -22,7 +22,8 @@ import speaker_2 from "./speakers/speaker-2.jpg";
 import speaker_3 from "./speakers/speaker-3.jpg";
 import speaker_4 from "./speakers/speaker-4.jpg";
 import speaker_5 from "./speakers/speaker-5.jpg";
-import Eco from "./Economi.svg"
+import Eco from "./Economi.svg";
+import EcoOrg from "./EcoOrg.webp";
 import Bourakba from "./Steering Committee/Prof Dr. Chaouki Bourakba.jpg"
 import Hafiz from "./Steering Committee/Prof Dr. Omar Zuhair Hafiz.jpg";
 import Chachi from "./Steering Committee/Prof Dr. Abdelkader Chachi.jpg";
@@ -47,6 +48,7 @@ import Rafik from "./Scientific Committee/Dr. Khelfi Rafik.jpg";
 import Ainouss from "./Scientific Committee/Dr. Riadh Ainouss.jpg";
 import Ouassaa from "./Scientific Committee/Dr. Hamza Ouassaa.jpg";
 import Guemazi from "./default.webp";
+import IEI from "./IEI.png"
 export {
   ufas_banner,
   Logo1,
@@ -97,4 +99,6 @@ export {
   Ainouss,
   Ouassaa,
   Guemazi,
+  EcoOrg,
+  IEI,
 };
