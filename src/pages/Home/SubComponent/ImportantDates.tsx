@@ -7,7 +7,7 @@ const ImportantDates = () => {
        { date: "13-15/05/2025", description: "Conference Dates" },
      ];
   return (
-    <div className="container items-center mx-auto w-full h-full flex-col py-28 md:px-16 ">
+    <div className="container items-center mx-auto w-full h-full flex-col py-12 md:px-16 ">
       <h1 className="underline relative text-center text-4xl md:text-3xl font-bold md:font-bold bg-gradient-to-r from-uni-green via-uni-green2 to-uni-green bg-clip-text text-transparent px-4 py-12 my-4">
         Important Dates
       </h1>

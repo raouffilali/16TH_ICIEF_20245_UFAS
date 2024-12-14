@@ -9,9 +9,9 @@ import MalRec from "./MalaysiaRec.png";
 import Dean from "./Steering Committee/Prof Dr. Chaouki Bourakba.jpg";
 import Conf from "./conference.jpg";
 import ufas_banner from "./UFAS-banner.jpeg";
-import Confrimg1 from "./fonerenceIMG1.jpg";
-import Confrimg2 from "./fonerenceIMG2.jpg";
-import Confrimg3 from "./fonerenceIMG3.jpg";
+import Confrimg1 from "./Overview1.jpg";
+import Confrimg2 from "./Overview2.jpg";
+import Confrimg3 from "./Overview3.jpg";
 import sponsors from "./sponsors.png";
 import submissionBannerImage from "./submissionBanner.jpg"
 import pdf_svg from "./pdf-svg.svg";

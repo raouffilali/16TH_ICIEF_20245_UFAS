@@ -7,7 +7,7 @@ const AnimatedBannerForHome = () => {
   return (
     <div className="relative w-full h-[600px] overflow-hidden -z-20">
       {/* Animated Gradient Background */}
-      <div className="absolute inset-0 bg-gradient-to-l from-[#122e10] via-[#293d04] to-[#174413] animate-gradient-x -z-10">
+      <div className="absolute inset-0 bg-gradient-to-l from-uni-green via-[#293d04] to-uni-green2 animate-gradient-x -z-10">
         {/* Wavy Bottom Effect */}
         <img
           className=" inset-0 w-full h-full object-cover md:object-fill opacity-45 blur-[4px] md:blur-[15px]"

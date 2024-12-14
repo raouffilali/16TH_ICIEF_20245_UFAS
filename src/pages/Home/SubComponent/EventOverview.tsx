@@ -3,7 +3,7 @@ import { MapPin, Calendar } from "lucide-react";
 
 const EventOverview = () => {
   return (
-    <div className="justify-center items-center flex flex-col gap-6 w-full h-full rounded-lg md:flex-row md:-my-4">
+    <div className="justify-center items-center flex flex-col gap-6 w-full h-full rounded-lg md:flex-row md:-my-">
       <div className="flex flex-col my-4 w-full md:w-1/2 h-auto md:h-full md:order-1 z-10">
         <div className="flex flex-col md:items-start">
           <p className="text-lg text-center text-uni-green2 my-1 md:text-xl"></p>
@@ -30,7 +30,7 @@ const EventOverview = () => {
           </p>
         </div>
         <div className="h-full flex flex-col md:flex-row justify-center items-center gap-4 mt-4 md:-mr-20 ">
-          <div className="py-2 px-2 md:px-3 rounded-lg shadow-[0_0_20px_0px_rgba(15,90,8,0.25)] w-full md:w-1/2 h-full md:h-full  bg-white flex flex-row items-center transition-all ease-in-out duration-300 transform hover:scale-105">
+          <div className="py-2 px-2 md:px-3 rounded-lg shadow-[0_0_20px_0px_rgba(15,90,8,0.25)] w-full lg:w-1/2 h-full md:min-h-[120px]  bg-white flex flex-row items-center transition-all ease-in-out duration-300 transform hover:scale-105">
             <div className="p-4 rounded-full bg-uni-green2 hover:bg-gray-300 duration-200 shadow-lg text-white hover:text-uni-green2 ">
               <MapPin />
             </div>
@@ -44,7 +44,7 @@ const EventOverview = () => {
               </p>
             </div>
           </div>
-          <div className=" py-2 px-2 md:px-3 rounded-lg shadow-[0_0_20px_0px_rgba(15,90,8,0.25)] w-full md:w-1/2 h-full md:h-full  bg-white flex flex-row items-center transition-all ease-in-out duration-300 transform hover:scale-105">
+          <div className=" py-2 px-2 md:px-3 rounded-lg shadow-[0_0_20px_0px_rgba(15,90,8,0.25)] w-full lg:w-1/2 h-full md:md:min-h-[120px]  bg-white flex flex-row items-center transition-all ease-in-out duration-300 transform hover:scale-105">
             <div className="p-4 rounded-full bg-uni-green2 hover:bg-gray-300 duration-200 shadow-lg text-white hover:text-uni-green2 ">
               <Calendar />
             </div>
@@ -76,7 +76,7 @@ const EventOverview = () => {
         <div className="flex flex-col justify-center items-center">
           <img
             src={Confrimg3}
-            className="w-full h-full rounded-lg shadow-xl max-h-[300px] max-w-[200px]"
+            className="h-[350px] w-full rounded-lg shadow-2xl max-w-[250px]"
             alt="conference image 3"
           />
         </div>

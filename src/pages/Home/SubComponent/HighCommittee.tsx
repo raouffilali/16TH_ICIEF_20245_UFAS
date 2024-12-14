@@ -54,15 +54,15 @@ const ImportantDatesHighCommittee = () => {
           </div>
 
           {/* Group 2: Conference Chairman */}
-          <div className="flex flex-col items-center relative z-10 w-full max-w-[950px] ">
+          <div className="flex flex-col items-center relative z-10 w-full  ">
             <h2 className="text-center text-2xl font-bold text-white mb-4 animate-slidein100 my-5">
               Conference Chairman
             </h2>
-            <div className="flex flex-col md:flex-row md:gap-8 animate-slidein100 mx-8 ">
+            <div className="flex flex-col md:flex-row md:gap-8 animate-slidein100 mx-4 ">
               {highcommittees.slice(2).map((Highcommittee) => (
                 <div
                   key={Highcommittee.id}
-                  className="flex flex-col h-full items-center mx md:flex-row md:items-start bg-black to-white bg-opacity-60
+                  className="flex flex-col w-full h-full items-center mx md:flex-row md:items-start bg-black to-white bg-opacity-60
                   p-4 rounded-lg shadow-2xl mb-6 mt-6 md:mb-0 md:mt-0 transition-all ease-in-out duration-300 transform hover:scale-105"
                 >
                   {Highcommittee.image && (
