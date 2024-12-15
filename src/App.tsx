@@ -31,7 +31,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <main ref={topRef} className="pt-16 sm:pt-20">
+      <main ref={topRef} className="pt-16 ">
         {" "}
         {/* Adjust the padding as needed */}
         <Outlet />

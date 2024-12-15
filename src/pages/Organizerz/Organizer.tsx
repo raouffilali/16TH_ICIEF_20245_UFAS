@@ -13,7 +13,7 @@ import { organizers } from "../../constants/Organizors";
 const Organizer = () => {
   const plugin = React.useRef(
     Autoplay({ delay: 2000, stopOnInteraction: true })
-  )
+  );
   return (
     <div className="relative pt-10 p-10 bg-gradient-to-br from-gray-50 via-white to-gray-50 text-gray-800 flex flex-col justify-center items-center">
       {/* Wavy Bottom Effect */}
@@ -44,8 +44,8 @@ const Organizer = () => {
           <tr className="bg-white ">
             <td className="py-3 px-4 border border-gray-200 font-bold">01</td>
             <td className="py-3 px-4 border border-gray-200 font-bold">
-              Faculty of Economic, Commerce, and Management Sciences "Setif 1
-              University_Ferhat Abass"
+              Faculty of Economics, Commerce, and Management Sciences "Setif 1
+              University Ferhat Abbas"
             </td>
           </tr>
           <tr className="bg-white">

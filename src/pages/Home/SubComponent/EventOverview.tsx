@@ -1,9 +1,10 @@
 import { Confrimg1, Confrimg2, Confrimg3 } from "@/assets";
 import { MapPin, Calendar } from "lucide-react";
+import { Link } from "react-router";
 
 const EventOverview = () => {
   return (
-    <div className="justify-center items-center flex flex-col gap-6 w-full h-full rounded-lg md:flex-row md:-my-">
+    <div className="justify-center items-center flex flex-col gap-6 w-full h-full rounded-lg md:flex-row md:-my-4">
       <div className="flex flex-col my-4 w-full md:w-1/2 h-auto md:h-full md:order-1 z-10">
         <div className="flex flex-col md:items-start">
           <p className="text-lg text-center text-uni-green2 my-1 md:text-xl"></p>
@@ -22,14 +23,14 @@ const EventOverview = () => {
             profit sharing through contracts like murabaha musharakah and
             mudarabah while avoiding usurious transactions.
             <span className="w-full text-uni-green2 hover:underline cursor-pointer">
-              <a className="w-full" href="./Objectives">
+              <Link className="w-full" to="./Objectives">
                 {" "}
                 See More
-              </a>
+              </Link>
             </span>
           </p>
         </div>
-        <div className="h-full flex flex-col md:flex-row justify-center items-center gap-4 mt-4 md:-mr-20 ">
+        <div className="h-full flex flex-col md:flex-row justify-center items-center gap-4 mt-8  md:-mr-20 ">
           <div className="py-2 px-2 md:px-3 rounded-lg shadow-[0_0_20px_0px_rgba(15,90,8,0.25)] w-full lg:w-1/2 h-full md:min-h-[120px]  bg-white flex flex-row items-center transition-all ease-in-out duration-300 transform hover:scale-105">
             <div className="p-4 rounded-full bg-uni-green2 hover:bg-gray-300 duration-200 shadow-lg text-white hover:text-uni-green2 ">
               <MapPin />
@@ -39,8 +40,8 @@ const EventOverview = () => {
                 WHERE
               </h1>
               <p className="w-full text-start overflow-y-auto overflow-hidden">
-                Mouloud Kacem Auditorium Nait Belkacem, Sétif 1, Ferhat Abbas
-                University
+                Mouloud Kacem Auditorium Nait Belkacem, Setif 1 University
+                Ferhat Abbas
               </p>
             </div>
           </div>

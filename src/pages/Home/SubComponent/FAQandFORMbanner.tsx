@@ -10,7 +10,7 @@ import { formFields, faqItems } from "../../../constants/formData"; // Adjust th
 
 const FAQandFORMbanner = () => {
   return (
-    <div className="relative w-full h-full flex flex-col md:flex-row items-center gap-6 bg-gray-500 p-8 md:px-36 mb-24 md:mb-40 mt-24 animate-fadeInLeft">
+    <div className="relative w-full h-full flex flex-col md:flex-row items-center gap-6 bg-gray-500 p-8 md:px-36 mb-24 md:mb-64 mt-24 md:mt-40 animate-fadeInLeft">
       <div
         className="absolute inset-0"
         style={{
@@ -34,13 +34,13 @@ const FAQandFORMbanner = () => {
         <Accordion
           type="single"
           collapsible
-          className="w-full h-full bg-white text-uni-green2 p-4 rounded-lg"
+          className="w-full h-full bg-white text-uni-green2 p-4 md:p-8 rounded-lg"
         >
           {faqItems.map((item) => (
             <AccordionItem key={item.value} value={item.value}>
-              <AccordionTrigger>{item.question}</AccordionTrigger>
-              <AccordionContent className="text-gray-800">
-                {item.answer}
+              <AccordionTrigger className=" md:text-lg">{item.question}</AccordionTrigger>
+              <AccordionContent className="text-gray-800 text-base md:text-lg">
+          {item.answer}
               </AccordionContent>
             </AccordionItem>
           ))}

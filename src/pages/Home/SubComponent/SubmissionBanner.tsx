@@ -14,7 +14,7 @@ import { Link } from "react-router";
 
 const SubmissionBanner = () => {
   return (
-    <div className="relative text-white text-center py-20 px-6 w-full overflow-hidden mb-8">
+    <div className="relative text-white text-center py-20 px-6 w-full overflow-hidden mb-8 md:mb-20">
       <div
         className="absolute inset-0"
         style={{
@@ -55,7 +55,7 @@ const SubmissionBanner = () => {
                 Call for papers
               </button>
             </AlertDialogTrigger>
-            <AlertDialogContent className="w-full max-w-lg md:max-w-4xl md:h-auto">
+            <AlertDialogContent className="w-4/5 md:w-full max-w-lg md:max-w-4xl md:h-auto rounded-md">
               <AlertDialogHeader>
                 <AlertDialogTitle className="text-3xl text-center md:font-bold bg-gradient-to-l from-uni-green2 to bg-uni-green2-light bg-clip-text text-transparent">
                   Call for papers

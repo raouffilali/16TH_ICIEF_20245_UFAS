@@ -2,7 +2,7 @@ import { Bodytexture } from "@/assets";
 
 const themes = [
   {
-    title: "Theme 01: History and Evolution of the Islamic Finance Industry",
+    title: "Theme 01: History and Evolution of The Islamic Finance Industry",
     points: [
       {
         subheading: "Establishment Phase:",
@@ -35,8 +35,8 @@ const themes = [
       {
         subheading: "Legislative Development:",
         details: [
-          "Laws governing the Islamic finance industry in different countries.",
-          "Role of supporting international institutions, such as the Accounting and Auditing Organization for Islamic Financial Institutions (AAOIFI) and the Islamic Financial Services Board (IFSB), in the development and standardization of the Islamic finance industry.",
+          "Laws governing The Islamic Finance Industry in different countries.",
+          "Role of supporting international institutions, such as the Accounting and Auditing Organization for Islamic Financial Institutions (AAOIFI) and the Islamic Financial Services Board (IFSB), in the development and standardization of The Islamic Finance Industry.",
         ],
       },
       {
@@ -50,14 +50,15 @@ const themes = [
       {
         subheading: "Role of Central Banks:",
         details: [
-          "Strategies for supporting and regulating the Islamic finance industry.",
+          "Strategies for supporting and regulating The Islamic Finance Industry.",
           "-	Challenges faced by central banks in achieving balance between flexibility and control.",
         ],
       },
     ],
   },
   {
-    title: "Theme 03: Islamic Financial Products between Tradition and Innovation",
+    title:
+      "Theme 03: Islamic Financial Products between Tradition and Innovation",
     points: [
       {
         subheading: "Evolution of Financial Contracts:",
@@ -84,7 +85,8 @@ const themes = [
     ],
   },
   {
-    title: "Theme 04: Islamic Financial Industry in the Era of the 4.0 Industrial Revolution",
+    title:
+      "Theme 04: Islamic Financial Industry in the Era of the 4.0 Industrial Revolution",
     points: [
       {
         subheading: "Financial Technology (Fintech):",
@@ -114,7 +116,8 @@ const themes = [
     title: "Theme 05: Islamic Financial Industry and Sustainable Development",
     points: [
       {
-        subheading: "Role of Islamic Finance in Achieving Sustainable Development:",
+        subheading:
+          "Role of Islamic Finance in Achieving Sustainable Development:",
         details: [
           "Contribution to Sustainable Development Goals (SDGs).",
           "Ethical and social financing instruments (e.g., Takaful and Waqf).",
@@ -128,7 +131,8 @@ const themes = [
         ],
       },
       {
-        subheading: "Industry Future in Light of Environmental and Economic Transitions:",
+        subheading:
+          "Industry Future in Light of Environmental and Economic Transitions:",
         details: [
           "Facing environmental challenges such as climate change.",
           "Role of the industry in supporting the green economy and sustainable practices.",
@@ -194,7 +198,7 @@ const themes = [
 const Themes = () => {
   return (
     <div className="relative min-h-screen bg-gradient-to-b from-gray-50 via-white to-gray-50 py-10 px-8">
-       <img
+      <img
         className="absolute inset-0 w-full h-full object-cover opacity-25 blur-[0.5px] z-0"
         src={Bodytexture}
         alt="Texture"
@@ -205,7 +209,7 @@ const Themes = () => {
           Conference Themes
         </h1>
         <p className="text-lg text-center mb-12 text-gray-600 animate-fadeInLeft">
-          Explore the key themes shaping the Islamic finance industry on its
+          Explore the key themes shaping The Islamic Finance Industry on its
           50th anniversary.
         </p>
 

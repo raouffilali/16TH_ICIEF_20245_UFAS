@@ -75,7 +75,7 @@ const Navbar = () => {
           {/* Register Button */}
           <Button
             variant="ghost"
-            className="font-semibold text-uni-green border-2 border-uni-green2-light hover:bg-uni-green2 hover:text-white px-6"
+            className="font-semibold text-white border-2 bg-uni-green2 border-uni-green2-light hover:bg-white hover:text-uni-green px-6"
           >
             <Link to="/registration">Register</Link>
           </Button>
@@ -143,7 +143,7 @@ const Navbar = () => {
                 ))}
                 <Button
                   variant="ghost"
-                  className="text-uni-green border-2 border-uni-green2-light hover:bg-uni-green2 hover:text-white px-6 hover:shadow-lg"
+                  className="text-white border-2 bg-uni-green border-uni-green2-light hover:bg-white hover:text-uni-green px-6 hover:shadow-lg"
                 >
                   <SheetClose asChild onClick={handleLinkClick}>
                     <Link to="/registration">Register</Link>

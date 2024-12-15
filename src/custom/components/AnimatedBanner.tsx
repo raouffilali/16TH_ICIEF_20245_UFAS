@@ -6,13 +6,13 @@ import { RefObject } from "react";
 interface AnimatedBannerProps {
   buttonRef?: RefObject<HTMLDivElement>;
   buttonName: string;
-  bannerText?:string;
+  bannerText?: string;
 }
 
 const AnimatedBanner = ({
   buttonRef,
   buttonName,
-  bannerText = "International Conference on Islamic Economics and Finance - UFAS",
+  bannerText = "International Conference on Islamic Economics and Finance",
 }: AnimatedBannerProps) => {
   const handleClick = () => {
     if (buttonRef && buttonRef.current) {
@@ -46,15 +46,15 @@ const AnimatedBanner = ({
         {/* Banner Content */}
         <div className="absolute inset-0 flex flex-col justify-center items-center text-white text-center px-4 animate-slidein300 -mt-14">
           <img
-            className="w-full h-full max-w-[100px] max-h-[60px] md:max-h-[100px] md:max-w-[200px] animate-slidein200"
+            className=" md:mb-6 w-full h-full max-w-[100px] max-h-[60px] md:max-h-[100px] md:max-w-[200px] animate-slidein200"
             src={ICIEF16LOGO}
             alt="Texture"
           />
-          <h1 className="text-4xl md:text-5xl font-bold mb-4 drop-shadow-lg textpre ">
+          <h1 className="text-4xl md:text-5xl font-bold mb-4 md:mt-4 md:mb-8 drop-shadow-lg textpre ">
             {bannerText}
           </h1>
           <p className="text-xl md:text-2xl mb-6 max-w-2xl drop-shadow-md ">
-            ICIEF 16TH Edition, 2025
+            Islamic Financial Industry After Fifty Years of Practice
           </p>
           <Button
             variant={"outline"}

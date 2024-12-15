@@ -76,3 +76,27 @@
     color: #ffffff; /* Change this to your desired text color */
   }
 }
+@media (max-width: 767px) {
+  p.text-justify {
+    text-align: justify;
+    text-align-last: left; /* Ensures the last line is centered */
+  }
+}
+/* Custom scrollbar styles */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Background of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #0f5a08; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Roundness of the scrollbar thumb */
+  border: 3px solid #f1f1f1; /* Padding around the scrollbar thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #093304; /* Color of the scrollbar thumb on hover */
+}

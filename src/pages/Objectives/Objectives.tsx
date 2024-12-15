@@ -1,5 +1,5 @@
-import { Bodytexture } from '@/assets';
-import { eventBackground } from '@/constants/eventBackground';
+import { Bodytexture } from "@/assets";
+import { eventBackground } from "@/constants/eventBackground";
 
 const Objectives = () => {
   return (
@@ -15,25 +15,32 @@ const Objectives = () => {
 
       {/* Title Section */}
       <div className="max-w-4xl text-center mb-10 z-10">
-        <h2 className=" text-2xl md:text-3xl font-bold mb-6 bg-gradient-to-r from-uni-green2 to bg-uni-green2-light bg-clip-text text-transparent border-b-2 border-dashed pb-2 animate-slidein800">
+        <h2 className=" text-left md:text-center text-3xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-uni-green2 to bg-uni-green2-light bg-clip-text text-transparent border-b-2 border-dashed pb-2 animate-slidein800">
           Overview:
         </h2>
-        {eventBackground.introduction.map((intro, index) => (
-          <p
-            key={index}
-            className="text-base md:text-lg md:italic mb-6 text-left w-full animate-slidein900 md:text-justify"
-          >
-            {intro}
-          </p>
-        ))}
-        <h1 className="text-3xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-uni-green2 to bg-uni-green2-light bg-clip-text text-transparent border-b-2 border-dashed pb-2 animate-slidein100">
+        {eventBackground.introduction.map((intro, index) => {
+          const italicizedIntro = intro.replace(
+            /(murabaha|musharakah|mudarabah|sukuk)/gi,
+            "<em>$1</em>"
+          );
+          return (
+            <p
+              key={index}
+              className="text-lg md:text-xl mb-6 w-full animate-slidein900 text-justify"
+              dangerouslySetInnerHTML={{
+                __html: `&nbsp;&nbsp;${italicizedIntro}`,
+              }}
+            />
+          );
+        })}
+        <h1 className="text-3xl md:text-4xl font-bold mb-6 text-left md:text-center mt-20 md:mt-24 bg-gradient-to-r from-uni-green2 to bg-uni-green2-light bg-clip-text text-transparent border-b-2 border-dashed pb-2 animate-slidein100">
           Conference Objectives
         </h1>
-        <p className="text-lg md:text-xl font-semibold md:italic text-gray-800 animate-fadeInLeft">
-          As the Islamic finance industry marks its fiftieth anniversary, it is
+        <p className="text-lg md:text-xl text-left md:text-center font-semibold md:italic text-gray-800 animate-fadeInLeft">
+          As The Islamic Finance Industry marks its fiftieth anniversary, it is
           imperative to pause and assess this experience, rich with achievements
           and challenges alike. This conference aims to shed light on the
-          evolution of the Islamic Finance Industry through the following key
+          evolution of The Islamic Finance Industry through the following key
           areas:
         </p>
       </div>
@@ -43,7 +50,7 @@ const Objectives = () => {
         {/* Objective 1 */}
         <div className="border-l-4 border-uni-green2 pl-4 transition-all ease-in-out duration-300 transform hover:scale-105">
           <h2 className="text-xl font-semibold text-gray-800">
-            Evaluating the Islamic Finance Industry's experience after fifty
+            Evaluating The Islamic Finance Industry's experience after fifty
             years of practice.
           </h2>
         </div>
@@ -111,12 +118,12 @@ const Objectives = () => {
           <h2 className="text-xl font-semibold text-gray-800">
             Promoting knowledge transfer, fostering intellectual exchange, and
             strengthening collaborative efforts among all stakeholders within
-            the Islamic Finance Industry.
+            The Islamic Finance Industry.
           </h2>
         </div>
       </div>
     </div>
   );
-}
+};
 
-export default Objectives
+export default Objectives;

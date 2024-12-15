@@ -18,6 +18,8 @@ import {
   Venue,
 } from "./pages/index.ts";
 import { Sponsors } from "./pages/Sponsors/Sponsors.tsx";
+import SubmissionGuideline from "./pages/Submission-Guidelines/SubmissionGuideline.tsx";
+import PublicationOpportunities from "./pages/Publication Opportunities/PublicationOpportunities.tsx";
 
 const router = createBrowserRouter([
   {
@@ -79,6 +81,14 @@ const router = createBrowserRouter([
       {
         path: "/sponsors",
         element: <Sponsors />,
+      },
+      {
+        path: "/submission-guidelines",
+        element: <SubmissionGuideline />,
+      },
+      {
+        path: "/opportunities",
+        element: <PublicationOpportunities />,
       },
     ],
   },

@@ -7,8 +7,9 @@ import ImportantDatesHighCommittee from "./SubComponent/HighCommittee";
 import ImportantDates from "./SubComponent/ImportantDates";
 import Lp_venue from "./SubComponent/Lp_venue";
 import LpSpeaker from "./SubComponent/LpSpeaker";
-import SponsorPrtners from "./SubComponent/SponsorPrtners";
+import Lp_Prtners from "./SubComponent/Lp_Prtners";
 import SubmissionBanner from "./SubComponent/SubmissionBanner";
+import Lp_Sponsors from "./SubComponent/Lp_Sponsors";
 
 
 const Home = () => {
@@ -27,9 +28,10 @@ const Home = () => {
         {/* 1- Event Overview */}
         <EventOverview />
         {/* 2- Sponsor Partners */}
-        <SponsorPrtners />
+        <Lp_Prtners />
+        <Lp_Sponsors />
         {/* Important Dates & */}
-        <ImportantDates/>
+        <ImportantDates />
       </div>
       {/* 4-  High committee */}
       <ImportantDatesHighCommittee />

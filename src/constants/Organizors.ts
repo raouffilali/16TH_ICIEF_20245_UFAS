@@ -24,7 +24,7 @@ export const organizers: Organizer[] = [
   },
   {
     id: 4,
-    name: "Islamic Econimics Institute",
+    name: "Islamic Econimics Institute- JEDDAH",
     image: IEI,
   },
 ];

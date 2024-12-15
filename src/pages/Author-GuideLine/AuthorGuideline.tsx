@@ -32,7 +32,7 @@ const AuthorGuideline = () => {
               <td className="p-4 border-r border-gray-300">
                 <strong>Submission:</strong>
               </td>
-              <td className="p-4 md:text-center">
+              <td className="p-4 ">
                 Full papers should be submitted via Word format & PDF format. Do
                 not submit zip files.
               </td>
@@ -41,52 +41,44 @@ const AuthorGuideline = () => {
               <td className="p-4 border-r border-gray-300">
                 <strong>Language:</strong>
               </td>
-              <td className="p-4 md:text-center">
+              <td className="p-4 ">
                 Papers may be submitted in Arabic, English, or French with
-                abstracts in both languages.
+                abstracts at least in two languages.
               </td>
             </tr>
             <tr className="bg-white border-b border-gray-300">
               <td className="p-4 border-r border-gray-300">
                 <strong>Peer Review:</strong>
               </td>
-              <td className="p-4 md:text-center">
-                All submissions will undergo double-blind peer review by the
-                conference's scientific committee.
+              <td className="p-4 ">
+                Papers may be submitted in Arabic, English, or French with
+                abstracts at least in two languages.
               </td>
             </tr>
-            <tr className="bg-uni-green2-light text-white border-b border-gray-300">
+            <tr className="text-left bg-uni-green2-light text-white border-b border-gray-300">
               <td className="p-4 border-r border-gray-300">
                 <strong>Formatting:</strong>
               </td>
-              <td className="p-4 md:text-center">
-                <ul className="list-disc ml-6">
-                  <li>Arabic papers: font size 14 Traditional Arabic.</li>
+              <td className="p-4 ">
+                <ul className="list-disc ml-6 ">
+                  <li>Arabic papers: font size 14 Simplified Arabic.</li>
                   <li>
                     English & French papers: Font size 12 Times New Roman.
                   </li>
+                  <li>
+                    Citation Style : American Psychological Association 6th
+                    Edition (APA).
+                  </li>
+                  <li>Maximum paper length: 20 pages.</li>
                 </ul>
               </td>
             </tr>
-            <tr className="bg-white border-b border-gray-300">
-              <td className="p-4 border-r border-gray-300">
-                <strong>Citation Style:</strong>
-              </td>
-              <td className="p-4 md:text-center">
-                American Psychological Association 6th Edition (APA).
-              </td>
-            </tr>
-            <tr className="bg-uni-green2-light text-white border-b border-gray-300">
-              <td className="p-4 border-r border-gray-300">
-                <strong>Maximum paper length:</strong>
-              </td>
-              <td className="p-4 md:text-center">20 pages.</td>
-            </tr>
+
             <tr className="bg-white border-b border-gray-300">
               <td className="p-4 border-r border-gray-300">
                 <strong>Originality:</strong>
               </td>
-              <td className="p-4 md:text-center">
+              <td className="p-4 ">
                 Previously accepted conference papers or papers accepted for
                 journal publication are not eligible.
               </td>
@@ -95,9 +87,9 @@ const AuthorGuideline = () => {
               <td className="p-4 border-r border-gray-300">
                 <strong>Presentation Format:</strong>
               </td>
-              <td className="p-4 md:text-center">
-                Accepted research papers will be presented in person at the
-                conference venue.
+              <td className="p-4 ">
+                Previously accepted conference papers or papers accepted for
+                journal publication are not eligible.
               </td>
             </tr>
           </tbody>

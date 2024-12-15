@@ -40,7 +40,7 @@ const ImportantDates = () => {
               <td className="p-4 border-r border-gray-300 text-left">
                 <strong>Scientific Committee Decision:</strong>
               </td>
-              <td className="p-4 text-left">14/03/2025</td>
+              <td className="p-4 text-left">15/03/2025</td>
             </tr>
             <tr className="bg-white border-b border-gray-300">
               <td className="p-4 border-r border-gray-300 text-left">
@@ -54,29 +54,22 @@ const ImportantDates = () => {
           <span className="font-bold text-uni-green2">Note: </span> Research
           papers submitted after these deadlines will not be considered.
         </p>
-        <h2 className="text-3xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-uni-green2 to bg-uni-green2-light bg-clip-text text-transparent border-b-2 border-dashed pb-2 animate-slidein400">
-          Publication Opportunities:
-        </h2>
-        <ul className="list-none text-left space-y-4 text-base md:text-lg animate-slidein500">
-          <li>
-            • All accepted full papers will be published in the conference
-            proceedings with an ISBN.
-          </li>
-          <li>
-            • The best papers will be selected for publication in a special issue
-            of the Journal of Economics and Management Sciences, Journal of King
-            Abdulaziz: Islamic Economics (indexed in SCOPUS), The Algerian Review
-            of Financial & Banking Studies, and the Algerian Journal of Economics
-            and Financial Research.
-          </li>
-        </ul>
-        <div className="flex justify-between mt-20 w-full animate-slidein600">
-          <Link to="/guidelines" className="flex items-center px-3 py-2 md:px-5 md:py-3 bg-gradient-to-l from-uni-green2 to-uni-green2-light text-white rounded shadow hover:from-uni-green2 hover:to-uni-green transition-colors">
+
+        <div className="flex flex-col md:flex-row justify-between mt-20 w-full animate-slidein600">
+          <Link
+            to="/guidelines"
+            className="flex items-center px-3 py-2 md:px-5 md:py-3 mb-4 md:mb-0 bg-gradient-to-l from-uni-green2 to-uni-green2-light text-white rounded shadow hover:from-uni-green2 hover:to-uni-green transition-colors"
+          >
             <ArrowLeft className="w-5 h-5 md:w-6 md:h-6" />
-            <span className="ml-2 md:ml-4 text-sm md:text-lg">Author Guidelines</span>
+            <span className="ml-2 md:ml-4 text-sm md:text-lg">
+              Author Guidelines
+            </span>
           </Link>
-          <Link to="/registration" className="flex items-center px-3 py-2 md:px-5 md:py-3 bg-gradient-to-l from-uni-green2 to-uni-green2-light text-white rounded shadow hover:from-uni-green2 hover:to-uni-green transition-colors">
-            <span className="mr-2 md:mr-4 text-sm md:text-lg">Register</span>
+          <Link
+            to="/submission-guidelines"
+            className="flex items-center px-3 py-2 md:px-5 md:py-3 bg-gradient-to-l from-uni-green2 to-uni-green2-light text-white rounded shadow hover:from-uni-green2 hover:to-uni-green transition-colors"
+          >
+            <span className="mr-1 md:mr-4 text-sm md:text-lg">Submission guidelines</span>
             <ArrowRight className="w-5 h-5 md:w-6 md:h-6" />
           </Link>
         </div>
