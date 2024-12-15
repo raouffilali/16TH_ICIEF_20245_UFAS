@@ -12,6 +12,7 @@ import { media } from "@/constants/media";
 import { Loader2 } from "lucide-react";
 import { useState } from "react";
 import { organizers } from "@/constants/Organizors";
+import {comming_soon} from "@/assets";
 
 const Lp_Prtners = () => {
   const [selectedPartner, setSelectedSponsor] = useState({
@@ -131,18 +132,16 @@ const Lp_Prtners = () => {
       </div>
       {/*  Grid */}
       <div className="flex justify-center ">
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6 ">
+        <div className="grid grid-cols-2 md:grid-cols-2 gap-4 md:gap-6 ">
           {media.length === 0
-            ? Array.from({ length: 6 }).map((_, index) => (
+            ? Array.from({ length: 2 }).map((_, index) => (
                 <div
                   key={index}
-                  className="relative group overflow-hidden rounded-lg shadow-lg border-2 border-dashed border-gray-300 cursor-pointer bg-gray-200 animate-pulse"
+                  className="relative group overflow-hidden rounded-lg shadow-lg border-2 border-dashed border-gray-300 cursor-pointer bg-gray-200 "
                 >
                   <div className="w-40 md:w-80 h-40 md:h-60 bg-gray-300"></div>
-                  <div className="absolute inset-0 bg-gray-400 bg-opacity-75 text-white flex items-center justify-center">
-                    <h3 className="text-sm text-center font-bold md:text-xl">
-                      <Loader2 className="w-10 h-10 animate-spin" />
-                    </h3>
+                  <div className="absolute inset-0 bg-gray-100 bg-opacity-75 text-white flex items-center justify-center">
+                    <img src={comming_soon} alt="" />
                   </div>
                 </div>
               ))
@@ -221,7 +220,8 @@ const Lp_Prtners = () => {
           </span>
         </h2>
         <p className="md:text-center py-2 md:py-4 text-gray-500 mb-4 md:mb-10">
-              We are honored to have the following organizers for the ICIEF event. Their dedication and hard work make this event possible.
+          We are honored to have the following organizers for the ICIEF event.
+          Their dedication and hard work make this event possible.
         </p>
       </div>
 

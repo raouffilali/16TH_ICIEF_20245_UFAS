@@ -1,6 +1,7 @@
 import bank1 from "./albarakBank.jpg";
 import sponsorAlgStock from "./AlgiersStock.jpg";
 import Bodytexture from "./bodytexture.png";
+import comming_soon from "./comming soon.png";
 import Conf from "./conference.jpg";
 import { default as Anissa, default as Gharbi, default as Guemazi, default as Zineb } from "./default.webp";
 import Eco from "./Economi.svg";
@@ -56,7 +57,7 @@ import Logo1 from "./ufas-log.png";
 
 export {
   Abdulkarim, Ainouss, Anissa, Asutay, bank1,
-  bank2, Beik, Belouafi, Bodytexture, Boudjellal, Bourakba, Bulut, Chachi, Conf,
+  bank2, Beik, Belouafi, Bodytexture, Boudjellal, Bourakba, Bulut, Chachi, comming_soon, Conf,
   Confrimg1,
   Confrimg2,
   Confrimg3, Dean, Eco, EcoOrg, Farouq, Gharbi, Guemazi, Hafiz, Haneef, Hassan, HIC,
