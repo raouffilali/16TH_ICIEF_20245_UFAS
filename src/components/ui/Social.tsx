@@ -1,4 +1,4 @@
-import { Instagram ,FacebookIcon, LinkedinIcon, YoutubeIcon, LucideFacebook} from 'lucide-react';
+import { Instagram ,FacebookIcon, LinkedinIcon, YoutubeIcon, } from 'lucide-react';
 import { BsTwitterX } from "react-icons/bs";
 
 

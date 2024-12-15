@@ -1,4 +1,16 @@
-import { Abdulkarim, Asutay, Belouafi,  Boudjellal,  Bulut,  Gharbi,  Guemazi,  Haneef, Hassan, Ibrahim, Khan, Omar, Senouci, Tahir } from "@/assets";
+import {
+  Abdulkarim,
+  Asutay,
+  Belouafi,
+  Boudjellal,
+  Bulut,
+  Gharbi,
+  Guemazi,
+  Haneef,
+  Hassan,
+  Ibrahim,
+  Senouci,
+} from "@/assets";
 
 export type organizingcommittee = {
   id: number;
@@ -74,5 +86,4 @@ export const organizingcommittees: organizingcommittee[] = [
     description: "Former ISDBI Senior Researcher.",
     image: Ibrahim,
   },
-  
 ];
