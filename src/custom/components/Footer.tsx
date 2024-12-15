@@ -1,6 +1,6 @@
 import { Link } from "react-router";
 import Social from "@/components/ui/Social";
-import { Bodytexture, Logo1 } from "@/assets";
+import { Bodytexture, Eco, Logo1 } from "@/assets";
 import { HomeIcon, ContactIcon, MapPin  } from 'lucide-react';
 const menuItems = [
   { title: "Home", path: "/", icon:<HomeIcon/>  },
@@ -23,11 +23,19 @@ const Footer = () => {
       <div className="relative container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8 z-10">
         {/* Logo Section */}
         <div>
-          <img
-            src={Logo1}
-            alt="UFAS-LOGO"
-            className="w-16 h-16 md:w-[150px] md:h-[100px]"
-          />
+          <div className="flex flex-col md:flex-row gap-4 ">
+            <img
+              src={Logo1}
+              alt="UFAS-LOGO"
+              className="w-20 h-12 md:w-[100px] md:h-[60px] "
+            />
+            <img
+              src={Eco}
+              alt="Economi-Faculty-LOGO"
+              className="w-28 h-16 md:w-[135px] md:h-[60px] "
+            />
+          </div>
+
           <p className="text-lg mt-4">
             The <span className="font-bold">16th ICIEF</span> at Setif 1 ,Ferhat
             Abbas University, gathers global experts to explore innovations and
