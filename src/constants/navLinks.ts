@@ -25,6 +25,10 @@ export const navLinks = [
     ref: "/high-committee",
   },
   {
+    title: "Speakers",
+    ref: "/speakers",
+  },
+  {
     title: "Submission",
     ref: "#",
     subLinks: [
