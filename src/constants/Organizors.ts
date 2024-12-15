@@ -1,6 +1,6 @@
 import { EcoOrg, HIC, IAFIE, IEI } from "@/assets";
 
-export type Organizer = {
+type Organizer = {
   id: number;
   name: string;
   image?: string; // Optional field for the image URL
