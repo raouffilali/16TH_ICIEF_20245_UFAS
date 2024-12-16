@@ -19,7 +19,7 @@ export const steeringcommittees: steeringcommittee[] = [
     id: 2,
     name: "Dr. Omar Zuhair Hafiz",
     description:
-      "Former President International Association for Islamic Economics",
+      "Former President of International Association for Islamic Economics",
     image: Hafiz,
   },
   {
