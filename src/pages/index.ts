@@ -1,7 +1,7 @@
 export { default as AuthorGuideline } from "./Author-GuideLine/AuthorGuideline"
 export { default as BackgroundEvent } from "./Backgroud-ICIEF/BackgroundEvent"
 export { default as Contact } from "./Contact/Contact";
-export { default as Highcommittee } from "./High-Committee/Highcommittee";
+export { default as Highcommittee } from "./Committees/Highcommittee";
 export { default as Home } from "./Home/Home";
 export { default as ImportantDates } from "./Important-Dates/ImportantDates";
 export { default as Objectives } from "./Objectives/Objectives";

@@ -12,7 +12,7 @@ const CountdownTimer: React.FC<CountdownTimerProps> = ({ targetDate }) => {
     }, 1000);
 
     return () => clearInterval(timer); // Cleanup
-  }, []);
+  }, );
 
   function calculateTimeLeft() {
     const now = new Date().getTime(); // Convert to timestamp (number)

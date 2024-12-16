@@ -20,6 +20,9 @@ import {
 import { Sponsors } from "./pages/Sponsors/Sponsors.tsx";
 import SubmissionGuideline from "./pages/Submission-Guidelines/SubmissionGuideline.tsx";
 import PublicationOpportunities from "./pages/Publication Opportunities/PublicationOpportunities.tsx";
+import SteeringCommitte from "./pages/Committees/SteeringCommitte.tsx";
+import { ScientificCommitte } from "./pages/Committees/ScientificCommitte.tsx";
+import OrganizingCommitte from "./pages/Committees/OrganizingCommitte.tsx";
 
 const router = createBrowserRouter([
   {
@@ -32,6 +35,18 @@ const router = createBrowserRouter([
       {
         path: "/high-committee",
         element: <Highcommittee />,
+      },
+      {
+        path: "/steering-committee",
+        element: <SteeringCommitte />,
+      },
+      {
+        path: "/scientific-committee",
+        element: <ScientificCommitte />,
+      },
+      {
+        path: "/organizing-committee",
+        element: <OrganizingCommitte />,
       },
       {
         path: "/organizers",

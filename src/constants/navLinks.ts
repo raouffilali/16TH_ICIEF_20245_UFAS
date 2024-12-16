@@ -22,7 +22,13 @@ export const navLinks = [
   },
   {
     title: "Committees",
-    ref: "/high-committee",
+    ref: "#",
+    subLinks: [
+      { title: "High Committee", ref: "/high-Committee" },
+      { title: "Steering Committee", ref: "/steering-committee" },
+      { title: "Scientific Committee", ref: "/scientific-committee" },
+      { title: "Organizing Committee", ref: "/organizing-committee" },
+    ],
   },
   {
     title: "Speakers",
