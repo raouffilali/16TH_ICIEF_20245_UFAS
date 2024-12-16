@@ -33,7 +33,7 @@ const OrganizingCommitte = () => {
               4. Dr. Khelfi Rafik, Setif 1 University _ Ferhat Abbas, Algeria.
             </li>
             <li>
-              5. Dr. Riadh Ainouss, Setif 1 University _ Ferhat Abbas, Algeria.
+              5. Dr. Riadh Lainouss, Setif 1 University _ Ferhat Abbas, Algeria.
             </li>
             <li>
               6. Dr. Hamza Ouassaa, Setif 1 University _ Ferhat Abbas, Algeria.

@@ -58,7 +58,11 @@ import submissionBannerImage from "./submissionBanner.jpg";
 import ufas_banner from "./UFAS-banner.jpeg";
 import Logo1 from "./ufas-log.png";
 import Haidar from "./Scientific Committee/NacerHaider.jpg";
+import senouci from "./senouci.jpeg"
+import nasser from "./nacerHideur.jpg"
 export {
+  nasser,
+  senouci,
   Abdulkarim,
   Ainouss,
   Anissa,

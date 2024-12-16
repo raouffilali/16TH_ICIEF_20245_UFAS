@@ -16,7 +16,7 @@ const Lp_venue = () => {
           </span>
         </h2>
         <p className="md:text-center text-justify py-2 md:py-4 text-gray-500">
-          The event will be held at the Faculty of Economic, Commerce, and
+          The event will be held at the Faculty of Economics, Commerce, and
           Management Sciences "Setif 1 University Ferhat Abbas" in Algeria
         </p>
       </div>

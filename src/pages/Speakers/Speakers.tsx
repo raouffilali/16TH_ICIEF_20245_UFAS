@@ -7,12 +7,7 @@ const Speakers = () => {
   return (
     <>
       <div className="relative h-screen w-full flex items-center justify-center bg-gray-50 dark:bg-gray-900">
-        <div className="absolute animate-[cbounce_4s_ease-in-out_infinite] z-10 w-full h-[20%] flex flex-col justify-end items-center bg-gray-50 dark:bg-gray-900">
-          <h1 className="sm:text-9xl text-7xl font-extrabold font-mono bg-gradient-to-r from-green-600 via-uni-green2-light to-uni-green inline-block text-transparent bg-clip-text">
-            قريباً
-          </h1>
-        </div>
-        <div className="absolute w-full h-[50%] flex flex-col items-center justify-end bg-gray-50 dark:bg-gray-900">
+        <div className="absolute w-full flex flex-col items-center justify-end bg-gray-50 dark:bg-gray-900">
           <h1 className="sm:text-7xl text-6xl text-center font-mono font-extrabold bg-gradient-to-r from-green-600 via-uni-green2-light to-uni-green inline-block text-transparent bg-clip-text">
             Coming Soon...
           </h1>

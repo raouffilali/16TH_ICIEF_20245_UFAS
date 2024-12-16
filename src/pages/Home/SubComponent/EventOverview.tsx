@@ -54,7 +54,7 @@ const EventOverview = () => {
                 WHENE
               </h1>
               <p className="w-full text-start overflow-y-auto overflow-hidden">
-                From May 13th to May 16th | 08:00 AM - 06:00 PM | Algeria
+                From May 13th to May 15th | 08:00 AM - 06:00 PM | Algeria
               </p>
             </div>
           </div>

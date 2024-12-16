@@ -7,35 +7,39 @@ export type steeringcommittee = {
   image?: string; // Optional field for the image URL
 };
 
-export const steeringcommittees : steeringcommittee[] = [
- {
+export const steeringcommittees: steeringcommittee[] = [
+  {
     id: 1,
     name: "Prof Dr. Chaouki Bourakba",
-    description: "Dean of the Faculty of Economics, Commerce, and Management Sciences, Setif 1 University _ Ferhat Abbas, Algeria.",
+    description:
+      "Dean of the Faculty of Economics, Commerce, and Management Sciences, Setif 1 University _ Ferhat Abbas, Algeria.",
     image: Bourakba,
   },
   {
     id: 2,
     name: "Dr. Omar Zuhair Hafiz",
-    description: "President at Hafiz Financial Consulting, Saudi Arabia.",
+    description:
+      "Former President International Association for Islamic Economics",
     image: Hafiz,
   },
   {
     id: 3,
     name: "Dr. Abdelkader Chachi",
-    description: "Professor at Istanbul Sabahattin Zaim University, Istanbul, Turkey.",
+    description:
+      " Istanbul Sabahattin Zaim University, Istanbul, Turkey.",
     image: Chachi,
   },
   {
     id: 4,
     name: "Prof Dr. Irfan Syauqi Beik",
-    description: "Dean of the Faculty of Economics and Management, IPB University, Indonesia.",
+    description:
+      "Dean of the Faculty of Economics and Management, IPB University, Indonesia.",
     image: Beik,
   },
   {
     id: 5,
     name: "Prof Dr. Mehmet Bulut",
-    description: "President of Istanbul Sabahattin Zaim University, Turkey.",
+    description: "Istanbul Sabahattin Zaim University, Turkey.",
     image: Bulut,
   },
-]
+];

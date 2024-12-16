@@ -35,10 +35,7 @@ const Lp_Prtners = () => {
     <div className="flex flex-col border-t-2 border-dashed border-uni-green2-light w-full mt-16 md:mt-36">
       {/* Academic Partners Section */}
       <div className="flex flex-col">
-        <h1 className="text-lg mt-9 md:mt-14 py-2 md:text-center text-uni-green2 md:text-xl">
-          OUR PARTNERS
-        </h1>
-        <h2 className="md:text-center font-semibold text-2xl md:text-5xl md:font-bold">
+        <h2 className="md:text-center font-semibold text-2xl md:text-5xl md:font-bold mt-9 md:mt-14 py-2">
           ACADEMIC{" "}
           <span className="bg-gradient-to-r from-uni-green2 to bg-uni-green2-light bg-clip-text text-transparent">
             PARTNERS
@@ -118,8 +115,8 @@ const Lp_Prtners = () => {
       </div>
 
       {/* Media partners */}
-      <div className="flex flex-col">
-        <h2 className="md:text-center font-semibold text-2xl md:text-5xl md:font-bold mt-28">
+      <div className="flex flex-col border-t-2 border-dashed border-uni-green2-light w-full mt-32 md:mt-60">
+        <h2 className="md:text-center font-semibold text-2xl md:text-5xl md:font-bold mt-16 md:mt-28">
           MEDIA{" "}
           <span className="bg-gradient-to-r from-uni-green2 to bg-uni-green2-light bg-clip-text text-transparent">
             PARTNERS
@@ -212,9 +209,8 @@ const Lp_Prtners = () => {
       </div>
 
       {/* Event partners organizers */}
-      <div className="flex flex-col item">
-        <h2 className="md:text-center font-semibold text-2xl md:text-5xl md:font-bold mt-28">
-          EVENT{" "}
+      <div className="flex flex-col border-t-2 border-dashed border-uni-green2-light w-full mt-32 md:mt-60">
+        <h2 className="md:text-center font-semibold text-2xl md:text-5xl md:font-bold mt-16 md:mt-28">
           <span className="bg-gradient-to-r from-uni-green2 to bg-uni-green2-light bg-clip-text text-transparent">
             ORGANIZERS
           </span>

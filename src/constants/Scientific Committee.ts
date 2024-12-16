@@ -3,13 +3,13 @@ import {
   Abdulkarim,
   Asutay,
   Belouafi,
-  Boudjellal,
   Bulut,
-  Haidar,
+  speaker_5,
   Haneef,
   Hassan,
+  nasser,
   SaydSelAli,
-  Senouci,
+  senouci,
 } from "@/assets";
 
 export type organizingcommittee = {
@@ -23,7 +23,7 @@ export const organizingcommittees: organizingcommittee[] = [
   {
     id: 1,
     name: "Prof Dr. Mehmet Bulut",
-    description: "President of Istanbul Sabahattin Zaim University, Turkey.",
+    description: "Istanbul Sabahattin Zaim University, Turkey.",
     image: Bulut,
   },
   {
@@ -48,19 +48,19 @@ export const organizingcommittees: organizingcommittee[] = [
     id: 5,
     name: "Prof. Dr. Mohamed Boudjellal",
     description: "High Islamic Council, Algeria.",
-    image: Boudjellal,
+    image: speaker_5,
   },
   {
     id: 6,
     name: "Prof. Dr. Abderrahmane Senouci",
     description: "High Islamic Council, Algeria.",
-    image: Senouci,
+    image: senouci,
   },
   {
     id: 7,
-    name: "Dr. Nacer Haidar",
-    description: "director of Alsalam Bank, Algeria",
-    image: Haidar,
+    name: "Dr. Nasser Hideur",
+    description: "General director of Alsalam Bank, Algeria",
+    image: nasser,
   },
   {
     id: 8,

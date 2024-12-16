@@ -5,6 +5,7 @@ import {
   sponsorAlgStock,
   sponsorIstanbul,
   Logo2,
+  HIC
 } from "@/assets";
 
 export const academic_partners = [
@@ -23,12 +24,26 @@ export const academic_partners = [
       "Setif 1, University Ferhat Abbas, a leading university in Algeria offering diverse academic programs and research opportunities.",
   },
   {
+    name: "Istanbul Zaim University",
+    logo: sponsorIstanbul,
+    website: "https://www.izu.edu.tr/en",
+    description:
+      "Istanbul Zaim University, a prestigious institution in Turkey offering a wide range of academic programs and research initiatives.",
+  },
+  {
     name: "International Association for Islamic Economics",
     logo: IAFIE,
-    website: "https://www.sponsor3.com",
+    website: "",
     description:
       "International Association for Islamic Economics, promoting the study and application of Islamic economics globally.",
   },
+  {
+    name: "High Islamic Council",
+    logo: HIC,
+    website: "http://www.elmadjlis-hci.dz/",
+    description: "",
+  },
+
   {
     name: "Islamic Economics Institute- JEDDAH",
     logo: IEI,
@@ -36,13 +51,7 @@ export const academic_partners = [
     description:
       "Islamic Economics Institute at King Abdulaziz University, Jeddah, dedicated to research and education in Islamic economics.",
   },
-  {
-    name: "Istanbul Zaim University",
-    logo: sponsorIstanbul,
-    website: "https://www.izu.edu.tr/en",
-    description:
-      "Istanbul Zaim University, a prestigious institution in Turkey offering a wide range of academic programs and research initiatives.",
-  },
+
   {
     name: "Algiers Stock Exchange",
     logo: sponsorAlgStock,
