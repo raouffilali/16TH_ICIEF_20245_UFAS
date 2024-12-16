@@ -23,7 +23,7 @@ const Footer = () => {
       <div className="relative container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8 z-10">
         {/* Logo Section */}
         <div>
-          <div className="flex flex-col md:flex-row gap-4 ">
+          <div className="flex flex-row md:flex-row gap-4 ">
             <img
               src={Logo1}
               alt="UFAS-LOGO"
@@ -32,7 +32,7 @@ const Footer = () => {
             <img
               src={LogoEcoWh}
               alt="Economi-Faculty-LOGO"
-              className="w-20 h-12 md:w-[150px] md:h-[60px] "
+              className="w-32 h-12 md:w-[150px] md:h-[60px] "
             />
           </div>
 
