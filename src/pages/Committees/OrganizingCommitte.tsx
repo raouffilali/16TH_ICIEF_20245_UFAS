@@ -1,6 +1,4 @@
 import { Bodytexture } from '@/assets'
-import { scientificcommittees } from '@/constants/Organizing Committee'
-
 const OrganizingCommitte = () => {
   return (
     <div className="relative flex flex-col justify-center items-center w-full h-ful px-6 py-20 ">
