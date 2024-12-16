@@ -45,8 +45,8 @@ const Lp_Prtners = () => {
           </span>
         </h2>
         <p className="md:text-center py-2 md:py-4 text-gray-500 mb-4 md:mb-10">
-          We are proud to have the following partners for the ICIEF event. We
-          are grateful for their support and contribution.
+          We are proud to have the following partners for the 16th ICIEF event.
+          We are grateful for their support and contribution.
         </p>
       </div>
       {/*  Grid */}
@@ -126,8 +126,8 @@ const Lp_Prtners = () => {
           </span>
         </h2>
         <p className="md:text-center py-2 md:py-4 text-gray-500 mb-4 md:mb-10">
-          We are proud to have the following partners for the ICIEF event. We
-          are grateful for their support and contribution.
+          We are proud to have the following partners for the 16th ICIEF event.
+          We are grateful for their support and contribution.
         </p>
       </div>
       {/*  Grid */}
@@ -212,7 +212,7 @@ const Lp_Prtners = () => {
       </div>
 
       {/* Event partners organizers */}
-      <div className="flex flex-col">
+      <div className="flex flex-col item">
         <h2 className="md:text-center font-semibold text-2xl md:text-5xl md:font-bold mt-28">
           EVENT{" "}
           <span className="bg-gradient-to-r from-uni-green2 to bg-uni-green2-light bg-clip-text text-transparent">
@@ -220,14 +220,14 @@ const Lp_Prtners = () => {
           </span>
         </h2>
         <p className="md:text-center py-2 md:py-4 text-gray-500 mb-4 md:mb-10">
-          We are honored to have the following organizers for the ICIEF event.
-          Their dedication and hard work make this event possible.
+          We are honored to have the following organizers for the 16th ICIEF
+          event. Their dedication and hard work make this event possible.
         </p>
       </div>
 
       {/*  Grid */}
-      <div className="flex justify-center">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
+      <div className="flex justify-center  ">
+        <div className="grid grid-cols-2 gap-4 md:gap-6 ">
           {!organizers?.length
             ? Array.from({ length: 4 }).map((_, index) => (
                 <div

@@ -7,7 +7,7 @@ export const venueInfo = [
   {
     title: "ADDRESS:",
     content:
-      "setif 1 University Ferhat Abbas, El Baz Campus, Setif, 19137, Algeria",
+      "Setif 1 University Ferhat Abbas, El Baz Campus, Setif, 19137, Algeria",
   },
   {
     title: "RECEPTION INFO:",

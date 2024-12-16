@@ -1,14 +1,15 @@
 import {
+  AbdelhalimGar,
   Abdulkarim,
   Asutay,
   Belouafi,
   Boudjellal,
   Bulut,
-  Gharbi,
-  Guemazi,
+  Haidar,
   Haneef,
   Hassan,
   Ibrahim,
+  SaydSelAli,
   Senouci,
 } from "@/assets";
 
@@ -60,7 +61,7 @@ export const organizingcommittees: organizingcommittee[] = [
     id: 7,
     name: "Dr. Nacer Haidar",
     description: "director of Alsalam Bank, Algeria",
-    image: Guemazi,
+    image: Haidar,
   },
   {
     id: 8,
@@ -78,12 +79,12 @@ export const organizingcommittees: organizingcommittee[] = [
     id: 10,
     name: "Prof. Dr. Abdelhalim Gharbi",
     description: "Imam Mohammad Ibn Saud Islamic University, Saudi Arabia.",
-    image: Gharbi,
+    image: AbdelhalimGar,
   },
   {
     id: 11,
     name: "Dr. Salman Sayed Ali",
     description: "Former ISDBI Senior Researcher.",
-    image: Ibrahim,
+    image: SaydSelAli,
   },
 ];

@@ -10,7 +10,7 @@ import { formFields, faqItems } from "../../../constants/formData"; // Adjust th
 
 const FAQandFORMbanner = () => {
   return (
-    <div className="relative w-full h-full flex flex-col md:flex-row items-center gap-6 bg-gray-500 p-8 md:px-36 mb-24 md:mb-64 mt-24 md:mt-40 animate-fadeInLeft">
+    <div className="relative w-full h-full flex flex-col md:flex-row items-center gap-6 bg-gray-500 p-8 md:px-36 mb-8 md:mb-16 shadow-lg mt-24 md:mt-40 animate-fadeInLeft">
       <div
         className="absolute inset-0"
         style={{
@@ -47,7 +47,7 @@ const FAQandFORMbanner = () => {
         </Accordion>
       </div>
       {/* Form part */}
-      <div className="flex flex-col h-full w-full md:w-1/2 rounded-lg bg-white p-4 shadow-[0_0_20px_0px_rgba(15,90,8,0.5)] z-10 -mb-20">
+      <div className="flex flex-col h-full w-full md:w-1/2 rounded-lg bg-white p-4 shadow-[0_0_20px_0px_rgba(15,90,8,0.5)] z-10 ">
         <div>
           <h2 className="text-center text-2xl font-semibold md:text-4xl md:font-bold mb-4">
             BOOK AN ATTENDEE <span className="text-uni-green2">SEAT</span>

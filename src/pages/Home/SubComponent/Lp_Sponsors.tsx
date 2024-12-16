@@ -41,8 +41,8 @@ const Lp_Sponsors = () => {
           </span>
         </h2>
         <p className="md:text-center py-2 md:py-4 text-gray-500 mb-4 md:mb-10">
-          We are proud to have the following sponsors for the ICIEF event. We
-          are grateful for their support and contribution.
+          We are proud to have the following sponsors for the 16th ICIEF event.
+          We are grateful for their support and contribution.
         </p>
       </div>
 

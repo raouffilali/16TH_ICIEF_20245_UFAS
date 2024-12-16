@@ -1,4 +1,4 @@
-import { ICIEF_ar, ICIEF_en, pdf_svg, submissionBannerImage } from "@/assets";
+import { ICIEF_ar, ICIEF_en, ICIEF_fr, pdf_svg, submissionBannerImage } from "@/assets";
 import {
   AlertDialog,
   AlertDialogCancel,
@@ -36,8 +36,8 @@ const SubmissionBanner = () => {
           Register Now{" "}
         </h2>
         <p className="text-sm mt-4 max-w-md mx-auto">
-          All the information about the conference and the submission process and
-          dates are available on the{" "}
+          All the information about the conference and the submission process
+          and dates are available on the{" "}
           <Link className="underline font-semibold" to="/registration">
             Submission section above.
           </Link>{" "}
@@ -76,6 +76,20 @@ const SubmissionBanner = () => {
                     </span>
                   </p>
                   <ul className="mt-4 flex flex-col md:flex-row gap-x-3 justify-evenly items-center border-2 border-dashed border-uni-green2 py-4">
+                    <li className="flex flex-col items-center mt-2 md:mt-0">
+                      <img
+                        src={pdf_svg}
+                        alt="PDF Icon"
+                        className="w-6 md:w-16 mb-2"
+                      />
+                      <a
+                        href={ICIEF_ar}
+                        target="_blank"
+                        className="underline text-gray-800"
+                      >
+                        Call for Papers (Arabic)
+                      </a>
+                    </li>
                     <li className="flex flex-col items-center">
                       <img
                         src={pdf_svg}
@@ -90,6 +104,7 @@ const SubmissionBanner = () => {
                         Call for Papers (English)
                       </a>
                     </li>
+
                     <li className="flex flex-col items-center mt-2 md:mt-0">
                       <img
                         src={pdf_svg}
@@ -97,11 +112,11 @@ const SubmissionBanner = () => {
                         className="w-6 md:w-16 mb-2"
                       />
                       <a
-                        href={ICIEF_ar}
+                        href={ICIEF_fr}
                         target="_blank"
                         className="underline text-gray-800"
                       >
-                        Call for Papers (Arabic)
+                        Call for Papers (French)
                       </a>
                     </li>
                   </ul>

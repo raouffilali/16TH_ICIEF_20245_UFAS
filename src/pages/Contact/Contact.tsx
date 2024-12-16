@@ -32,7 +32,10 @@ const Contact = () => {
               <h1 className="text-xl font-extrabold">For More:</h1>
               <p> 036 42 01 50 </p>
               <h1 className="text-xl font-extrabold">ADDRESS:</h1>
-              <p>Université de Sétif, El Bez, Sétif 19000</p>
+              <p>
+                Setif 1 University Ferhat Abbas, El Baz Campus, Setif, 19137,
+                Algeria
+              </p>
             </div>
 
             {/* Right Section (75%) */}

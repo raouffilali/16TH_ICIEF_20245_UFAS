@@ -19,8 +19,8 @@ const LpSpeaker = () => {
             </span>
           </h2>
           <p className="font-medium text-start  py-2 md:py-4 text-gray-500 md:text-lg">
-            We are proud to have the following speakers for the ICIEF event. We
-            are grateful for their support and contribution.
+            We are proud to have the following speakers for the 16th ICIEF
+            event. We are grateful for their support and contribution.
           </p>
         </div>
         {/* Button */}

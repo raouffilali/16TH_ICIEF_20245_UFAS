@@ -1,4 +1,4 @@
-import { EcoOrg, HIC, IAFIE, IEI } from "@/assets";
+import { Eco, IAFIE } from "@/assets";
 
 type Organizer = {
   id: number;
@@ -10,21 +10,11 @@ export const organizers: Organizer[] = [
   {
     id: 1,
     name: "Faculty of Economics, Commerce, and Management Sciences",
-    image: EcoOrg,
+    image: Eco,
   },
   {
     id: 2,
     name: "International Association for Islamic Economics",
     image: IAFIE,
-  },
-  {
-    id: 3,
-    name: "High Islamic Council",
-    image: HIC,
-  },
-  {
-    id: 4,
-    name: "Islamic Econimics Institute- JEDDAH",
-    image: IEI,
   },
 ];

@@ -54,15 +54,9 @@ const Organizer = () => {
               International Association for Islamic Economics
             </td>
           </tr>
-          <tr className="bg-white">
-            <td className="py-3 px-4 border border-gray-200 font-bold">03</td>
-            <td className="py-3 px-4 border border-gray-200 font-bold">
-              High Islamic Council
-            </td>
-          </tr>
         </tbody>
       </table>
-      <div className=" p-2 md:p-10 m-10 w-full h-full max-w-[900px]  rounded-md  text-transparent animate-fadeInLeft">
+      <div className=" p-2 md:p-10 m-10 w-full h-full max-w-[900px] rounded-md text-transparent animate-fadeInLeft">
         <Carousel
           className="flex flex-col p-6 rounded-sm"
           plugins={[plugin.current]}
@@ -79,10 +73,10 @@ const Organizer = () => {
                   <img
                     src={organizer.image}
                     alt={organizer.name}
-                    className="p-3 max-w-[150px] max-h-[150px] md:max-w-[300px] md:max-h-[300px] shadow-sm object-cover rounded-md mb-4"
+                    className="p-3 max-w-[150px] max-h-[150px] md:max-w-[300px] md:max-h-[300px] object-cover rounded-md mb-4"
                   />
                 )}
-                <h3 className="text-lg md:text-xl font-bold text-uni-green shadow-sm text-center">
+                <h3 className="text-lg md:text-xl font-bold text-uni-green text-center">
                   {organizer.name}
                 </h3>
               </CarouselItem>

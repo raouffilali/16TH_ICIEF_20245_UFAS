@@ -3,11 +3,13 @@ import sponsorAlgStock from "./AlgiersStock.jpg";
 import Bodytexture from "./bodytexture.png";
 import comming_soon from "./comming soon.png";
 import Conf from "./conference.jpg";
-import { default as Anissa, default as Gharbi, default as Guemazi, default as Zineb } from "./default.webp";
+import { default as Anissa,  default as Guemazi, default as Zineb } from "./default.webp";
+import AbdelhalimGar from "./AbdelhalimGar.jpg"
 import Eco from "./Economi.svg";
 import EcoOrg from "./EcoOrg.webp";
 import ICIEF_ar from "./Files/ICIEF ar.pdf";
 import ICIEF_en from "./Files/ICIEF en.pdf";
+import ICIEF_fr from "./Files/ICIEF fr.pdf";
 import submission_guidelines from "./Files/Submission_GuidelinesICIEF16.pdf";
 import HIC from "./HIC2.png";
 import IAFIE from "./IAFIE2.png";
@@ -20,6 +22,7 @@ import magas_2 from "./magas-2.png";
 import magas_3 from "./magas-3.png";
 import magas_1 from "./mags-1.jpg";
 import MalRec from "./MalaysiaRec.png";
+import SaydSelAli from "./Scientific Committee/SayedSalmanAli.jpg"
 import Senouci from "./Organizing Committee/Prof. Dr. Abderrahmane Senouci.jpg";
 import Belouafi from "./Organizing Committee/Prof. Dr. Ahmed Belouafi.jpg";
 import Haneef from "./Organizing Committee/Prof. Dr. Aslam Haneef.jpg";
@@ -54,20 +57,70 @@ import Boudjellal from "./Steering Committee/Prof. Dr. Mohamed Boudjellal.jpg";
 import submissionBannerImage from "./submissionBanner.jpg";
 import ufas_banner from "./UFAS-banner.jpeg";
 import Logo1 from "./ufas-log.png";
-
+import Haidar from "./Scientific Committee/NacerHaider.jpg";
 export {
-  Abdulkarim, Ainouss, Anissa, Asutay, bank1,
-  bank2, Beik, Belouafi, Bodytexture, Boudjellal, Bourakba, Bulut, Chachi, comming_soon, Conf,
+  Abdulkarim,
+  Ainouss,
+  Anissa,
+  Asutay,
+  bank1,
+  bank2,
+  Beik,
+  Belouafi,
+  Bodytexture,
+  Boudjellal,
+  Bourakba,
+  Bulut,
+  Chachi,
+  comming_soon,
+  Conf,
   Confrimg1,
   Confrimg2,
-  Confrimg3, Dean, Eco, EcoOrg, Farouq, Gharbi, Guemazi, Hafiz, Haneef, Hassan, HIC,
-  IAFIE, Ibrahim, ICIEF16LOGO, ICIEF_ar,
-  ICIEF_en, IEI, Khan, Logo1, Logo2, magas_1,
+  Confrimg3,
+  Dean,
+  Eco,
+  EcoOrg,
+  Farouq,
+  AbdelhalimGar,
+  Guemazi,
+  Hafiz,
+  Haneef,
+  Hassan,
+  HIC,
+  IAFIE,
+  Ibrahim,
+  ICIEF16LOGO,
+  ICIEF_ar,
+  SaydSelAli,
+  ICIEF_en,
+  ICIEF_fr,
+  IEI,
+  Khan,
+  Logo1,
+  Logo2,
+  magas_1,
   magas_2,
-  magas_3, MalRec, Omar, Ouassaa, pdf_svg, Rafik, Recteur, Senouci, speaker_2,
+  magas_3,
+  MalRec,
+  Omar,
+  Ouassaa,
+  pdf_svg,
+  Rafik,
+  Recteur,
+  Senouci,
+  speaker_2,
   speaker_3,
   speaker_4,
-  speaker_5, sponsorAlgStock,
-  sponsorIstanbul, sponsors, submission_guidelines, submissionBannerImage, Tahir, Texture, ufas_banner, Zineb
+  speaker_5,
+  sponsorAlgStock,
+  sponsorIstanbul,
+  sponsors,
+  submission_guidelines,
+  submissionBannerImage,
+  Tahir,
+  Texture,
+  ufas_banner,
+  Zineb,
+  Haidar,
 };
 

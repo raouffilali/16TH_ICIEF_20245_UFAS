@@ -26,7 +26,7 @@ const Hicommittee = () => {
           <h2 className=" text-center text-2xl font-bold text-gray-800 mb-4 animate-slidein100 ">
             Honorary Chairs
           </h2>
-          <div className="relative flex flex-col md:flex-row md:gap-8 animate-slidein100 mx-8  ">
+          <div className="relative flex flex-col md:flex-row md:gap-8 animate-fadeInLeft mx-8  ">
             {highcommittees.slice(0, 2).map((Highcommittee) => (
               <div
                 key={Highcommittee.id}
@@ -57,10 +57,10 @@ const Hicommittee = () => {
 
         {/* Group 2: Conference Chairman */}
         <div>
-          <h2 className="text-center text-2xl font-bold text-gray-800 mb-4 animate-slidein100">
+          <h2 className="text-center text-2xl font-bold text-gray-800 mb-4 animate-fadeInLeft">
             Conference Chairman
           </h2>
-          <div className="flex flex-col md:flex-row md:gap-8 animate-slidein100 mx-8 ">
+          <div className="flex flex-col md:flex-row md:gap-8 animate-fadeInLeft mx-8 ">
             {highcommittees.slice(2).map((Highcommittee) => (
               <div
                 key={Highcommittee.id}
