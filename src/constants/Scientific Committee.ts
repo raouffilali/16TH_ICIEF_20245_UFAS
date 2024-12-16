@@ -8,7 +8,6 @@ import {
   Haidar,
   Haneef,
   Hassan,
-  Ibrahim,
   SaydSelAli,
   Senouci,
 } from "@/assets";
