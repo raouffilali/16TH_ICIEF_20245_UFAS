@@ -1,6 +1,6 @@
 import { Link } from "react-router";
 import Social from "@/components/ui/Social";
-import { Bodytexture, EcoOrg, Logo1 } from "@/assets";
+import { Bodytexture, Logo1, LogoEcoWh } from "@/assets";
 import { HomeIcon, ContactIcon, MapPin  } from 'lucide-react';
 const menuItems = [
   { title: "Home", path: "/", icon:<HomeIcon/>  },
@@ -30,9 +30,9 @@ const Footer = () => {
               className="w-20 h-12 md:w-[100px] md:h-[60px] "
             />
             <img
-              src={EcoOrg}
+              src={LogoEcoWh}
               alt="Economi-Faculty-LOGO"
-              className="w-12 h-16 md:w-[50px] md:h-[60px] "
+              className="w-20 h-12 md:w-[150px] md:h-[60px] "
             />
           </div>
 
