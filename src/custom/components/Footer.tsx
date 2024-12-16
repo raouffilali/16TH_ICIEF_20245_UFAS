@@ -23,7 +23,7 @@ const Footer = () => {
       <div className="relative container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8 z-10">
         {/* Logo Section */}
         <div>
-          <div className="flex flex-row md:flex-row gap-4 ">
+          <div className="flex flex-row md:flex-row gap-4 mb-8 ">
             <img
               src={Logo1}
               alt="UFAS-LOGO"
