@@ -42,7 +42,7 @@ export const organizingcommittees: organizingcommittee[] = [
   },
   {
     id: 5,
-    name: "Dr. Riadh Ainouss",
+    name: "Dr. Riadh Lainouss",
     description: "Setif 1 University _ Ferhat Abbas, Algeria.",
     image: Ainouss,
   },
