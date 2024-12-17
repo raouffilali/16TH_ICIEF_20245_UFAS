@@ -103,7 +103,7 @@ const PublicationOpportunities = () => {
                   </div>
                 </div>
               </DialogTrigger>
-              <DialogContent className=" md:h-screen md:overflow-auto">
+              <DialogContent className=" md:overflow-auto">
                 <DialogHeader>
                   <DialogTitle>{selectedImage.alt}</DialogTitle>
                   <Separator className="mb-3" />

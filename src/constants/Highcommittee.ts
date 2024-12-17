@@ -12,7 +12,7 @@ export const highcommittees: highcommittee[] = [
   {
     id: 1,
     name: "Prof Dr. Mohamed El-Hadi Latrache",
-    description: "Rector of Setif 1 University _ Ferhat Abbas",
+    description: "Rector of Setif 1 University _ Ferhat Abbas, Algeria",
     image: Recteur,
   },
   {
