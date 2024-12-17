@@ -5,7 +5,8 @@ import {
   sponsorAlgStock,
   sponsorIstanbul,
   Logo2,
-  HIC
+  HIC,
+  partnerI3jaz
 } from "@/assets";
 
 export const academic_partners = [
@@ -50,6 +51,13 @@ export const academic_partners = [
     website: "https://iei.kau.edu.sa/Default-121-EN",
     description:
       "Islamic Economics Institute at King Abdulaziz University, Jeddah, dedicated to research and education in Islamic economics.",
+  },
+  {
+    name: "Authority for Scientific Miracles in the Qur’an, Algeria Office",
+    logo: partnerI3jaz,
+    website: "https://iei.kau.edu.sa/Default-121-EN",
+    description:
+      "Authority for Scientific Miracles in the Qur’an, Algeria Office",
   },
 
   {

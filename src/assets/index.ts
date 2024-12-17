@@ -68,7 +68,9 @@ import slimaneNasser from "./newScientificCommittee/Pr.Dr.Slimane Nacer.jpeg"
 import abderahimassati from "./newScientificCommittee/Prof. Dr. AbdulRahim Al-Saati.jpeg"
 import younesSwalhi from "./newScientificCommittee/prof. dr. younes soualhi.jpeg" 
 import saidBouheraoua from "./newScientificCommittee/Prof.Dr.Said Bouheraoua.jpeg"
+import partnerI3jaz from "./partnerI3jaz.jpeg"
 export {
+  partnerI3jaz,
   fares_djafri,
   layachi_fedad,
   miloudZenkri,
