@@ -37,7 +37,7 @@ import Confrimg1 from "./Overview1.jpg";
 import Confrimg2 from "./Overview2.jpg";
 import Confrimg3 from "./Overview3.jpg";
 import pdf_svg from "./pdf-svg.svg";
-import Recteur from "./recteur.png";
+import Recteur from "./recteur.jpg";
 import bank2 from "./salamBank.jpeg";
 import Farouq from "./Organizing Committee/Dr. Bensalem Farouq.jpg";
 import Ouassaa from "./Organizing Committee/Dr. Hamza Ouassaa.jpg";
