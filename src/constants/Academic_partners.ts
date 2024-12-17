@@ -6,7 +6,7 @@ import {
   sponsorIstanbul,
   Logo2,
   HIC,
-  partnerI3jaz
+  partnerI3jaz,
 } from "@/assets";
 
 export const academic_partners = [
@@ -55,7 +55,7 @@ export const academic_partners = [
   {
     name: "Authority for Scientific Miracles in the Qur’an, Algeria Office",
     logo: partnerI3jaz,
-    website: "https://iei.kau.edu.sa/Default-121-EN",
+    website: "",
     description:
       "Authority for Scientific Miracles in the Qur’an, Algeria Office",
   },
