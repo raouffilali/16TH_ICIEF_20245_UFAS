@@ -12,14 +12,14 @@ import {
   senouci,
 } from "@/assets";
 
-export type organizingcommittee = {
+export type scientificcommittee = {
   id: number;
   name: string;
   description?: string;
   image?: string; // Optional field for the image URL
 };
 
-export const organizingcommittees: organizingcommittee[] = [
+export const scientificcommittees: scientificcommittee[] = [
   {
     id: 1,
     name: "Prof Dr. Mehmet Bulut",

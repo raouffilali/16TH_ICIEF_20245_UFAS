@@ -1,4 +1,5 @@
 import { Bodytexture } from '@/assets'
+import { organizingcommittees } from "@/constants/Organizing Committee";
 const OrganizingCommitte = () => {
   return (
     <div className="relative flex flex-col justify-center items-center w-full h-ful px-6 py-20 ">
@@ -16,33 +17,35 @@ const OrganizingCommitte = () => {
 
       {/* Another Blurred Transparent Card with Organizing Committee */}
       <div className="animate-fadeInLeft">
-        <div className="mt-8 w-auto bg-white bg-opacity-80 backdrop-blur-lg border border-gray-500 p-6 rounded-lg transition-all ease-in-out duration-300 transform hover:scale-105 ">
-          <ul className="text-uni-green2 text-xl font-semibold space-y-3">
-            <li>
-              1. Dr. Bensalem Farouq, Setif 1 University _ Ferhat Abbas,
-              Algeria.
-            </li>
-            <li>
-              2. Dr. Bouguaa Zineb, Setif 1 University _ Ferhat Abbas, Algeria.
-            </li>
-            <li>
-              3. Dr. Harfouche Anissa, Setif 1 University _ Ferhat Abbas,
-              Algeria.
-            </li>
-            <li>
-              4. Dr. Khelfi Rafik, Setif 1 University _ Ferhat Abbas, Algeria.
-            </li>
-            <li>
-              5. Dr. Riadh Lainouss, Setif 1 University _ Ferhat Abbas, Algeria.
-            </li>
-            <li>
-              6. Dr. Hamza Ouassaa, Setif 1 University _ Ferhat Abbas, Algeria.
-            </li>
-            <li>
-              7. Dr. Noudjoum Guemazi, Setif 1 University _ Ferhat Abbas,
-              Algeria.
-            </li>
-          </ul>
+        {/* Another Blurred Transparent Card with Organizing Committee */}
+        <div className="flex flex-row items-center mt-8 p-6 bg-transparent rounded-lg  ">
+          <div className="grid grid-col md:grid-cols-2 lg:grid-cols-4 gap-4 justify-center items-center md:gap-8 ">
+            {organizingcommittees.map((organizingcommittee) => (
+              <div
+                key={organizingcommittee.id}
+                className="flex flex-col w-full h-full max-w-[300px] items-center bg-white border-gray-600 drop-blur-lg border bg-opacity-60
+                  p-4 rounded-lg shadow-2xl my-6 md:my-0 transition-all ease-in-out duration-300 transform hover:scale-105"
+              >
+                {organizingcommittee.image && (
+                  <img
+                    src={organizingcommittee.image}
+                    alt={organizingcommittee.name}
+                    className="w-full h-full max-w-[190px] min-h-[190px] max-h-[190px] border-2 border-gray-600 bg-white shadow-2xl rounded-full  "
+                  />
+                )}
+                <div className="w-full h-full flex flex-col items-center md:items-center p-2  ">
+                  <h3 className=" px-2 text-xl font-bold text-gray-800 text-center md:text-center">
+                    {organizingcommittee.name}
+                  </h3>
+                  {organizingcommittee.description && (
+                    <div className="text-center md:text-center mt-2 h-20 overflow-y-auto text-uni-green border-0 text-sm px-2 rounded-md scrollbar-thin scrollbar-thumb-uni-green2 scrollbar-track-gray-100 bg-transparent">
+                      {organizingcommittee.description}
+                    </div>
+                  )}
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </div>

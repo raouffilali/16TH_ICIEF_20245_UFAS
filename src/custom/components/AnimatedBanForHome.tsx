@@ -37,7 +37,7 @@ const AnimatedBannerForHome = () => {
           <h1 className="text-3xl md:text-5xl font-bold mb-4 md:mb-8 md:mt-8 mt-4 drop-shadow-lg textpre animate-slidein300 ">
             International Conference on Islamic Economics and Finance
           </h1>
-          <p className="text-2xl font-semibold italic md:text-4xl md:font-bold md:italic mb-6 max-w-5xl  animate-slidein500  bg-gradient-to-b from-[#f3eee7] to-[#f3e297] bg-clip-text text-transparent">
+          <p className="text-2xl font-semibold italic md:text-4xl md:font-bold md:italic mb-6 max-w-5xl p-2 animate-slidein500  bg-gradient-to-b from-[#f3eee7] to-[#f3e297] bg-clip-text text-transparent">
             Islamic Financial Industry After Fifty Years of Practice
           </p>
         </div>

@@ -36,9 +36,6 @@ const EventOverview = () => {
               <MapPin />
             </div>
             <div className="w-full h-full flex flex-col px-2 items-center md:items-start ">
-              <h1 className="w-full text-start text-lg md:text-xl font-bold overflow-y-auto overflow-hidden">
-                WHERE
-              </h1>
               <p className="w-full text-start overflow-y-auto overflow-hidden">
                 Mouloud Kacem Auditorium Nait Belkacem, Setif 1 University
                 Ferhat Abbas
@@ -50,9 +47,6 @@ const EventOverview = () => {
               <Calendar />
             </div>
             <div className="w-full h-full flex flex-col px-2 items-center md:items-start ">
-              <h1 className="w-full text-start text-lg md:text-xl font-bold overflow-y-auto overflow-hidden">
-                WHENE
-              </h1>
               <p className="w-full text-start overflow-y-auto overflow-hidden">
                 From May 13th to May 15th | 08:00 AM - 06:00 PM | Algeria
               </p>

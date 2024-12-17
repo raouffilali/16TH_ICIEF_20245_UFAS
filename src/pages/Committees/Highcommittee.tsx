@@ -30,14 +30,14 @@ const Hicommittee = () => {
             {highcommittees.slice(0, 2).map((Highcommittee) => (
               <div
                 key={Highcommittee.id}
-                className="flex flex-col h-full items-center md:flex-row md:items-start bg-gradient-to-br from-uni-green via-uni-green2 to-white
-                  p-4 rounded-lg shadow-2xl md:w-[calc(50%-16px)] mb-6 mt-6 md:mb-0 md:mt-0 transition-all ease-in-out duration-300 transform hover:scale-105 "
+                className="flex flex-col h-full items-center md:flex-row bg-gradient-to-br from-uni-green via-uni-green2 to-white
+                  p-4 rounded-lg shadow-2xl md:w-[calc(50%-16px)] my-2 transition-all ease-in-out duration-300 transform hover:scale-105 "
               >
                 {Highcommittee.image && (
                   <img
                     src={Highcommittee.image}
                     alt={Highcommittee.name}
-                    className="w-full h-auto max-w-[150px] bg-white shadow-2xl object-cover rounded-lg mb-4 animate-slidleft800"
+                    className="w-full h-auto max-w-[150px] border-2 border-gray-600 bg-white shadow-2xl object-cover rounded-full animate-slidleft800"
                   />
                 )}
                 <div className="w-full h-full flex flex-col items-center md:items-start p-2 animate-slideright800">
@@ -64,14 +64,14 @@ const Hicommittee = () => {
             {highcommittees.slice(2).map((Highcommittee) => (
               <div
                 key={Highcommittee.id}
-                className="flex flex-col h-full items-center mx md:flex-row md:items-start bg-gradient-to-br from-uni-green via-uni-green2 to-white bg-opacity-60
-                  p-4 rounded-lg shadow-2xl mb-6 mt-6 md:mb-0 md:mt-0 transition-all ease-in-out duration-300 transform hover:scale-105"
+                className="p-6 flex flex-col h-full items-center md:flex-row bg-gradient-to-br from-uni-green via-uni-green2 to-white bg-opacity-60
+                    rounded-r-xl shadow-2xl my-2 md:mb-0 md:mt-0 transition-all ease-in-out duration-300 transform hover:scale-105"
               >
                 {Highcommittee.image && (
                   <img
                     src={Highcommittee.image}
                     alt={Highcommittee.name}
-                    className="w-full h-full max-h-[150px] max-w-[150px] bg-white shadow-2xl object-cover rounded-lg mb-4 animate-slidleft800"
+                    className="w-full h-full max-h-[150px] max-w-[150px] border-2 border-gray-600 bg-white shadow-2xl object-cover rounded-full animate-slidleft800"
                   />
                 )}
                 <div className="w-full h-full flex flex-col items-center md:items-start p-2 animate-slideright800 ">

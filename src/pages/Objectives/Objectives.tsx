@@ -3,7 +3,7 @@ import { eventBackground } from "@/constants/eventBackground";
 
 const Objectives = () => {
   return (
-    <div className="relative bg-gradient-to-b from-transparent via-white to-transparent bg-opacity-45 min-h-screen flex flex-col items-center justify-start py-10 px-6">
+    <div className="relative bg-gradient-to-b from-transparent via-white to-transparent bg-opacity-45 min-h-screen flex flex-col items-center justify-start py-10 px-6 animate-slidein600">
       {/* Background Texture */}
       <div className="absolute inset-0 -z-10">
         <img

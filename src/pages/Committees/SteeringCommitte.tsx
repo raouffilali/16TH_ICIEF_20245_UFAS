@@ -22,14 +22,14 @@ const SteeringCommitte = () => {
           {steeringcommittees.map((steeringcommittee) => (
             <div
               key={steeringcommittee.id}
-              className="flex flex-col w-full h-full max-w-[300px] items-center bg-gradient-to-br bg-white border-gray-600 drop-blur-lg border to-uni-green2 bg-opacity-60
+              className="flex flex-col w-full h-full max-w-[300px] items-center bg-white border-gray-600 drop-blur-lg border bg-opacity-60
                   p-4 rounded-lg shadow-2xl my-6 md:my-0 transition-all ease-in-out duration-300 transform hover:scale-105"
             >
               {steeringcommittee.image && (
                 <img
                   src={steeringcommittee.image}
                   alt={steeringcommittee.name}
-                  className="w-full h-full max-w-[190px] min-h-[190px] max-h-[190px] bg-white shadow-2xl rounded-lg "
+                  className="w-full h-full max-w-[190px] min-h-[190px] max-h-[190px] border-2 border-gray-600 bg-white shadow-2xl rounded-full "
                 />
               )}
               <div className="w-full h-full flex flex-col items-center md:items-center p-2  ">
