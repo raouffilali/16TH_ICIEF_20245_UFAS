@@ -61,7 +61,21 @@ import Haidar from "./Organizing Committee/NacerHaider.jpg";
 import senouci from "./senouci.jpeg";
 import nasser from "./nacerHideur.jpg";
 import LogoEcoWh from "./LogoEcoWh.png";
+import fares_djafri from "./newScientificCommittee/Dr. Fares Djafri.jpeg";
+import layachi_fedad from "./newScientificCommittee/Dr.Layachi Feddad.jpeg" 
+import miloudZenkri from "./newScientificCommittee/Pr.Dr.Miloud Zenkri.jpeg"  
+import slimaneNasser from "./newScientificCommittee/Pr.Dr.Slimane Nacer.jpeg"
+import abderahimassati from "./newScientificCommittee/Prof. Dr. AbdulRahim Al-Saati.jpeg"
+import younesSwalhi from "./newScientificCommittee/prof. dr. younes soualhi.jpeg" 
+import saidBouheraoua from "./newScientificCommittee/Prof.Dr.Said Bouheraoua.jpeg"
 export {
+  fares_djafri,
+  layachi_fedad,
+  miloudZenkri,
+  slimaneNasser,
+  abderahimassati,
+  younesSwalhi,
+  saidBouheraoua,
   LogoEcoWh,
   nasser,
   senouci,

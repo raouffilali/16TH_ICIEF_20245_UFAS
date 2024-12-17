@@ -10,6 +10,13 @@ import {
   nasser,
   SaydSelAli,
   senouci,
+  fares_djafri,
+  layachi_fedad,
+  miloudZenkri,
+  slimaneNasser,
+  abderahimassati,
+  younesSwalhi,
+  saidBouheraoua,
 } from "@/assets";
 
 export type scientificcommittee = {
@@ -86,4 +93,53 @@ export const scientificcommittees: scientificcommittee[] = [
     description: "Former ISDBI Senior Researcher.",
     image: SaydSelAli,
   },
+  {
+    id: 12,
+    name: "Dr. layachi FEDDAD",
+    description:
+      "Member of the Fatwa and Shariah Supervisory Board, Alsalem Bank, Algeria",
+    image: layachi_fedad,
+  },
+  {
+    id: 13,
+    name: "Pr. Dr. Younes Soualhi",
+    description:
+      "Senior Researcher at the International Shari’ah Research Academy for Islamic Finance (ISRA) and the Head of Islamic Banking Unit.",
+    image: younesSwalhi,
+  },
+  {
+    id: 14,
+    name: "Pr. Dr. Saiid Bouhraoua",
+    description:
+      "  Director of Research Development and Innovation at International Shariah Research Academy for Islamic Finance (ISRA) INCEIF University",
+    image: saidBouheraoua,
+  },
+  {
+    id: 15,
+    name: "Pr. Dr. Slimane Nasser",
+    description: "Kasdi Merbah University, Ouaragla, Algeria.",
+    image: slimaneNasser,
+  },
+  {
+    id: 16,
+    name: "Pr. Dr. Abdurahim Saati",
+    description:
+      " Islamic Economics Institute, King Abdulaziz University · KSA",
+    image: abderahimassati,
+  },
+  {
+    id: 17,
+    name: "Pr. Dr. Miloud Zenkri",
+    description:
+      " Mohamed El Bachir El Ibrahimi University , Faculty of Economics, Bordj Bou Arreridj, Algeria",
+    image: miloudZenkri,
+  },
+  {
+    id: 18,
+    name: "Dr. Fares Djaafri",
+    description:
+      "Senior Researcher at ISRA Research Management Centre, INCEIF University, Malysia",
+    image: fares_djafri,
+  },
+
 ];
