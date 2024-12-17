@@ -49,7 +49,7 @@ import speaker_4 from "./speakers/speaker-4.jpg";
 import speaker_5 from "./speakers/speaker-5.jpg";
 import sponsors from "./sponsors.png";
 import Chachi from "./Steering Committee/Prof Dr. Abdelkader Chachi.jpg";
-import { default as Bourakba, default as Dean } from "./Steering Committee/Prof Dr. Chaouki Bourakba.jpg";
+import { default as Bourakba, default as Dean } from "./Dean.png";
 import Beik from "./Steering Committee/Prof Dr. Irfan Syauqi Beik.jpg";
 import Bulut from "./Steering Committee/Prof Dr. Mehmet Bulut.jpg";
 import Hafiz from "./Steering Committee/Prof Dr. Omar Zuhair Hafiz.jpg";
