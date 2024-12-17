@@ -37,7 +37,7 @@ const EventOverview = () => {
             </div>
             <div className="w-full h-full flex flex-col px-2 items-center md:items-start ">
               <p className="w-full text-start overflow-y-auto overflow-hidden">
-                mouloud kacem Nait Belkacem Auditorium, Setif 1 University
+                Mouloud kacem Nait Belkacem Auditorium, Setif 1 University
                 Ferhat Abbas
               </p>
             </div>
