@@ -57,7 +57,7 @@ import Bulut from "./Steering Committee/Prof Dr. Mehmet Bulut.jpg";
 import Hafiz from "./Steering Committee/Prof Dr. Omar Zuhair Hafiz.jpg";
 import Boudjellal from "./Steering Committee/Prof. Dr. Mohamed Boudjellal.jpg";
 import submissionBannerImage from "./submissionBanner.jpg";
-import ufas_banner from "./UFAS-banner.jpeg";
+import ufas_banner from "../../public/UFAS-banner.jpeg";
 import Logo1 from "./ufas-log.png";
 import Haidar from "./Organizing Committee/NacerHaider.jpg";
 import senouci from "./senouci.jpeg";
