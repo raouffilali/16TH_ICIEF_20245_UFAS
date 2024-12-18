@@ -3,7 +3,7 @@ import sponsorAlgStock from "./AlgiersStock.jpg";
 import Bodytexture from "./bodytexture.png";
 import comming_soon from "./comming soon.png";
 import Conf from "./conference.jpg";
-import { default as Anissa } from "./default.webp";
+import Anissa from "./Organizing Committee/Anissa.jpg";
 import Zineb from "./Organizing Committee/Zineb.jpg";
 import Guemazi from "./Organizing Committee/Guemazi.jpg";
 import AbdelhalimGar from "./AbdelhalimGar.jpg"
