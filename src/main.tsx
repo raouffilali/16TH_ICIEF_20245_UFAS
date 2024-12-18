@@ -23,6 +23,7 @@ import PublicationOpportunities from "./pages/Publication Opportunities/Publicat
 import SteeringCommitte from "./pages/Committees/SteeringCommitte.tsx";
 import { ScientificCommitte } from "./pages/Committees/ScientificCommitte.tsx";
 import OrganizingCommitte from "./pages/Committees/OrganizingCommitte.tsx";
+import { Toaster } from "./components/ui/sonner.tsx";
 
 const router = createBrowserRouter([
   {
@@ -111,6 +112,7 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById("root")!).render(
   <>
+    <Toaster richColors />
     <RouterProvider router={router} />
   </>
 );
