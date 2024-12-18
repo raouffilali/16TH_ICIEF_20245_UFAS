@@ -3,19 +3,27 @@ import { createBrowserRouter, RouterProvider } from "react-router";
 import App from "./App.tsx";
 import "./index.css";
 import {
-  AboutUs,
-  Agenda,
-  CallForPapers,
+  AuthorGuideline,
+  BackgroundEvent,
   Contact,
-  FeesPayment,
+  Highcommittee,
   Home,
-  Papers,
-  PosterPresentation,
+  ImportantDates,
+  Objectives,
+  Organizer,
   Registration,
   Speakers,
-  SubmissionGuidelines,
+  TargetParticipants,
+  Themes,
   Venue,
-} from "./pages/";
+} from "./pages/index.ts";
+import { Sponsors } from "./pages/Sponsors/Sponsors.tsx";
+import SubmissionGuideline from "./pages/Submission-Guidelines/SubmissionGuideline.tsx";
+import PublicationOpportunities from "./pages/Publication Opportunities/PublicationOpportunities.tsx";
+import SteeringCommitte from "./pages/Committees/SteeringCommitte.tsx";
+import { ScientificCommitte } from "./pages/Committees/ScientificCommitte.tsx";
+import OrganizingCommitte from "./pages/Committees/OrganizingCommitte.tsx";
+import { Toaster } from "./components/ui/sonner.tsx";
 
 const router = createBrowserRouter([
   {
@@ -26,48 +34,77 @@ const router = createBrowserRouter([
         path: "/", // This is the root path
       },
       {
-        path: "/speakers",
-        element: <Speakers />,
+        path: "/high-committee",
+        element: <Highcommittee />,
       },
       {
-        path: "/agenda",
-        element: <Agenda />,
+        path: "/steering-committee",
+        element: <SteeringCommitte />,
       },
       {
-        path: "/poster-presentation",
-        element: <PosterPresentation />,
+        path: "/scientific-committee",
+        element: <ScientificCommitte />,
       },
       {
-        path: "/papers",
-        element: <Papers />,
+        path: "/organizing-committee",
+        element: <OrganizingCommitte />,
       },
       {
-        path: "/call-for-papers",
-        element: <CallForPapers />,
+        path: "/organizers",
+        element: <Organizer />,
       },
       {
-        path: "/submission-guidelines",
-        element: <SubmissionGuidelines />,
+        path: "/objectives",
+        element: <Objectives />,
       },
       {
-        path: "/fees-payment",
-        element: <FeesPayment />,
+        path: "/themes",
+        element: <Themes />,
+      },
+      {
+        path: "/background",
+        element: <BackgroundEvent />,
+      },
+      {
+        path: "/participants",
+        element: <TargetParticipants />,
+      },
+
+      {
+        path: "/guidelines",
+        element: <AuthorGuideline />,
+      },
+      {
+        path: "/dates",
+        element: <ImportantDates />,
       },
       {
         path: "/registration",
         element: <Registration />,
       },
       {
-        path: "/venue",
-        element: <Venue />,
-      },
-      {
         path: "/contact",
         element: <Contact />,
       },
       {
-        path: "/about-us",
-        element: <AboutUs />,
+        path: "/venue",
+        element: <Venue />,
+      },
+      {
+        path: "/speakers",
+        element: <Speakers />,
+      },
+      {
+        path: "/sponsors",
+        element: <Sponsors />,
+      },
+      {
+        path: "/submission-guidelines",
+        element: <SubmissionGuideline />,
+      },
+      {
+        path: "/opportunities",
+        element: <PublicationOpportunities />,
       },
     ],
   },
@@ -75,6 +112,7 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById("root")!).render(
   <>
+    <Toaster richColors />
     <RouterProvider router={router} />
   </>
 );

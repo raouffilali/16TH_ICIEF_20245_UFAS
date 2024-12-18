@@ -1,25 +1,26 @@
-/* NAVBAR ANIMATION */
+/* component.css */
 .link-animation {
   position: relative;
   display: inline-block;
   overflow: hidden;
 }
 
-.link-animation::after {
+.link-animation::before {
   content: "";
   position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 2px;
   bottom: 0;
   left: 0;
-  background-color: currentColor;
+  width: 100%;
+  height: 2px;
+  background-color: #0f5a08;
+  transform: scaleX(0);
   transform-origin: bottom left;
-  transition: transform 0.25s ease-out;
+  transition: transform 0.3s ease-out;
 }
 
-.link-animation:hover::after {
+.link-animation:hover::before {
   transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 /* Nav bar Style */
@@ -30,7 +31,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  background-image: url('../../assets/islamic-texture.jpg');
+  background-image: url("../../assets/islamic-texture.jpg");
   background-blend-mode: overlay;
   background-size: fit;
   background-position: center;
@@ -50,4 +51,19 @@
 /* Additional styles for link hover animation */
 .link-animation {
   transition: color 0.3s ease;
+}
+/* banner animation */
+@keyframes gradient-x {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.animate-gradient-x {
+  background-size: 200% 200%;
+  animation: gradient-x 15s ease infinite;
 }

@@ -1,23 +1,104 @@
-
+// src/constants/navLinks.ts
 export const navLinks = [
   {
     title: "Home",
     ref: "/",
   },
+
   {
     title: "About",
-    ref: "/about",
+    ref: "#",
+    subLinks: [
+      { title: "Overview & Objectives", ref: "/objectives" },
+      { title: "Publication Opportunities", ref: "/opportunities" },
+      { title: "Target Participants", ref: "/participants" },
+      { title: "Themes", ref: "/themes" },
+      { title: "Organizers", ref: "/organizers" },
+    ],
   },
   {
-    title: "Programme",
-    ref: "/contact",
+    title: "History",
+    ref: "/background",
+  },
+  {
+    title: "Committees",
+    ref: "#",
+    subLinks: [
+      { title: "High Committee", ref: "/high-Committee" },
+      { title: "Steering Committee", ref: "/steering-committee" },
+      { title: "Scientific Committee", ref: "/scientific-committee" },
+      { title: "Organizing Committee", ref: "/organizing-committee" },
+    ],
+  },
+  {
+    title: "Speakers",
+    ref: "/speakers",
   },
   {
     title: "Submission",
-    ref: "/submission",
+    ref: "#",
+    subLinks: [
+      { title: "Author Guidelines", ref: "/guidelines" },
+      { title: "Important Dates", ref: "/dates" },
+      { title: "Submission Guidelines", ref: "/submission-guidelines" },
+      { title: "Paper Submission", ref: "/registration" },
+    ],
   },
   {
     title: "Contact",
     ref: "/contact",
-  }
+  },
+  {
+    title: "Venue",
+    ref: "/venue",
+  },
 ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// export const navLinks = [
+//   {
+//     title: "Home",
+//     ref: "/",
+//   },
+//   {
+//     title: "About",
+//     ref: "/about",
+//   },
+//   {
+//     title: "Programme",
+//     ref: "/contact",
+//   },
+//   {
+//     title: "Submission",
+//     ref: "/submission",
+//   },
+//   {
+//     title: "Contact",
+//     ref: "/contact",
+//   }
+// ];
