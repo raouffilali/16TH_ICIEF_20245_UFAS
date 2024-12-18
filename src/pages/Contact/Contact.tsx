@@ -39,25 +39,23 @@ const Contact = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   const validateField = (name: string, value: string): string => {
-    switch (name) {
-      case "firstName":
-      case "lastName":
-        return value.length < 2
-          ? `${
-              name.charAt(0).toUpperCase() + name.slice(1)
-            } must be at least 2 characters`
-          : "";
-      case "email":
-        return !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value)
-          ? "Please enter a valid email address"
-          : "";
-      case "message":
-        return value.length < 10
-          ? "Message must be at least 10 characters"
-          : "";
-      default:
-        return "";
-    }
+  switch (name) {
+    case "firstName":
+    case "lastName":
+      return value.length < 2
+        ? `${
+            name.charAt(0).toUpperCase() + name.slice(1)
+          } must be at least 2 characters`
+        : "";
+    case "email":
+      return !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value)
+        ? "Please enter a valid email address"
+        : "";
+    case "message":
+      return ""; // Remove message length validation
+    default:
+      return "";
+  }
   };
 
   const handleBlur = (name: string) => {
