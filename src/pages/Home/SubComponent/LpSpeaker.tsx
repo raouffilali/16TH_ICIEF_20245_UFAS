@@ -10,7 +10,7 @@ const LpSpeaker = () => {
         {/* Info text */}
         <div className="flex flex-col md:w-1/2">
           <h1 className=" text-lg mt-9 py-2   text-uni-green2 md:text-xl">
-            EVENT SPEAKERS
+   
           </h1>
           <h2 className="text-start font font-semibold text-2xl md:text-4xl md:font-bold">
             KEYNOTE{" "}

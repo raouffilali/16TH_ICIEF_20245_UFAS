@@ -39,7 +39,7 @@ import Confrimg1 from "./Overview1.jpg";
 import Confrimg2 from "./Overview2.jpg";
 import Confrimg3 from "./Overview3.jpg";
 import pdf_svg from "./pdf-svg.svg";
-import Recteur from "./recteur.png";
+import Recteur from "./recteur.jpg";
 import bank2 from "./salamBank.jpeg";
 import Farouq from "./Organizing Committee/Dr. Bensalem Farouq.jpg";
 import Ouassaa from "./Organizing Committee/Dr. Hamza Ouassaa.jpg";
@@ -51,7 +51,7 @@ import speaker_4 from "./speakers/speaker-4.jpg";
 import speaker_5 from "./speakers/speaker-5.jpg";
 import sponsors from "./sponsors.png";
 import Chachi from "./Steering Committee/Prof Dr. Abdelkader Chachi.jpg";
-import { default as Bourakba, default as Dean } from "./Steering Committee/Prof Dr. Chaouki Bourakba.jpg";
+import { default as Bourakba, default as Dean } from "./recteur.png";
 import Beik from "./Steering Committee/Prof Dr. Irfan Syauqi Beik.jpg";
 import Bulut from "./Steering Committee/Prof Dr. Mehmet Bulut.jpg";
 import Hafiz from "./Steering Committee/Prof Dr. Omar Zuhair Hafiz.jpg";
@@ -70,7 +70,9 @@ import slimaneNasser from "./newScientificCommittee/Pr.Dr.Slimane Nacer.jpeg"
 import abderahimassati from "./newScientificCommittee/Prof. Dr. AbdulRahim Al-Saati.jpeg"
 import younesSwalhi from "./newScientificCommittee/prof. dr. younes soualhi.jpeg" 
 import saidBouheraoua from "./newScientificCommittee/Prof.Dr.Said Bouheraoua.jpeg"
+import partnerI3jaz from "./partnerI3jaz.jpeg"
 export {
+  partnerI3jaz,
   fares_djafri,
   layachi_fedad,
   miloudZenkri,

@@ -122,7 +122,7 @@ export const scientificcommittees: scientificcommittee[] = [
   },
   {
     id: 16,
-    name: "Pr. Dr. Abdurahim Saati",
+    name: "Pr. Dr. AbdulRahim Al-Saati",
     description:
       " Islamic Economics Institute, King Abdulaziz University · KSA",
     image: abderahimassati,
@@ -141,5 +141,4 @@ export const scientificcommittees: scientificcommittee[] = [
       "Senior Researcher at ISRA Research Management Centre, INCEIF University, Malysia",
     image: fares_djafri,
   },
-
 ];

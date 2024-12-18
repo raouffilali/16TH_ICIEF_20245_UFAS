@@ -24,7 +24,7 @@ const ImportantDatesHighCommittee = () => {
             <h2 className=" text-center text-2xl font-bold text-white mb-4 animate-slidein100 my-5 ">
               Honorary Chairs
             </h2>
-            <div className="relative flex flex-col md:flex-row md:gap-8 animate-slidein100 mx-4  ">
+            <div className="relative flex flex-col md:flex-row gap-8 animate-slidein100 mx-4  ">
               {highcommittees.slice(0, 2).map((Highcommittee) => (
                 <div
                   key={Highcommittee.id}
