@@ -1,6 +1,6 @@
-import { useEffect } from 'react';
-import { Bodytexture } from '@/assets'; // Adjust the import path as needed
-import { eventBackground } from '../../constants/eventBackground';
+import { useEffect } from "react";
+import { Bodytexture } from "@/assets"; // Adjust the import path as needed
+import { eventBackground } from "../../constants/eventBackground";
 
 const BackgroundEvent = () => {
   useEffect(() => {
@@ -22,7 +22,10 @@ const BackgroundEvent = () => {
           {eventBackground.title}
         </h1>
         {eventBackground.description.map((desc, index) => (
-          <p key={index} className="text-base md:text-lg md:italic mb-6 text-left w-full animate-slidein200 md:text-justify">
+          <p
+            key={index}
+            className="text-base md:text-lg md:italic mb-6 text-left w-full animate-slidein200 md:text-justify"
+          >
             {desc}
           </p>
         ))}
@@ -30,6 +33,13 @@ const BackgroundEvent = () => {
           Series of the conference
         </h2>
         <table className="w-full shadow-lg border border-gray-300 text-base md:text-lg mb-6 animate-slidein600">
+          <thead>
+            <tr className="bg-uni-green2-light text-white border border-black">
+              <th className="p-4 border-r border-gray-300">Edition</th>
+              <th className="p-4 border-r border-gray-300">Year</th>
+              <th className="p-4">Location</th>
+            </tr>
+          </thead>
           <tbody>
             {eventBackground.series.map((event, index) => (
               <tr
@@ -42,17 +52,18 @@ const BackgroundEvent = () => {
                     : "bg-uni-green2-light text-white border-b border-gray-300"
                 }
               >
-                <td className="p-4 border-r border-gray-300">{event.edition}</td>
-                <td className="p-4">{event.year}</td>
+                <td className="p-4 border-r border-gray-300">
+                  {event.edition}
+                </td>
+                <td className="p-4 border-r border-gray-300">{event.year}</td>
                 <td className="p-4">{event.location}</td>
               </tr>
             ))}
           </tbody>
         </table>
-
       </div>
     </div>
   );
-}
+};
 
 export default BackgroundEvent;
