@@ -37,11 +37,11 @@ const Objectives = () => {
           Conference Objectives
         </h1>
         <p className="text-lg md:text-xl text-left md:text-center font-semibold md:italic text-gray-800 animate-fadeInLeft">
-          As The Islamic Finance Industry marks its fiftieth anniversary, it is
-          imperative to pause and assess this experience, rich with achievements
-          and challenges alike. This conference aims to shed light on the
-          evolution of The Islamic Finance Industry through the following key
-          areas:
+          As The Islamic Financial Industry marks its fiftieth anniversary, it
+          is imperative to pause and assess this experience, rich with
+          achievements and challenges alike. This conference aims to shed light
+          on the evolution of The Islamic Financial Industry through the
+          following key areas:
         </p>
       </div>
 
@@ -50,7 +50,7 @@ const Objectives = () => {
         {/* Objective 1 */}
         <div className="border-l-4 border-uni-green2 pl-4 transition-all ease-in-out duration-300 transform hover:scale-105">
           <h2 className="text-xl font-semibold text-gray-800">
-            Evaluating The Islamic Finance Industry's experience after fifty
+            Evaluating The Islamic Financial Industry's experience after fifty
             years of practice.
           </h2>
         </div>
@@ -59,7 +59,7 @@ const Objectives = () => {
         <div className="border-l-4 border-uni-green2 pl-4 transition-all ease-in-out duration-300 transform hover:scale-105">
           <h2 className="text-xl font-semibold text-gray-800">
             Strengthening international institution partnerships supporting the
-            Islamic Finance Industry.
+            Islamic Financial Industry.
           </h2>
         </div>
 
@@ -75,7 +75,7 @@ const Objectives = () => {
         <div className="border-l-4 border-uni-green2 pl-4 transition-all ease-in-out duration-300 transform hover:scale-105">
           <h2 className="text-xl font-semibold text-gray-800">
             Analyzing achievements and addressing challenges faced by the
-            Islamic Finance Industry.
+            Islamic Financial Industry.
           </h2>
         </div>
 
@@ -108,8 +108,8 @@ const Objectives = () => {
         <div className="border-l-4 border-uni-green2 pl-4 transition-all ease-in-out duration-300 transform hover:scale-105">
           <h2 className="text-xl font-semibold text-gray-800">
             Examining the future challenges and opportunities for the Islamic
-            Finance Industry and developing strategies to ensure sustainability
-            and continued success.
+            Financial Industry and developing strategies to ensure
+            sustainability and continued success.
           </h2>
         </div>
 
@@ -118,7 +118,7 @@ const Objectives = () => {
           <h2 className="text-xl font-semibold text-gray-800">
             Promoting knowledge transfer, fostering intellectual exchange, and
             strengthening collaborative efforts among all stakeholders within
-            The Islamic Finance Industry.
+            The Islamic Financial Industry.
           </h2>
         </div>
       </div>

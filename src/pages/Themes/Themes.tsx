@@ -2,7 +2,7 @@ import { Bodytexture } from "@/assets";
 
 const themes = [
   {
-    title: "Theme 01: History and Evolution of The Islamic Finance Industry",
+    title: "Theme 01: History and Evolution of The Islamic Financial Industry",
     points: [
       {
         subheading: "Establishment Phase:",
@@ -35,8 +35,8 @@ const themes = [
       {
         subheading: "Legislative Development:",
         details: [
-          "Laws governing The Islamic Finance Industry in different countries.",
-          "Role of supporting international institutions, such as the Accounting and Auditing Organization for Islamic Financial Institutions (AAOIFI) and the Islamic Financial Services Board (IFSB), in the development and standardization of The Islamic Finance Industry.",
+          "Laws governing The Islamic Financial Industry in different countries.",
+          "Role of supporting international institutions, such as the Accounting and Auditing Organization for Islamic Financial Institutions (AAOIFI) and the Islamic Financial Services Board (IFSB), in the development and standardization of The Islamic Financial Industry.",
         ],
       },
       {
@@ -50,7 +50,7 @@ const themes = [
       {
         subheading: "Role of Central Banks:",
         details: [
-          "Strategies for supporting and regulating The Islamic Finance Industry.",
+          "Strategies for supporting and regulating The Islamic Financial Industry.",
           "-	Challenges faced by central banks in achieving balance between flexibility and control.",
         ],
       },
@@ -209,7 +209,7 @@ const Themes = () => {
           Conference Themes
         </h1>
         <p className="text-lg text-center mb-12 text-gray-600 animate-fadeInLeft">
-          Explore the key themes shaping The Islamic Finance Industry on its
+          Explore the key themes shaping The Islamic Financial Industry on its
           50th anniversary.
         </p>
 

@@ -15,7 +15,7 @@ const EventOverview = () => {
             Overview
           </h1>
           <p className="font-medium text-gray-500 text-justify">
-            The Islamic Finance Industry emerged in the 1970s with the
+            The Islamic Financial Industry emerged in the 1970s with the
             establishment of pioneering institutions such as : Dubai Islamic
             Bank and Islamic Develepment Bank. These institutions distinguished
             themselves by providing Shariah-compliant banking services,
